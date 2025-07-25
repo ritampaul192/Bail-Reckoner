@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import '../style.css';
+import './style.css';
 import { useSearchParams } from 'next/navigation';
 import { useForm } from "react-hook-form";
 import { FaEye, FaEyeSlash, FaLock, FaBalanceScale } from "react-icons/fa";
