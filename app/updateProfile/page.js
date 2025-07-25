@@ -214,7 +214,7 @@ const SlidingPanel = ({ onClose }) => {
                 className='w-full md:w-1/2'
                 placeholder='Enter a strong password'
               />
-              <button type='button' onClick={togglePassword} className='absolute right-3 md:right-[calc(50%+1rem)] text-gray-400'>
+              <button type='button' onClick={() => setShowPassword(!showPassword)} className='absolute right-3 md:right-[calc(50%+1rem)] text-gray-400'>
                 {showPassword ? <FaEyeSlash /> : <FaEye />}
               </button>
             </div>
