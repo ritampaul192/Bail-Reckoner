@@ -87,7 +87,9 @@ const Timelines = () => {
 
       <div className="timeline block w-full md:w-auto md:flex md:flex-col gap-8 justify-center items-start max-w-6xl mx-auto">
         {data.map((item, index) => {
+          // eslint-disable-next-line react-hooks/rules-of-hooks
           const ref = useRef(null);
+          // eslint-disable-next-line react-hooks/rules-of-hooks
           const isInView = useInView(ref, { once: true, margin: '-100px' });
 
           return (

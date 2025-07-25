@@ -9,7 +9,8 @@ import {
   FaEye, FaEyeSlash,
 } from 'react-icons/fa';
 import { useRouter } from 'next/navigation';
-import UpdatedMessage from './updatedMessage';
+import UpdatedMessage from '../components/updatedMessage';
+
 
 const SlidingPanel = ({ onClose }) => {
   const panelRef = useRef(null);
