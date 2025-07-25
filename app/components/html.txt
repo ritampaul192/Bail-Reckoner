@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bail Setu</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <div class="logo">
+                    <h1> BAIL सेतु</h1>
+                    <div class="menu-toggle" id="mobile-menu">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </div>
+                <ul class="nav-list" id="nav-list">
+                    <li class="nav-item"><a href="#home">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#">Section Finder <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">IPC Sections</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="#timelines">Timelines</a></li>
+                    <li class="nav-item"><a href="#dos-donts">Dos & Don'ts</a></li>
+                    <li class="nav-item"><a href="#about">About</a></li>
+                    <li class="nav-item"><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="user-profile">
+                    <div class="profile-icon" id="profile-toggle"></div>
+                    <div class="profile-dropdown" id="profile-dropdown">
+                        <div class="profile-header">
+                            <div class="profile-avatar"></div>
+                            <div class="profile-info">
+                                <h4 class="profile-name"></h4>
+                                <p class="profile-email"></p>
+                            </div>
+                        </div>
+                        <div class="profile-details">
+                            <div class="detail-item">
+                                <span class="detail-label">Username:</span>
+                                <span class="detail-value"></span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Phone:</span>
+                                <span class="detail-value"></span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Address:</span>
+                                <span class="detail-value"></span>
+                            </div>
+                        </div>
+                        <div class="profile-actions">
+                            <a href="#" class="profile-action"><i class="fas fa-user-edit"></i> Edit Profile</a>
+                            <a href="#" class="profile-action"><i class="fas fa-key"></i> Change Password</a>
+                            <a href="../login/login.html" class="profile-action"><i class="fas fa-sign-out-alt"></i> Logout</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Find Your Section</h2>
+                <p>Your Guide to Bail Laws & Rights in India
+                <br>
+                Navigating the legal system can be confusing — especially when it comes to bail. 
+                We built Bail Reckoner to simplify this process, empower individuals, and promote fair access to justice.</p>
+                <div class="search-container">
+                    <form class="search-form" action="../results/results.html" method="GET">
+                        <input type="text" name="query" placeholder="Search for cases or sections..." id="search-input" required>
+                        <button type="submit" id="search-btn"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="features" id="timelines">
+            <h2>Timelines Explained</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>First Hearing</h3>
+                    <p>Typically within 24 hours of arrest</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Regular Bail</h3>
+                    <p>Usually decided within 7-15 days</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Anticipatory Bail</h3>
+                    <p>Can be filed before arrest</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="features" id="dos-donts">
+            <h2>Dos and Don'ts</h2>
+            <div class="dos-donts-grid">
+                <div class="dos">
+                    <h3>Do's</h3>
+                    <ul>
+                        <li>Consult a lawyer immediately</li>
+                        <li>Gather all relevant documents</li>
+                        <li>Be truthful in court</li>
+                    </ul>
+                </div>
+                <div class="donts">
+                    <h3>Don'ts</h3>
+                    <ul>
+                        <li>Don't miss court dates</li>
+                        <li>Don't contact the complainant</li>
+                        <li>Don't leave the country without permission</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="purpose-section" id="about">
+            <div class="purpose-container">
+                <div class="purpose-card">
+                    <h2>Why We Built This</h2>
+                    <p>Many people — especially those from marginalized communities — lack access to clear, timely, and affordable legal information. Misunderstanding bail laws can lead to unnecessary jail time, financial burden, or legal delays. Bail Reckoner bridges this gap by providing accurate, easy-to-understand legal tools for everyone.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="beneficiaries-section">
+            <div class="beneficiaries-container">
+                <div class="beneficiaries-card">
+                    <h2>Who This Helps</h2>
+                    <ul class="beneficiaries-list">
+                        <li><i class="fas fa-user-shield"></i> Undertrial prisoners & their families</li>
+                        <li><i class="fas fa-graduation-cap"></i> Law students, paralegals, and legal aid workers</li>
+                        <li><i class="fas fa-hands-helping"></i> Activists and community organizers</li>
+                        <li><i class="fa-solid fa-users"></i> Citizens seeking to know their rights</li>
+                        <!-- <li><i class="fas fa-sms"></i> People without smartphones (via SMS tools)</li> -->
+                        <li><i class="fas fa-briefcase"></i> Legal professionals needing quick references</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq-section" id="faq">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What is the difference between bail and bond?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Bail is the amount set by the court to release a defendant from custody, while a bond is a guarantee provided by a bail bondsman to pay the bail amount if the defendant doesn't appear in court.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How long does the bail process take?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>For bailable offenses, bail can often be granted within 24 hours. For non-bailable offenses, it may take several days to weeks depending on the case complexity and court schedule.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Can bail be denied?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, bail can be denied in serious offenses or if the court believes the accused might flee, tamper with evidence, or be a danger to society.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: suvidhan.bail@gmail.com</p>
+                <p>Phone: +91 0000000000 </p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Admin Panel</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; SUVIDHAN Bail Reckoner. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bail Setu</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <div class="logo">
+                    <h1> BAIL सेतु</h1>
+                    <div class="menu-toggle" id="mobile-menu">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </div>
+                <ul class="nav-list" id="nav-list">
+                    <li class="nav-item"><a href="#home">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#">Section Finder <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">IPC Sections</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="#timelines">Timelines</a></li>
+                    <li class="nav-item"><a href="#dos-donts">Dos & Don'ts</a></li>
+                    <li class="nav-item"><a href="#about">About</a></li>
+                    <li class="nav-item"><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="user-profile">
+                    <div class="profile-icon" id="profile-toggle"></div>
+                    <div class="profile-dropdown" id="profile-dropdown">
+                        <div class="profile-header">
+                            <div class="profile-avatar"></div>
+                            <div class="profile-info">
+                                <h4 class="profile-name"></h4>
+                                <p class="profile-email"></p>
+                            </div>
+                        </div>
+                        <div class="profile-details">
+                            <div class="detail-item">
+                                <span class="detail-label">Username:</span>
+                                <span class="detail-value"></span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Phone:</span>
+                                <span class="detail-value"></span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Address:</span>
+                                <span class="detail-value"></span>
+                            </div>
+                        </div>
+                        <div class="profile-actions">
+                            <a href="#" class="profile-action"><i class="fas fa-user-edit"></i> Edit Profile</a>
+                            <a href="#" class="profile-action"><i class="fas fa-key"></i> Change Password</a>
+                            <a href="../login/login.html" class="profile-action"><i class="fas fa-sign-out-alt"></i> Logout</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Find Your Section</h2>
+                <p>Your Guide to Bail Laws & Rights in India
+                <br>
+                Navigating the legal system can be confusing — especially when it comes to bail. 
+                We built Bail Reckoner to simplify this process, empower individuals, and promote fair access to justice.</p>
+                <div class="search-container">
+                    <form class="search-form" action="../results/results.html" method="GET">
+                        <input type="text" name="query" placeholder="Search for cases or sections..." id="search-input" required>
+                        <button type="submit" id="search-btn"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="features" id="timelines">
+            <h2>Timelines Explained</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>First Hearing</h3>
+                    <p>Typically within 24 hours of arrest</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Regular Bail</h3>
+                    <p>Usually decided within 7-15 days</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Anticipatory Bail</h3>
+                    <p>Can be filed before arrest</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="features" id="dos-donts">
+            <h2>Dos and Don'ts</h2>
+            <div class="dos-donts-grid">
+                <div class="dos">
+                    <h3>Do's</h3>
+                    <ul>
+                        <li>Consult a lawyer immediately</li>
+                        <li>Gather all relevant documents</li>
+                        <li>Be truthful in court</li>
+                    </ul>
+                </div>
+                <div class="donts">
+                    <h3>Don'ts</h3>
+                    <ul>
+                        <li>Don't miss court dates</li>
+                        <li>Don't contact the complainant</li>
+                        <li>Don't leave the country without permission</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="purpose-section" id="about">
+            <div class="purpose-container">
+                <div class="purpose-card">
+                    <h2>Why We Built This</h2>
+                    <p>Many people — especially those from marginalized communities — lack access to clear, timely, and affordable legal information. Misunderstanding bail laws can lead to unnecessary jail time, financial burden, or legal delays. Bail Reckoner bridges this gap by providing accurate, easy-to-understand legal tools for everyone.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="beneficiaries-section">
+            <div class="beneficiaries-container">
+                <div class="beneficiaries-card">
+                    <h2>Who This Helps</h2>
+                    <ul class="beneficiaries-list">
+                        <li><i class="fas fa-user-shield"></i> Undertrial prisoners & their families</li>
+                        <li><i class="fas fa-graduation-cap"></i> Law students, paralegals, and legal aid workers</li>
+                        <li><i class="fas fa-hands-helping"></i> Activists and community organizers</li>
+                        <li><i class="fa-solid fa-users"></i> Citizens seeking to know their rights</li>
+                        <!-- <li><i class="fas fa-sms"></i> People without smartphones (via SMS tools)</li> -->
+                        <li><i class="fas fa-briefcase"></i> Legal professionals needing quick references</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq-section" id="faq">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What is the difference between bail and bond?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Bail is the amount set by the court to release a defendant from custody, while a bond is a guarantee provided by a bail bondsman to pay the bail amount if the defendant doesn't appear in court.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How long does the bail process take?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>For bailable offenses, bail can often be granted within 24 hours. For non-bailable offenses, it may take several days to weeks depending on the case complexity and court schedule.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Can bail be denied?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, bail can be denied in serious offenses or if the court believes the accused might flee, tamper with evidence, or be a danger to society.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: suvidhan.bail@gmail.com</p>
+                <p>Phone: +91 0000000000 </p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Admin Panel</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; SUVIDHAN Bail Reckoner. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+
+'use client';
+import React, { useState, useRef, useEffect } from 'react';
+import { FaSearch } from "react-icons/fa";
+
+const Search = () => {
+    const [value, setValue] = useState('');
+    const [buttonDown, setButtonDown] = useState(false);
+    const textareaRef = useRef(null);
+
+    // Auto-resize logic
+    const handleInputChange = (e) => {
+        setValue(e.target.value);
+        resizeTextarea();
+    };
+
+    const resizeTextarea = () => {
+        const textarea = textareaRef.current;
+        if (textarea) {
+            textarea.style.height = '54px'; // reset height
+            textarea.style.height = `${textarea.scrollHeight}px`; // adjust to content height
+
+            const currentHeight = textarea.scrollHeight;
+            setButtonDown(currentHeight > 54);
+        }
+    };
+
+    useEffect(() => {
+        resizeTextarea();
+    }, [value]);
+
+    return (
+        <section className="hero">
+            <div className="hero-content">
+                <h2>Find Your Section</h2>
+                <p>
+                    Your Guide to Bail Laws & Rights in India
+                    <br />
+                    Navigating the legal system can be confusing — especially when it comes to bail.
+                    We built Bail Reckoner to simplify this process, empower individuals, and promote fair access to justice.
+                </p>
+                <div className="search-container">
+                    <form className="search-form flex flex-col sm:flex-row sm:items-center sm:relative gap-2 sm:gap-0 mt-4">
+                        <textarea
+                            ref={textareaRef}
+                            value={value}
+                            onChange={handleInputChange}
+                            className="w-full sm:w-[528.4px] h-[54px] border border-[#868686] outline-0 rounded-md sm:rounded-r-none p-3 resize-none overflow-hidden focus:outline-none transition-all duration-200 focus:shadow-md focus:border-[#868686] focus:ring focus:ring-gray-200"
+                            placeholder="Start typing..."
+                        />
+                        <button
+                            type="submit"
+                            id="search-btn"
+                            className="w-full sm:w-[51px] sm:h-[54px] bg-gray-200 sm:rounded-r-md rounded-md text-black hover:bg-gray-300 transition-all duration-200 flex justify-center items-center"
+                        >
+                            <FaSearch />
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    );
+};
+
+export default Search;

@@ -1,0 +1,5554 @@
+[{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d45490"
+  },
+  "id": 1,
+  "name": "Amit Sharma",
+  "city": "Delhi",
+  "court": "Supreme Court",
+  "rating": 4.8,
+  "experience": 12,
+  "specialization": "Criminal",
+  "photo": "",
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "barId": "DL123456",
+  "email": "amit.sharma@example.com",
+  "whatsapp": "+919876543210",
+  "verified": true,
+  "practiceAreas": [
+    "Bail",
+    "Criminal",
+    "Appeals",
+    "White Collar Crime",
+    "Anti-Corruption",
+    "Cyber Law"
+  ],
+  "bio": "Amit Sharma is a highly experienced criminal lawyer practicing in the Supreme Court of India. With over a decade of experience, Amit has successfully handled numerous high-profile bail and criminal cases. He is known for his analytical skills, dedication to justice, and client-focused approach. Fluent in English and Hindi, Amit is committed to providing the best legal representation for his clients.\n\nAmit's journey in law began with a passion for justice and a desire to make a difference in society. Over the years, he has built a reputation for his meticulous preparation, persuasive arguments, and unwavering commitment to his clients. Amit has represented clients in a wide range of criminal matters, including white collar crimes, anti-corruption cases, and cyber law offenses. His expertise extends to handling complex bail applications, appeals, and criminal trials.\n\nIn addition to his courtroom skills, Amit is known for his empathetic approach and ability to connect with clients from diverse backgrounds. He believes in transparent communication and ensures that his clients are well-informed at every stage of the legal process. Amit regularly participates in legal seminars and workshops, staying updated with the latest developments in criminal law. He is also involved in pro bono work, providing legal aid to underprivileged individuals.\n\nAmit's dedication to his profession is reflected in the positive outcomes he has achieved for his clients. His peers and clients alike commend him for his integrity, professionalism, and results-driven approach. Whether handling a high-stakes criminal trial or advising on preventive legal strategies, Amit Sharma is a trusted advocate who stands by his clients with unwavering support and expertise.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d45491"
+  },
+  "id": 2,
+  "name": "Priya Verma",
+  "city": "Mumbai",
+  "court": "High Court",
+  "rating": 2.5,
+  "experience": 8,
+  "specialization": "Civil",
+  "photo": "",
+  "languages": [
+    "English",
+    "Marathi",
+    "Hindi"
+  ],
+  "barId": "MH654321",
+  "email": "priya.verma@example.com",
+  "whatsapp": "+919812345678",
+  "verified": false,
+  "practiceAreas": [
+    "Civil",
+    "Property",
+    "Contracts",
+    "Consumer",
+    "Commercial",
+    "Banking",
+    "Insurance"
+  ],
+  "bio": "Priya Verma is a dedicated civil lawyer with a strong background in property and contract law. Practicing in the Mumbai High Court, Priya is known for her meticulous preparation and persuasive arguments. She is passionate about helping clients resolve complex civil disputes and is fluent in English, Marathi, and Hindi.\n\nPriya's legal career began with a focus on property disputes, where she quickly established herself as a reliable and knowledgeable advocate. Her expertise has since expanded to include contract law, consumer protection, and commercial litigation. Priya's clients appreciate her attention to detail, strategic thinking, and ability to simplify complex legal issues.\n\nIn addition to her litigation practice, Priya is actively involved in alternative dispute resolution, including arbitration and mediation. She believes in finding practical solutions that save time and resources for her clients. Priya regularly conducts legal awareness workshops and writes articles on civil law topics, contributing to the legal community's knowledge base.\n\nHer commitment to client service is evident in the long-term relationships she builds with her clients. Priya is approachable, responsive, and dedicated to achieving the best possible outcomes. Whether representing individuals or businesses, Priya Verma is a trusted advisor who combines legal expertise with a genuine concern for her clients' interests.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d45492"
+  },
+  "id": 999,
+  "name": "Ravi Kumar",
+  "city": "Agra",
+  "court": "District Court",
+  "rating": 2.8,
+  "experience": 3,
+  "specialization": "Civil",
+  "photo": "",
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "barId": "AG123456",
+  "email": "ravi.kumar@example.com",
+  "whatsapp": "+919812345999",
+  "verified": false,
+  "practiceAreas": [
+    "Civil",
+    "Property",
+    "Contracts"
+  ],
+  "bio": "Ravi Kumar is a civil law advocate in Agra, focusing on property and contract disputes. He is known for his thorough preparation and effective advocacy. Ravi is fluent in English and Hindi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d45494"
+  },
+  "id": 12,
+  "name": "Advocate B2",
+  "city": "Mumbai",
+  "court": "High Court",
+  "rating": 3.5,
+  "experience": 2,
+  "specialization": "Civil",
+  "photo": "",
+  "languages": [
+    "English",
+    "Marathi"
+  ],
+  "barId": "BAR10001",
+  "email": "advocate12@example.com",
+  "whatsapp": "+919800010001",
+  "verified": false,
+  "practiceAreas": [
+    "Criminal",
+    "Appeals",
+    "Civil",
+    "Property",
+    "Contracts"
+  ],
+  "bio": "Advocate B2 is an experienced lawyer practicing in Mumbai. Specializes in Civil law with 2 years of experience. Fluent in English, Marathi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d45495"
+  },
+  "id": 13,
+  "name": "Advocate C3",
+  "city": "Bangalore",
+  "court": "District Court",
+  "rating": 3.6,
+  "experience": 3,
+  "specialization": "Family",
+  "photo": "",
+  "languages": [
+    "English",
+    "Kannada"
+  ],
+  "barId": "BAR10002",
+  "email": "advocate13@example.com",
+  "whatsapp": "+919800010002",
+  "verified": true,
+  "practiceAreas": [
+    "Appeals",
+    "Civil",
+    "Property",
+    "Contracts",
+    "Family"
+  ],
+  "bio": "Advocate C3 is an experienced lawyer practicing in Bangalore. Specializes in Family law with 3 years of experience. Fluent in English, Kannada.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d45496"
+  },
+  "id": 14,
+  "name": "Advocate D4",
+  "city": "Chennai",
+  "court": "Family Court",
+  "rating": 3.7,
+  "experience": 4,
+  "specialization": "Corporate",
+  "photo": "",
+  "languages": [
+    "English",
+    "Tamil"
+  ],
+  "barId": "BAR10003",
+  "email": "advocate14@example.com",
+  "whatsapp": "+919800010003",
+  "verified": false,
+  "practiceAreas": [
+    "Civil",
+    "Property",
+    "Contracts",
+    "Family",
+    "Divorce"
+  ],
+  "bio": "Advocate D4 is an experienced lawyer practicing in Chennai. Specializes in Corporate law with 4 years of experience. Fluent in English, Tamil.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d45497"
+  },
+  "id": 15,
+  "name": "Advocate E5",
+  "city": "Kolkata",
+  "court": "Consumer Court",
+  "rating": 3.8,
+  "experience": 5,
+  "specialization": "Tax",
+  "photo": "",
+  "languages": [
+    "English",
+    "Bengali"
+  ],
+  "barId": "BAR10004",
+  "email": "advocate15@example.com",
+  "whatsapp": "+919800010004",
+  "verified": true,
+  "practiceAreas": [
+    "Property",
+    "Contracts",
+    "Family",
+    "Divorce",
+    "Child Custody"
+  ],
+  "bio": "Advocate E5 is an experienced lawyer practicing in Kolkata. Specializes in Tax law with 5 years of experience. Fluent in English, Bengali.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d45498"
+  },
+  "id": 16,
+  "name": "Advocate F6",
+  "city": "Hyderabad",
+  "court": "Labour Court",
+  "rating": 3.9,
+  "experience": 6,
+  "specialization": "Labour",
+  "photo": "",
+  "languages": [
+    "English",
+    "Gujarati"
+  ],
+  "barId": "BAR10005",
+  "email": "advocate16@example.com",
+  "whatsapp": "+919800010005",
+  "verified": false,
+  "practiceAreas": [
+    "Contracts",
+    "Family",
+    "Divorce",
+    "Child Custody",
+    "White Collar Crime"
+  ],
+  "bio": "Advocate F6 is an experienced lawyer practicing in Hyderabad. Specializes in Labour law with 6 years of experience. Fluent in English, Gujarati.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d45499"
+  },
+  "id": 17,
+  "name": "Advocate G7",
+  "city": "Pune",
+  "court": "Tribunal",
+  "rating": 4,
+  "experience": 7,
+  "specialization": "Intellectual Property",
+  "photo": "",
+  "languages": [
+    "English",
+    "Punjabi"
+  ],
+  "barId": "BAR10006",
+  "email": "advocate17@example.com",
+  "whatsapp": "+919800010006",
+  "verified": true,
+  "practiceAreas": [
+    "Family",
+    "Divorce",
+    "Child Custody",
+    "White Collar Crime",
+    "Corporate"
+  ],
+  "bio": "Advocate G7 is an experienced lawyer practicing in Pune. Specializes in Intellectual Property law with 7 years of experience. Fluent in English, Punjabi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d4549a"
+  },
+  "id": 18,
+  "name": "Advocate H8",
+  "city": "Ahmedabad",
+  "court": "Session Court",
+  "rating": 4.1,
+  "experience": 8,
+  "specialization": "Environment",
+  "photo": "",
+  "languages": [
+    "English",
+    "Malayalam"
+  ],
+  "barId": "BAR10007",
+  "email": "advocate18@example.com",
+  "whatsapp": "+919800010007",
+  "verified": false,
+  "practiceAreas": [
+    "Divorce",
+    "Child Custody",
+    "White Collar Crime",
+    "Corporate",
+    "Mergers"
+  ],
+  "bio": "Advocate H8 is an experienced lawyer practicing in Ahmedabad. Specializes in Environment law with 8 years of experience. Fluent in English, Malayalam.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d4549b"
+  },
+  "id": 19,
+  "name": "Advocate I9",
+  "city": "Lucknow",
+  "court": "Juvenile Court",
+  "rating": 4.2,
+  "experience": 9,
+  "specialization": "Commercial",
+  "photo": "",
+  "languages": [
+    "English",
+    "Telugu"
+  ],
+  "barId": "BAR10008",
+  "email": "advocate19@example.com",
+  "whatsapp": "+919800010008",
+  "verified": true,
+  "practiceAreas": [
+    "Child Custody",
+    "White Collar Crime",
+    "Corporate",
+    "Mergers",
+    "Tax"
+  ],
+  "bio": "Advocate I9 is an experienced lawyer practicing in Lucknow. Specializes in Commercial law with 9 years of experience. Fluent in English, Telugu.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d4549c"
+  },
+  "id": 20,
+  "name": "Advocate J10",
+  "city": "Jaipur",
+  "court": "Civil Court",
+  "rating": 4.3,
+  "experience": 10,
+  "specialization": "Human Rights",
+  "photo": "",
+  "languages": [
+    "English",
+    "Odia"
+  ],
+  "barId": "BAR10009",
+  "email": "advocate20@example.com",
+  "whatsapp": "+919800010009",
+  "verified": false,
+  "practiceAreas": [
+    "White Collar Crime",
+    "Corporate",
+    "Mergers",
+    "Tax",
+    "Consumer"
+  ],
+  "bio": "Advocate J10 is an experienced lawyer practicing in Jaipur. Specializes in Human Rights law with 10 years of experience. Fluent in English, Odia.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d4549d"
+  },
+  "id": 21,
+  "name": "Advocate K11",
+  "city": "Chandigarh",
+  "court": "Criminal Court",
+  "rating": 4.4,
+  "experience": 11,
+  "specialization": "Cyber Law",
+  "photo": "",
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "barId": "BAR10010",
+  "email": "advocate21@example.com",
+  "whatsapp": "+919800010010",
+  "verified": true,
+  "practiceAreas": [
+    "Corporate",
+    "Mergers",
+    "Tax",
+    "Consumer",
+    "Labour"
+  ],
+  "bio": "Advocate K11 is an experienced lawyer practicing in Chandigarh. Specializes in Cyber Law law with 11 years of experience. Fluent in English, Hindi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d4549e"
+  },
+  "id": 22,
+  "name": "Advocate L12",
+  "city": "Patna",
+  "court": "Tax Court",
+  "rating": 4.5,
+  "experience": 12,
+  "specialization": "Company Law",
+  "photo": "",
+  "languages": [
+    "English",
+    "Marathi"
+  ],
+  "barId": "BAR10011",
+  "email": "advocate22@example.com",
+  "whatsapp": "+919800010011",
+  "verified": false,
+  "practiceAreas": [
+    "Mergers",
+    "Tax",
+    "Consumer",
+    "Labour",
+    "Employment"
+  ],
+  "bio": "Advocate L12 is an experienced lawyer practicing in Patna. Specializes in Company Law law with 12 years of experience. Fluent in English, Marathi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d4549f"
+  },
+  "id": 23,
+  "name": "Advocate M13",
+  "city": "Bhopal",
+  "court": "Commercial Court",
+  "rating": 4.6,
+  "experience": 13,
+  "specialization": "Banking",
+  "photo": "",
+  "languages": [
+    "English",
+    "Kannada"
+  ],
+  "barId": "BAR10012",
+  "email": "advocate23@example.com",
+  "whatsapp": "+919800010012",
+  "verified": true,
+  "practiceAreas": [
+    "Tax",
+    "Consumer",
+    "Labour",
+    "Employment",
+    "Intellectual Property"
+  ],
+  "bio": "Advocate M13 is an experienced lawyer practicing in Bhopal. Specializes in Banking law with 13 years of experience. Fluent in English, Kannada.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454a0"
+  },
+  "id": 24,
+  "name": "Advocate N14",
+  "city": "Indore",
+  "court": "Small Causes Court",
+  "rating": 4.7,
+  "experience": 14,
+  "specialization": "Insurance",
+  "photo": "",
+  "languages": [
+    "English",
+    "Tamil"
+  ],
+  "barId": "BAR10013",
+  "email": "advocate24@example.com",
+  "whatsapp": "+919800010013",
+  "verified": false,
+  "practiceAreas": [
+    "Consumer",
+    "Labour",
+    "Employment",
+    "Intellectual Property",
+    "Environment"
+  ],
+  "bio": "Advocate N14 is an experienced lawyer practicing in Indore. Specializes in Insurance law with 14 years of experience. Fluent in English, Tamil.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454a1"
+  },
+  "id": 25,
+  "name": "Advocate O15",
+  "city": "Nagpur",
+  "court": "Motor Accident Claims Tribunal",
+  "rating": 4.8,
+  "experience": 15,
+  "specialization": "Arbitration",
+  "photo": "",
+  "languages": [
+    "English",
+    "Bengali"
+  ],
+  "barId": "BAR10014",
+  "email": "advocate25@example.com",
+  "whatsapp": "+919800010014",
+  "verified": true,
+  "practiceAreas": [
+    "Labour",
+    "Employment",
+    "Intellectual Property",
+    "Environment",
+    "Banking"
+  ],
+  "bio": "Advocate O15 is an experienced lawyer practicing in Nagpur. Specializes in Arbitration law with 15 years of experience. Fluent in English, Bengali.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454a2"
+  },
+  "id": 26,
+  "name": "Advocate P16",
+  "city": "Kanpur",
+  "court": "Debt Recovery Tribunal",
+  "rating": 3.4,
+  "experience": 16,
+  "specialization": "Property",
+  "photo": "",
+  "languages": [
+    "English",
+    "Gujarati"
+  ],
+  "barId": "BAR10015",
+  "email": "advocate26@example.com",
+  "whatsapp": "+919800010015",
+  "verified": false,
+  "practiceAreas": [
+    "Employment",
+    "Intellectual Property",
+    "Environment",
+    "Banking",
+    "Insurance"
+  ],
+  "bio": "Advocate P16 is an experienced lawyer practicing in Kanpur. Specializes in Property law with 16 years of experience. Fluent in English, Gujarati.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454a3"
+  },
+  "id": 27,
+  "name": "Advocate Q17",
+  "city": "Surat",
+  "court": "Arbitration Court",
+  "rating": 3.5,
+  "experience": 17,
+  "specialization": "Consumer",
+  "photo": "",
+  "languages": [
+    "English",
+    "Punjabi"
+  ],
+  "barId": "BAR10016",
+  "email": "advocate27@example.com",
+  "whatsapp": "+919800010016",
+  "verified": true,
+  "practiceAreas": [
+    "Intellectual Property",
+    "Environment",
+    "Banking",
+    "Insurance",
+    "Cyber Law"
+  ],
+  "bio": "Advocate Q17 is an experienced lawyer practicing in Surat. Specializes in Consumer law with 17 years of experience. Fluent in English, Punjabi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454a4"
+  },
+  "id": 28,
+  "name": "Advocate R18",
+  "city": "Ranchi",
+  "court": "Environmental Court",
+  "rating": 3.6,
+  "experience": 18,
+  "specialization": "Administrative",
+  "photo": "",
+  "languages": [
+    "English",
+    "Malayalam"
+  ],
+  "barId": "BAR10017",
+  "email": "advocate28@example.com",
+  "whatsapp": "+919800010017",
+  "verified": false,
+  "practiceAreas": [
+    "Environment",
+    "Banking",
+    "Insurance",
+    "Cyber Law",
+    "Human Rights"
+  ],
+  "bio": "Advocate R18 is an experienced lawyer practicing in Ranchi. Specializes in Administrative law with 18 years of experience. Fluent in English, Malayalam.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454a5"
+  },
+  "id": 29,
+  "name": "Advocate S19",
+  "city": "Guwahati",
+  "court": "Company Law Tribunal",
+  "rating": 3.7,
+  "experience": 19,
+  "specialization": "Anti-Corruption",
+  "photo": "",
+  "languages": [
+    "English",
+    "Telugu"
+  ],
+  "barId": "BAR10018",
+  "email": "advocate29@example.com",
+  "whatsapp": "+919800010018",
+  "verified": true,
+  "practiceAreas": [
+    "Banking",
+    "Insurance",
+    "Cyber Law",
+    "Human Rights",
+    "Arbitration"
+  ],
+  "bio": "Advocate S19 is an experienced lawyer practicing in Guwahati. Specializes in Anti-Corruption law with 19 years of experience. Fluent in English, Telugu.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454a6"
+  },
+  "id": 30,
+  "name": "Advocate T20",
+  "city": "Thiruvananthapuram",
+  "court": "Intellectual Property Court",
+  "rating": 3.8,
+  "experience": 20,
+  "specialization": "Railway",
+  "photo": "",
+  "languages": [
+    "English",
+    "Odia"
+  ],
+  "barId": "BAR10019",
+  "email": "advocate30@example.com",
+  "whatsapp": "+919800010019",
+  "verified": false,
+  "practiceAreas": [
+    "Insurance",
+    "Cyber Law",
+    "Human Rights",
+    "Arbitration",
+    "Company Law"
+  ],
+  "bio": "Advocate T20 is an experienced lawyer practicing in Thiruvananthapuram. Specializes in Railway law with 20 years of experience. Fluent in English, Odia.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454a7"
+  },
+  "id": 31,
+  "name": "Advocate U21",
+  "city": "Delhi",
+  "court": "Administrative Tribunal",
+  "rating": 3.9,
+  "experience": 21,
+  "specialization": "Criminal",
+  "photo": "",
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "barId": "BAR10020",
+  "email": "advocate31@example.com",
+  "whatsapp": "+919800010020",
+  "verified": true,
+  "practiceAreas": [
+    "Cyber Law",
+    "Human Rights",
+    "Arbitration",
+    "Company Law",
+    "Customs"
+  ],
+  "bio": "Advocate U21 is an experienced lawyer practicing in Delhi. Specializes in Criminal law with 21 years of experience. Fluent in English, Hindi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454a8"
+  },
+  "id": 32,
+  "name": "Advocate V22",
+  "city": "Mumbai",
+  "court": "Special CBI Court",
+  "rating": 4,
+  "experience": 22,
+  "specialization": "Civil",
+  "photo": "",
+  "languages": [
+    "English",
+    "Marathi"
+  ],
+  "barId": "BAR10021",
+  "email": "advocate32@example.com",
+  "whatsapp": "+919800010021",
+  "verified": false,
+  "practiceAreas": [
+    "Human Rights",
+    "Arbitration",
+    "Company Law",
+    "Customs",
+    "Railway"
+  ],
+  "bio": "Advocate V22 is an experienced lawyer practicing in Mumbai. Specializes in Civil law with 22 years of experience. Fluent in English, Marathi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454a9"
+  },
+  "id": 33,
+  "name": "Advocate W23",
+  "city": "Bangalore",
+  "court": "Anti-Corruption Court",
+  "rating": 4.1,
+  "experience": 23,
+  "specialization": "Family",
+  "photo": "",
+  "languages": [
+    "English",
+    "Kannada"
+  ],
+  "barId": "BAR10022",
+  "email": "advocate33@example.com",
+  "whatsapp": "+919800010022",
+  "verified": true,
+  "practiceAreas": [
+    "Arbitration",
+    "Company Law",
+    "Customs",
+    "Railway",
+    "Motor Accident"
+  ],
+  "bio": "Advocate W23 is an experienced lawyer practicing in Bangalore. Specializes in Family law with 23 years of experience. Fluent in English, Kannada.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454aa"
+  },
+  "id": 34,
+  "name": "Advocate X24",
+  "city": "Chennai",
+  "court": "Lok Adalat",
+  "rating": 4.2,
+  "experience": 24,
+  "specialization": "Corporate",
+  "photo": "",
+  "languages": [
+    "English",
+    "Tamil"
+  ],
+  "barId": "BAR10023",
+  "email": "advocate34@example.com",
+  "whatsapp": "+919800010023",
+  "verified": false,
+  "practiceAreas": [
+    "Company Law",
+    "Customs",
+    "Railway",
+    "Motor Accident",
+    "Debt Recovery"
+  ],
+  "bio": "Advocate X24 is an experienced lawyer practicing in Chennai. Specializes in Corporate law with 24 years of experience. Fluent in English, Tamil.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454ab"
+  },
+  "id": 35,
+  "name": "Advocate Y25",
+  "city": "Kolkata",
+  "court": "Fast Track Court",
+  "rating": 4.3,
+  "experience": 25,
+  "specialization": "Tax",
+  "photo": "",
+  "languages": [
+    "English",
+    "Bengali"
+  ],
+  "barId": "BAR10024",
+  "email": "advocate35@example.com",
+  "whatsapp": "+919800010024",
+  "verified": true,
+  "practiceAreas": [
+    "Customs",
+    "Railway",
+    "Motor Accident",
+    "Debt Recovery",
+    "Commercial"
+  ],
+  "bio": "Advocate Y25 is an experienced lawyer practicing in Kolkata. Specializes in Tax law with 25 years of experience. Fluent in English, Bengali.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454ac"
+  },
+  "id": 36,
+  "name": "Advocate Z26",
+  "city": "Hyderabad",
+  "court": "Cyber Court",
+  "rating": 4.4,
+  "experience": 26,
+  "specialization": "Labour",
+  "photo": "",
+  "languages": [
+    "English",
+    "Gujarati"
+  ],
+  "barId": "BAR10025",
+  "email": "advocate36@example.com",
+  "whatsapp": "+919800010025",
+  "verified": false,
+  "practiceAreas": [
+    "Bail",
+    "Criminal",
+    "Appeals",
+    "Civil",
+    "Property"
+  ],
+  "bio": "Advocate Z26 is an experienced lawyer practicing in Hyderabad. Specializes in Labour law with 26 years of experience. Fluent in English, Gujarati.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454ad"
+  },
+  "id": 37,
+  "name": "Advocate A27",
+  "city": "Pune",
+  "court": "Human Rights Court",
+  "rating": 4.5,
+  "experience": 27,
+  "specialization": "Intellectual Property",
+  "photo": "",
+  "languages": [
+    "English",
+    "Punjabi"
+  ],
+  "barId": "BAR10026",
+  "email": "advocate37@example.com",
+  "whatsapp": "+919800010026",
+  "verified": true,
+  "practiceAreas": [
+    "Criminal",
+    "Appeals",
+    "Civil",
+    "Property",
+    "Contracts"
+  ],
+  "bio": "Advocate A27 is an experienced lawyer practicing in Pune. Specializes in Intellectual Property law with 27 years of experience. Fluent in English, Punjabi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454ae"
+  },
+  "id": 38,
+  "name": "Advocate B28",
+  "city": "Ahmedabad",
+  "court": "Customs Court",
+  "rating": 4.6,
+  "experience": 28,
+  "specialization": "Environment",
+  "photo": "",
+  "languages": [
+    "English",
+    "Malayalam"
+  ],
+  "barId": "BAR10027",
+  "email": "advocate38@example.com",
+  "whatsapp": "+919800010027",
+  "verified": false,
+  "practiceAreas": [
+    "Appeals",
+    "Civil",
+    "Property",
+    "Contracts",
+    "Family"
+  ],
+  "bio": "Advocate B28 is an experienced lawyer practicing in Ahmedabad. Specializes in Environment law with 28 years of experience. Fluent in English, Malayalam.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454af"
+  },
+  "id": 39,
+  "name": "Advocate C29",
+  "city": "Lucknow",
+  "court": "Railway Claims Tribunal",
+  "rating": 4.7,
+  "experience": 29,
+  "specialization": "Commercial",
+  "photo": "",
+  "languages": [
+    "English",
+    "Telugu"
+  ],
+  "barId": "BAR10028",
+  "email": "advocate39@example.com",
+  "whatsapp": "+919800010028",
+  "verified": true,
+  "practiceAreas": [
+    "Civil",
+    "Property",
+    "Contracts",
+    "Family",
+    "Divorce"
+  ],
+  "bio": "Advocate C29 is an experienced lawyer practicing in Lucknow. Specializes in Commercial law with 29 years of experience. Fluent in English, Telugu.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454b0"
+  },
+  "id": 40,
+  "name": "Advocate D30",
+  "city": "Jaipur",
+  "court": "Armed Forces Tribunal",
+  "rating": 4.8,
+  "experience": 30,
+  "specialization": "Human Rights",
+  "photo": "",
+  "languages": [
+    "English",
+    "Odia"
+  ],
+  "barId": "BAR10029",
+  "email": "advocate40@example.com",
+  "whatsapp": "+919800010029",
+  "verified": false,
+  "practiceAreas": [
+    "Property",
+    "Contracts",
+    "Family",
+    "Divorce",
+    "Child Custody"
+  ],
+  "bio": "Advocate D30 is an experienced lawyer practicing in Jaipur. Specializes in Human Rights law with 30 years of experience. Fluent in English, Odia.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454b1"
+  },
+  "id": 41,
+  "name": "Advocate E31",
+  "city": "Chandigarh",
+  "court": "Supreme Court",
+  "rating": 3.4,
+  "experience": 1,
+  "specialization": "Cyber Law",
+  "photo": "",
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "barId": "BAR10030",
+  "email": "advocate41@example.com",
+  "whatsapp": "+919800010030",
+  "verified": true,
+  "practiceAreas": [
+    "Contracts",
+    "Family",
+    "Divorce",
+    "Child Custody",
+    "White Collar Crime"
+  ],
+  "bio": "Advocate E31 is an experienced lawyer practicing in Chandigarh. Specializes in Cyber Law law with 1 years of experience. Fluent in English, Hindi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454b2"
+  },
+  "id": 42,
+  "name": "Advocate F32",
+  "city": "Patna",
+  "court": "High Court",
+  "rating": 3.5,
+  "experience": 2,
+  "specialization": "Company Law",
+  "photo": "",
+  "languages": [
+    "English",
+    "Marathi"
+  ],
+  "barId": "BAR10031",
+  "email": "advocate42@example.com",
+  "whatsapp": "+919800010031",
+  "verified": false,
+  "practiceAreas": [
+    "Family",
+    "Divorce",
+    "Child Custody",
+    "White Collar Crime",
+    "Corporate"
+  ],
+  "bio": "Advocate F32 is an experienced lawyer practicing in Patna. Specializes in Company Law law with 2 years of experience. Fluent in English, Marathi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454b3"
+  },
+  "id": 43,
+  "name": "Advocate G33",
+  "city": "Bhopal",
+  "court": "District Court",
+  "rating": 3.6,
+  "experience": 3,
+  "specialization": "Banking",
+  "photo": "",
+  "languages": [
+    "English",
+    "Kannada"
+  ],
+  "barId": "BAR10032",
+  "email": "advocate43@example.com",
+  "whatsapp": "+919800010032",
+  "verified": true,
+  "practiceAreas": [
+    "Divorce",
+    "Child Custody",
+    "White Collar Crime",
+    "Corporate",
+    "Mergers"
+  ],
+  "bio": "Advocate G33 is an experienced lawyer practicing in Bhopal. Specializes in Banking law with 3 years of experience. Fluent in English, Kannada.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454b4"
+  },
+  "id": 44,
+  "name": "Advocate H34",
+  "city": "Indore",
+  "court": "Family Court",
+  "rating": 3.7,
+  "experience": 4,
+  "specialization": "Insurance",
+  "photo": "",
+  "languages": [
+    "English",
+    "Tamil"
+  ],
+  "barId": "BAR10033",
+  "email": "advocate44@example.com",
+  "whatsapp": "+919800010033",
+  "verified": false,
+  "practiceAreas": [
+    "Child Custody",
+    "White Collar Crime",
+    "Corporate",
+    "Mergers",
+    "Tax"
+  ],
+  "bio": "Advocate H34 is an experienced lawyer practicing in Indore. Specializes in Insurance law with 4 years of experience. Fluent in English, Tamil.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454b5"
+  },
+  "id": 45,
+  "name": "Advocate I35",
+  "city": "Nagpur",
+  "court": "Consumer Court",
+  "rating": 3.8,
+  "experience": 5,
+  "specialization": "Arbitration",
+  "photo": "",
+  "languages": [
+    "English",
+    "Bengali"
+  ],
+  "barId": "BAR10034",
+  "email": "advocate45@example.com",
+  "whatsapp": "+919800010034",
+  "verified": true,
+  "practiceAreas": [
+    "White Collar Crime",
+    "Corporate",
+    "Mergers",
+    "Tax",
+    "Consumer"
+  ],
+  "bio": "Advocate I35 is an experienced lawyer practicing in Nagpur. Specializes in Arbitration law with 5 years of experience. Fluent in English, Bengali.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454b6"
+  },
+  "id": 46,
+  "name": "Advocate J36",
+  "city": "Kanpur",
+  "court": "Labour Court",
+  "rating": 3.9,
+  "experience": 6,
+  "specialization": "Property",
+  "photo": "",
+  "languages": [
+    "English",
+    "Gujarati"
+  ],
+  "barId": "BAR10035",
+  "email": "advocate46@example.com",
+  "whatsapp": "+919800010035",
+  "verified": false,
+  "practiceAreas": [
+    "Corporate",
+    "Mergers",
+    "Tax",
+    "Consumer",
+    "Labour"
+  ],
+  "bio": "Advocate J36 is an experienced lawyer practicing in Kanpur. Specializes in Property law with 6 years of experience. Fluent in English, Gujarati.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454b7"
+  },
+  "id": 47,
+  "name": "Advocate K37",
+  "city": "Surat",
+  "court": "Tribunal",
+  "rating": 4,
+  "experience": 7,
+  "specialization": "Consumer",
+  "photo": "",
+  "languages": [
+    "English",
+    "Punjabi"
+  ],
+  "barId": "BAR10036",
+  "email": "advocate47@example.com",
+  "whatsapp": "+919800010036",
+  "verified": true,
+  "practiceAreas": [
+    "Mergers",
+    "Tax",
+    "Consumer",
+    "Labour",
+    "Employment"
+  ],
+  "bio": "Advocate K37 is an experienced lawyer practicing in Surat. Specializes in Consumer law with 7 years of experience. Fluent in English, Punjabi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454b8"
+  },
+  "id": 48,
+  "name": "Advocate L38",
+  "city": "Ranchi",
+  "court": "Session Court",
+  "rating": 4.1,
+  "experience": 8,
+  "specialization": "Administrative",
+  "photo": "",
+  "languages": [
+    "English",
+    "Malayalam"
+  ],
+  "barId": "BAR10037",
+  "email": "advocate48@example.com",
+  "whatsapp": "+919800010037",
+  "verified": false,
+  "practiceAreas": [
+    "Tax",
+    "Consumer",
+    "Labour",
+    "Employment",
+    "Intellectual Property"
+  ],
+  "bio": "Advocate L38 is an experienced lawyer practicing in Ranchi. Specializes in Administrative law with 8 years of experience. Fluent in English, Malayalam.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454b9"
+  },
+  "id": 49,
+  "name": "Advocate M39",
+  "city": "Guwahati",
+  "court": "Juvenile Court",
+  "rating": 4.2,
+  "experience": 9,
+  "specialization": "Anti-Corruption",
+  "photo": "",
+  "languages": [
+    "English",
+    "Telugu"
+  ],
+  "barId": "BAR10038",
+  "email": "advocate49@example.com",
+  "whatsapp": "+919800010038",
+  "verified": true,
+  "practiceAreas": [
+    "Consumer",
+    "Labour",
+    "Employment",
+    "Intellectual Property",
+    "Environment"
+  ],
+  "bio": "Advocate M39 is an experienced lawyer practicing in Guwahati. Specializes in Anti-Corruption law with 9 years of experience. Fluent in English, Telugu.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454ba"
+  },
+  "id": 50,
+  "name": "Advocate N40",
+  "city": "Thiruvananthapuram",
+  "court": "Civil Court",
+  "rating": 4.3,
+  "experience": 10,
+  "specialization": "Railway",
+  "photo": "",
+  "languages": [
+    "English",
+    "Odia"
+  ],
+  "barId": "BAR10039",
+  "email": "advocate50@example.com",
+  "whatsapp": "+919800010039",
+  "verified": false,
+  "practiceAreas": [
+    "Labour",
+    "Employment",
+    "Intellectual Property",
+    "Environment",
+    "Banking"
+  ],
+  "bio": "Advocate N40 is an experienced lawyer practicing in Thiruvananthapuram. Specializes in Railway law with 10 years of experience. Fluent in English, Odia.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454bb"
+  },
+  "id": 51,
+  "name": "Advocate O41",
+  "city": "Delhi",
+  "court": "Criminal Court",
+  "rating": 4.4,
+  "experience": 11,
+  "specialization": "Criminal",
+  "photo": "",
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "barId": "BAR10040",
+  "email": "advocate51@example.com",
+  "whatsapp": "+919800010040",
+  "verified": true,
+  "practiceAreas": [
+    "Employment",
+    "Intellectual Property",
+    "Environment",
+    "Banking",
+    "Insurance"
+  ],
+  "bio": "Advocate O41 is an experienced lawyer practicing in Delhi. Specializes in Criminal law with 11 years of experience. Fluent in English, Hindi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454bc"
+  },
+  "id": 52,
+  "name": "Advocate P42",
+  "city": "Mumbai",
+  "court": "Tax Court",
+  "rating": 4.5,
+  "experience": 12,
+  "specialization": "Civil",
+  "photo": "",
+  "languages": [
+    "English",
+    "Marathi"
+  ],
+  "barId": "BAR10041",
+  "email": "advocate52@example.com",
+  "whatsapp": "+919800010041",
+  "verified": false,
+  "practiceAreas": [
+    "Intellectual Property",
+    "Environment",
+    "Banking",
+    "Insurance",
+    "Cyber Law"
+  ],
+  "bio": "Advocate P42 is an experienced lawyer practicing in Mumbai. Specializes in Civil law with 12 years of experience. Fluent in English, Marathi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454bd"
+  },
+  "id": 53,
+  "name": "Advocate Q43",
+  "city": "Bangalore",
+  "court": "Commercial Court",
+  "rating": 4.6,
+  "experience": 13,
+  "specialization": "Family",
+  "photo": "",
+  "languages": [
+    "English",
+    "Kannada"
+  ],
+  "barId": "BAR10042",
+  "email": "advocate53@example.com",
+  "whatsapp": "+919800010042",
+  "verified": true,
+  "practiceAreas": [
+    "Environment",
+    "Banking",
+    "Insurance",
+    "Cyber Law",
+    "Human Rights"
+  ],
+  "bio": "Advocate Q43 is an experienced lawyer practicing in Bangalore. Specializes in Family law with 13 years of experience. Fluent in English, Kannada.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454be"
+  },
+  "id": 54,
+  "name": "Advocate R44",
+  "city": "Chennai",
+  "court": "Small Causes Court",
+  "rating": 4.7,
+  "experience": 14,
+  "specialization": "Corporate",
+  "photo": "",
+  "languages": [
+    "English",
+    "Tamil"
+  ],
+  "barId": "BAR10043",
+  "email": "advocate54@example.com",
+  "whatsapp": "+919800010043",
+  "verified": false,
+  "practiceAreas": [
+    "Banking",
+    "Insurance",
+    "Cyber Law",
+    "Human Rights",
+    "Arbitration"
+  ],
+  "bio": "Advocate R44 is an experienced lawyer practicing in Chennai. Specializes in Corporate law with 14 years of experience. Fluent in English, Tamil.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454bf"
+  },
+  "id": 55,
+  "name": "Advocate S45",
+  "city": "Kolkata",
+  "court": "Motor Accident Claims Tribunal",
+  "rating": 4.8,
+  "experience": 15,
+  "specialization": "Tax",
+  "photo": "",
+  "languages": [
+    "English",
+    "Bengali"
+  ],
+  "barId": "BAR10044",
+  "email": "advocate55@example.com",
+  "whatsapp": "+919800010044",
+  "verified": true,
+  "practiceAreas": [
+    "Insurance",
+    "Cyber Law",
+    "Human Rights",
+    "Arbitration",
+    "Company Law"
+  ],
+  "bio": "Advocate S45 is an experienced lawyer practicing in Kolkata. Specializes in Tax law with 15 years of experience. Fluent in English, Bengali.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454c0"
+  },
+  "id": 56,
+  "name": "Advocate T46",
+  "city": "Hyderabad",
+  "court": "Debt Recovery Tribunal",
+  "rating": 3.4,
+  "experience": 16,
+  "specialization": "Labour",
+  "photo": "",
+  "languages": [
+    "English",
+    "Gujarati"
+  ],
+  "barId": "BAR10045",
+  "email": "advocate56@example.com",
+  "whatsapp": "+919800010045",
+  "verified": false,
+  "practiceAreas": [
+    "Cyber Law",
+    "Human Rights",
+    "Arbitration",
+    "Company Law",
+    "Customs"
+  ],
+  "bio": "Advocate T46 is an experienced lawyer practicing in Hyderabad. Specializes in Labour law with 16 years of experience. Fluent in English, Gujarati.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454c1"
+  },
+  "id": 57,
+  "name": "Advocate U47",
+  "city": "Pune",
+  "court": "Arbitration Court",
+  "rating": 3.5,
+  "experience": 17,
+  "specialization": "Intellectual Property",
+  "photo": "",
+  "languages": [
+    "English",
+    "Punjabi"
+  ],
+  "barId": "BAR10046",
+  "email": "advocate57@example.com",
+  "whatsapp": "+919800010046",
+  "verified": true,
+  "practiceAreas": [
+    "Human Rights",
+    "Arbitration",
+    "Company Law",
+    "Customs",
+    "Railway"
+  ],
+  "bio": "Advocate U47 is an experienced lawyer practicing in Pune. Specializes in Intellectual Property law with 17 years of experience. Fluent in English, Punjabi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454c2"
+  },
+  "id": 58,
+  "name": "Advocate V48",
+  "city": "Ahmedabad",
+  "court": "Environmental Court",
+  "rating": 3.6,
+  "experience": 18,
+  "specialization": "Environment",
+  "photo": "",
+  "languages": [
+    "English",
+    "Malayalam"
+  ],
+  "barId": "BAR10047",
+  "email": "advocate58@example.com",
+  "whatsapp": "+919800010047",
+  "verified": false,
+  "practiceAreas": [
+    "Arbitration",
+    "Company Law",
+    "Customs",
+    "Railway",
+    "Motor Accident"
+  ],
+  "bio": "Advocate V48 is an experienced lawyer practicing in Ahmedabad. Specializes in Environment law with 18 years of experience. Fluent in English, Malayalam.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454c3"
+  },
+  "id": 59,
+  "name": "Advocate W49",
+  "city": "Lucknow",
+  "court": "Company Law Tribunal",
+  "rating": 3.7,
+  "experience": 19,
+  "specialization": "Commercial",
+  "photo": "",
+  "languages": [
+    "English",
+    "Telugu"
+  ],
+  "barId": "BAR10048",
+  "email": "advocate59@example.com",
+  "whatsapp": "+919800010048",
+  "verified": true,
+  "practiceAreas": [
+    "Company Law",
+    "Customs",
+    "Railway",
+    "Motor Accident",
+    "Debt Recovery"
+  ],
+  "bio": "Advocate W49 is an experienced lawyer practicing in Lucknow. Specializes in Commercial law with 19 years of experience. Fluent in English, Telugu.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454c4"
+  },
+  "id": 60,
+  "name": "Advocate X50",
+  "city": "Jaipur",
+  "court": "Intellectual Property Court",
+  "rating": 3.8,
+  "experience": 20,
+  "specialization": "Human Rights",
+  "photo": "",
+  "languages": [
+    "English",
+    "Odia"
+  ],
+  "barId": "BAR10049",
+  "email": "advocate60@example.com",
+  "whatsapp": "+919800010049",
+  "verified": false,
+  "practiceAreas": [
+    "Customs",
+    "Railway",
+    "Motor Accident",
+    "Debt Recovery",
+    "Commercial"
+  ],
+  "bio": "Advocate X50 is an experienced lawyer practicing in Jaipur. Specializes in Human Rights law with 20 years of experience. Fluent in English, Odia.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454c5"
+  },
+  "id": 61,
+  "name": "Advocate Y51",
+  "city": "Chandigarh",
+  "court": "Administrative Tribunal",
+  "rating": 3.9,
+  "experience": 21,
+  "specialization": "Cyber Law",
+  "photo": "",
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "barId": "BAR10050",
+  "email": "advocate61@example.com",
+  "whatsapp": "+919800010050",
+  "verified": true,
+  "practiceAreas": [
+    "Bail",
+    "Criminal",
+    "Appeals",
+    "Civil",
+    "Property"
+  ],
+  "bio": "Advocate Y51 is an experienced lawyer practicing in Chandigarh. Specializes in Cyber Law law with 21 years of experience. Fluent in English, Hindi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454c6"
+  },
+  "id": 62,
+  "name": "Advocate Z52",
+  "city": "Patna",
+  "court": "Special CBI Court",
+  "rating": 4,
+  "experience": 22,
+  "specialization": "Company Law",
+  "photo": "",
+  "languages": [
+    "English",
+    "Marathi"
+  ],
+  "barId": "BAR10051",
+  "email": "advocate62@example.com",
+  "whatsapp": "+919800010051",
+  "verified": false,
+  "practiceAreas": [
+    "Criminal",
+    "Appeals",
+    "Civil",
+    "Property",
+    "Contracts"
+  ],
+  "bio": "Advocate Z52 is an experienced lawyer practicing in Patna. Specializes in Company Law law with 22 years of experience. Fluent in English, Marathi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454c7"
+  },
+  "id": 63,
+  "name": "Advocate A53",
+  "city": "Bhopal",
+  "court": "Anti-Corruption Court",
+  "rating": 4.1,
+  "experience": 23,
+  "specialization": "Banking",
+  "photo": "",
+  "languages": [
+    "English",
+    "Kannada"
+  ],
+  "barId": "BAR10052",
+  "email": "advocate63@example.com",
+  "whatsapp": "+919800010052",
+  "verified": true,
+  "practiceAreas": [
+    "Appeals",
+    "Civil",
+    "Property",
+    "Contracts",
+    "Family"
+  ],
+  "bio": "Advocate A53 is an experienced lawyer practicing in Bhopal. Specializes in Banking law with 23 years of experience. Fluent in English, Kannada.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454c8"
+  },
+  "id": 64,
+  "name": "Advocate B54",
+  "city": "Indore",
+  "court": "Lok Adalat",
+  "rating": 4.2,
+  "experience": 24,
+  "specialization": "Insurance",
+  "photo": "",
+  "languages": [
+    "English",
+    "Tamil"
+  ],
+  "barId": "BAR10053",
+  "email": "advocate64@example.com",
+  "whatsapp": "+919800010053",
+  "verified": false,
+  "practiceAreas": [
+    "Civil",
+    "Property",
+    "Contracts",
+    "Family",
+    "Divorce"
+  ],
+  "bio": "Advocate B54 is an experienced lawyer practicing in Indore. Specializes in Insurance law with 24 years of experience. Fluent in English, Tamil.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454c9"
+  },
+  "id": 65,
+  "name": "Advocate C55",
+  "city": "Nagpur",
+  "court": "Fast Track Court",
+  "rating": 4.3,
+  "experience": 25,
+  "specialization": "Arbitration",
+  "photo": "",
+  "languages": [
+    "English",
+    "Bengali"
+  ],
+  "barId": "BAR10054",
+  "email": "advocate65@example.com",
+  "whatsapp": "+919800010054",
+  "verified": true,
+  "practiceAreas": [
+    "Property",
+    "Contracts",
+    "Family",
+    "Divorce",
+    "Child Custody"
+  ],
+  "bio": "Advocate C55 is an experienced lawyer practicing in Nagpur. Specializes in Arbitration law with 25 years of experience. Fluent in English, Bengali.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454ca"
+  },
+  "id": 66,
+  "name": "Advocate D56",
+  "city": "Kanpur",
+  "court": "Cyber Court",
+  "rating": 4.4,
+  "experience": 26,
+  "specialization": "Property",
+  "photo": "",
+  "languages": [
+    "English",
+    "Gujarati"
+  ],
+  "barId": "BAR10055",
+  "email": "advocate66@example.com",
+  "whatsapp": "+919800010055",
+  "verified": false,
+  "practiceAreas": [
+    "Contracts",
+    "Family",
+    "Divorce",
+    "Child Custody",
+    "White Collar Crime"
+  ],
+  "bio": "Advocate D56 is an experienced lawyer practicing in Kanpur. Specializes in Property law with 26 years of experience. Fluent in English, Gujarati.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454cb"
+  },
+  "id": 67,
+  "name": "Advocate E57",
+  "city": "Surat",
+  "court": "Human Rights Court",
+  "rating": 4.5,
+  "experience": 27,
+  "specialization": "Consumer",
+  "photo": "",
+  "languages": [
+    "English",
+    "Punjabi"
+  ],
+  "barId": "BAR10056",
+  "email": "advocate67@example.com",
+  "whatsapp": "+919800010056",
+  "verified": true,
+  "practiceAreas": [
+    "Family",
+    "Divorce",
+    "Child Custody",
+    "White Collar Crime",
+    "Corporate"
+  ],
+  "bio": "Advocate E57 is an experienced lawyer practicing in Surat. Specializes in Consumer law with 27 years of experience. Fluent in English, Punjabi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454cc"
+  },
+  "id": 68,
+  "name": "Advocate F58",
+  "city": "Ranchi",
+  "court": "Customs Court",
+  "rating": 4.6,
+  "experience": 28,
+  "specialization": "Administrative",
+  "photo": "",
+  "languages": [
+    "English",
+    "Malayalam"
+  ],
+  "barId": "BAR10057",
+  "email": "advocate68@example.com",
+  "whatsapp": "+919800010057",
+  "verified": false,
+  "practiceAreas": [
+    "Divorce",
+    "Child Custody",
+    "White Collar Crime",
+    "Corporate",
+    "Mergers"
+  ],
+  "bio": "Advocate F58 is an experienced lawyer practicing in Ranchi. Specializes in Administrative law with 28 years of experience. Fluent in English, Malayalam.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454cd"
+  },
+  "id": 69,
+  "name": "Advocate G59",
+  "city": "Guwahati",
+  "court": "Railway Claims Tribunal",
+  "rating": 4.7,
+  "experience": 29,
+  "specialization": "Anti-Corruption",
+  "photo": "",
+  "languages": [
+    "English",
+    "Telugu"
+  ],
+  "barId": "BAR10058",
+  "email": "advocate69@example.com",
+  "whatsapp": "+919800010058",
+  "verified": true,
+  "practiceAreas": [
+    "Child Custody",
+    "White Collar Crime",
+    "Corporate",
+    "Mergers",
+    "Tax"
+  ],
+  "bio": "Advocate G59 is an experienced lawyer practicing in Guwahati. Specializes in Anti-Corruption law with 29 years of experience. Fluent in English, Telugu.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454ce"
+  },
+  "id": 70,
+  "name": "Advocate H60",
+  "city": "Thiruvananthapuram",
+  "court": "Armed Forces Tribunal",
+  "rating": 4.8,
+  "experience": 30,
+  "specialization": "Railway",
+  "photo": "",
+  "languages": [
+    "English",
+    "Odia"
+  ],
+  "barId": "BAR10059",
+  "email": "advocate70@example.com",
+  "whatsapp": "+919800010059",
+  "verified": false,
+  "practiceAreas": [
+    "White Collar Crime",
+    "Corporate",
+    "Mergers",
+    "Tax",
+    "Consumer"
+  ],
+  "bio": "Advocate H60 is an experienced lawyer practicing in Thiruvananthapuram. Specializes in Railway law with 30 years of experience. Fluent in English, Odia.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454cf"
+  },
+  "id": 71,
+  "name": "Advocate I61",
+  "city": "Delhi",
+  "court": "Supreme Court",
+  "rating": 3.4,
+  "experience": 1,
+  "specialization": "Criminal",
+  "photo": "",
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "barId": "BAR10060",
+  "email": "advocate71@example.com",
+  "whatsapp": "+919800010060",
+  "verified": true,
+  "practiceAreas": [
+    "Corporate",
+    "Mergers",
+    "Tax",
+    "Consumer",
+    "Labour"
+  ],
+  "bio": "Advocate I61 is an experienced lawyer practicing in Delhi. Specializes in Criminal law with 1 years of experience. Fluent in English, Hindi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454d0"
+  },
+  "id": 72,
+  "name": "Advocate J62",
+  "city": "Mumbai",
+  "court": "High Court",
+  "rating": 3.5,
+  "experience": 2,
+  "specialization": "Civil",
+  "photo": "",
+  "languages": [
+    "English",
+    "Marathi"
+  ],
+  "barId": "BAR10061",
+  "email": "advocate72@example.com",
+  "whatsapp": "+919800010061",
+  "verified": false,
+  "practiceAreas": [
+    "Mergers",
+    "Tax",
+    "Consumer",
+    "Labour",
+    "Employment"
+  ],
+  "bio": "Advocate J62 is an experienced lawyer practicing in Mumbai. Specializes in Civil law with 2 years of experience. Fluent in English, Marathi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454d1"
+  },
+  "id": 73,
+  "name": "Advocate K63",
+  "city": "Bangalore",
+  "court": "District Court",
+  "rating": 3.6,
+  "experience": 3,
+  "specialization": "Family",
+  "photo": "",
+  "languages": [
+    "English",
+    "Kannada"
+  ],
+  "barId": "BAR10062",
+  "email": "advocate73@example.com",
+  "whatsapp": "+919800010062",
+  "verified": true,
+  "practiceAreas": [
+    "Tax",
+    "Consumer",
+    "Labour",
+    "Employment",
+    "Intellectual Property"
+  ],
+  "bio": "Advocate K63 is an experienced lawyer practicing in Bangalore. Specializes in Family law with 3 years of experience. Fluent in English, Kannada.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454d2"
+  },
+  "id": 74,
+  "name": "Advocate L64",
+  "city": "Chennai",
+  "court": "Family Court",
+  "rating": 3.7,
+  "experience": 4,
+  "specialization": "Corporate",
+  "photo": "",
+  "languages": [
+    "English",
+    "Tamil"
+  ],
+  "barId": "BAR10063",
+  "email": "advocate74@example.com",
+  "whatsapp": "+919800010063",
+  "verified": false,
+  "practiceAreas": [
+    "Consumer",
+    "Labour",
+    "Employment",
+    "Intellectual Property",
+    "Environment"
+  ],
+  "bio": "Advocate L64 is an experienced lawyer practicing in Chennai. Specializes in Corporate law with 4 years of experience. Fluent in English, Tamil.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454d3"
+  },
+  "id": 75,
+  "name": "Advocate M65",
+  "city": "Kolkata",
+  "court": "Consumer Court",
+  "rating": 3.8,
+  "experience": 5,
+  "specialization": "Tax",
+  "photo": "",
+  "languages": [
+    "English",
+    "Bengali"
+  ],
+  "barId": "BAR10064",
+  "email": "advocate75@example.com",
+  "whatsapp": "+919800010064",
+  "verified": true,
+  "practiceAreas": [
+    "Labour",
+    "Employment",
+    "Intellectual Property",
+    "Environment",
+    "Banking"
+  ],
+  "bio": "Advocate M65 is an experienced lawyer practicing in Kolkata. Specializes in Tax law with 5 years of experience. Fluent in English, Bengali.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454d4"
+  },
+  "id": 76,
+  "name": "Advocate N66",
+  "city": "Hyderabad",
+  "court": "Labour Court",
+  "rating": 3.9,
+  "experience": 6,
+  "specialization": "Labour",
+  "photo": "",
+  "languages": [
+    "English",
+    "Gujarati"
+  ],
+  "barId": "BAR10065",
+  "email": "advocate76@example.com",
+  "whatsapp": "+919800010065",
+  "verified": false,
+  "practiceAreas": [
+    "Employment",
+    "Intellectual Property",
+    "Environment",
+    "Banking",
+    "Insurance"
+  ],
+  "bio": "Advocate N66 is an experienced lawyer practicing in Hyderabad. Specializes in Labour law with 6 years of experience. Fluent in English, Gujarati.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454d5"
+  },
+  "id": 77,
+  "name": "Advocate O67",
+  "city": "Pune",
+  "court": "Tribunal",
+  "rating": 4,
+  "experience": 7,
+  "specialization": "Intellectual Property",
+  "photo": "",
+  "languages": [
+    "English",
+    "Punjabi"
+  ],
+  "barId": "BAR10066",
+  "email": "advocate77@example.com",
+  "whatsapp": "+919800010066",
+  "verified": true,
+  "practiceAreas": [
+    "Intellectual Property",
+    "Environment",
+    "Banking",
+    "Insurance",
+    "Cyber Law"
+  ],
+  "bio": "Advocate O67 is an experienced lawyer practicing in Pune. Specializes in Intellectual Property law with 7 years of experience. Fluent in English, Punjabi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454d6"
+  },
+  "id": 78,
+  "name": "Advocate P68",
+  "city": "Ahmedabad",
+  "court": "Session Court",
+  "rating": 4.1,
+  "experience": 8,
+  "specialization": "Environment",
+  "photo": "",
+  "languages": [
+    "English",
+    "Malayalam"
+  ],
+  "barId": "BAR10067",
+  "email": "advocate78@example.com",
+  "whatsapp": "+919800010067",
+  "verified": false,
+  "practiceAreas": [
+    "Environment",
+    "Banking",
+    "Insurance",
+    "Cyber Law",
+    "Human Rights"
+  ],
+  "bio": "Advocate P68 is an experienced lawyer practicing in Ahmedabad. Specializes in Environment law with 8 years of experience. Fluent in English, Malayalam.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454d7"
+  },
+  "id": 79,
+  "name": "Advocate Q69",
+  "city": "Lucknow",
+  "court": "Juvenile Court",
+  "rating": 4.2,
+  "experience": 9,
+  "specialization": "Commercial",
+  "photo": "",
+  "languages": [
+    "English",
+    "Telugu"
+  ],
+  "barId": "BAR10068",
+  "email": "advocate79@example.com",
+  "whatsapp": "+919800010068",
+  "verified": true,
+  "practiceAreas": [
+    "Banking",
+    "Insurance",
+    "Cyber Law",
+    "Human Rights",
+    "Arbitration"
+  ],
+  "bio": "Advocate Q69 is an experienced lawyer practicing in Lucknow. Specializes in Commercial law with 9 years of experience. Fluent in English, Telugu.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454d8"
+  },
+  "id": 80,
+  "name": "Advocate R70",
+  "city": "Jaipur",
+  "court": "Civil Court",
+  "rating": 4.3,
+  "experience": 10,
+  "specialization": "Human Rights",
+  "photo": "",
+  "languages": [
+    "English",
+    "Odia"
+  ],
+  "barId": "BAR10069",
+  "email": "advocate80@example.com",
+  "whatsapp": "+919800010069",
+  "verified": false,
+  "practiceAreas": [
+    "Insurance",
+    "Cyber Law",
+    "Human Rights",
+    "Arbitration",
+    "Company Law"
+  ],
+  "bio": "Advocate R70 is an experienced lawyer practicing in Jaipur. Specializes in Human Rights law with 10 years of experience. Fluent in English, Odia.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454d9"
+  },
+  "id": 81,
+  "name": "Advocate S71",
+  "city": "Chandigarh",
+  "court": "Criminal Court",
+  "rating": 4.4,
+  "experience": 11,
+  "specialization": "Cyber Law",
+  "photo": "",
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "barId": "BAR10070",
+  "email": "advocate81@example.com",
+  "whatsapp": "+919800010070",
+  "verified": true,
+  "practiceAreas": [
+    "Cyber Law",
+    "Human Rights",
+    "Arbitration",
+    "Company Law",
+    "Customs"
+  ],
+  "bio": "Advocate S71 is an experienced lawyer practicing in Chandigarh. Specializes in Cyber Law law with 11 years of experience. Fluent in English, Hindi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454da"
+  },
+  "id": 82,
+  "name": "Advocate T72",
+  "city": "Patna",
+  "court": "Tax Court",
+  "rating": 4.5,
+  "experience": 12,
+  "specialization": "Company Law",
+  "photo": "",
+  "languages": [
+    "English",
+    "Marathi"
+  ],
+  "barId": "BAR10071",
+  "email": "advocate82@example.com",
+  "whatsapp": "+919800010071",
+  "verified": false,
+  "practiceAreas": [
+    "Human Rights",
+    "Arbitration",
+    "Company Law",
+    "Customs",
+    "Railway"
+  ],
+  "bio": "Advocate T72 is an experienced lawyer practicing in Patna. Specializes in Company Law law with 12 years of experience. Fluent in English, Marathi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454db"
+  },
+  "id": 83,
+  "name": "Advocate U73",
+  "city": "Bhopal",
+  "court": "Commercial Court",
+  "rating": 4.6,
+  "experience": 13,
+  "specialization": "Banking",
+  "photo": "",
+  "languages": [
+    "English",
+    "Kannada"
+  ],
+  "barId": "BAR10072",
+  "email": "advocate83@example.com",
+  "whatsapp": "+919800010072",
+  "verified": true,
+  "practiceAreas": [
+    "Arbitration",
+    "Company Law",
+    "Customs",
+    "Railway",
+    "Motor Accident"
+  ],
+  "bio": "Advocate U73 is an experienced lawyer practicing in Bhopal. Specializes in Banking law with 13 years of experience. Fluent in English, Kannada.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454dc"
+  },
+  "id": 84,
+  "name": "Advocate V74",
+  "city": "Indore",
+  "court": "Small Causes Court",
+  "rating": 4.7,
+  "experience": 14,
+  "specialization": "Insurance",
+  "photo": "",
+  "languages": [
+    "English",
+    "Tamil"
+  ],
+  "barId": "BAR10073",
+  "email": "advocate84@example.com",
+  "whatsapp": "+919800010073",
+  "verified": false,
+  "practiceAreas": [
+    "Company Law",
+    "Customs",
+    "Railway",
+    "Motor Accident",
+    "Debt Recovery"
+  ],
+  "bio": "Advocate V74 is an experienced lawyer practicing in Indore. Specializes in Insurance law with 14 years of experience. Fluent in English, Tamil.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454dd"
+  },
+  "id": 85,
+  "name": "Advocate W75",
+  "city": "Nagpur",
+  "court": "Motor Accident Claims Tribunal",
+  "rating": 4.8,
+  "experience": 15,
+  "specialization": "Arbitration",
+  "photo": "",
+  "languages": [
+    "English",
+    "Bengali"
+  ],
+  "barId": "BAR10074",
+  "email": "advocate85@example.com",
+  "whatsapp": "+919800010074",
+  "verified": true,
+  "practiceAreas": [
+    "Customs",
+    "Railway",
+    "Motor Accident",
+    "Debt Recovery",
+    "Commercial"
+  ],
+  "bio": "Advocate W75 is an experienced lawyer practicing in Nagpur. Specializes in Arbitration law with 15 years of experience. Fluent in English, Bengali.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454de"
+  },
+  "id": 86,
+  "name": "Advocate X76",
+  "city": "Kanpur",
+  "court": "Debt Recovery Tribunal",
+  "rating": 3.4,
+  "experience": 16,
+  "specialization": "Property",
+  "photo": "",
+  "languages": [
+    "English",
+    "Gujarati"
+  ],
+  "barId": "BAR10075",
+  "email": "advocate86@example.com",
+  "whatsapp": "+919800010075",
+  "verified": false,
+  "practiceAreas": [
+    "Bail",
+    "Criminal",
+    "Appeals",
+    "Civil",
+    "Property"
+  ],
+  "bio": "Advocate X76 is an experienced lawyer practicing in Kanpur. Specializes in Property law with 16 years of experience. Fluent in English, Gujarati.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454df"
+  },
+  "id": 87,
+  "name": "Advocate Y77",
+  "city": "Surat",
+  "court": "Arbitration Court",
+  "rating": 3.5,
+  "experience": 17,
+  "specialization": "Consumer",
+  "photo": "",
+  "languages": [
+    "English",
+    "Punjabi"
+  ],
+  "barId": "BAR10076",
+  "email": "advocate87@example.com",
+  "whatsapp": "+919800010076",
+  "verified": true,
+  "practiceAreas": [
+    "Criminal",
+    "Appeals",
+    "Civil",
+    "Property",
+    "Contracts"
+  ],
+  "bio": "Advocate Y77 is an experienced lawyer practicing in Surat. Specializes in Consumer law with 17 years of experience. Fluent in English, Punjabi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454e0"
+  },
+  "id": 88,
+  "name": "Advocate Z78",
+  "city": "Ranchi",
+  "court": "Environmental Court",
+  "rating": 3.6,
+  "experience": 18,
+  "specialization": "Administrative",
+  "photo": "",
+  "languages": [
+    "English",
+    "Malayalam"
+  ],
+  "barId": "BAR10077",
+  "email": "advocate88@example.com",
+  "whatsapp": "+919800010077",
+  "verified": false,
+  "practiceAreas": [
+    "Appeals",
+    "Civil",
+    "Property",
+    "Contracts",
+    "Family"
+  ],
+  "bio": "Advocate Z78 is an experienced lawyer practicing in Ranchi. Specializes in Administrative law with 18 years of experience. Fluent in English, Malayalam.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454e1"
+  },
+  "id": 89,
+  "name": "Advocate A79",
+  "city": "Guwahati",
+  "court": "Company Law Tribunal",
+  "rating": 3.7,
+  "experience": 19,
+  "specialization": "Anti-Corruption",
+  "photo": "",
+  "languages": [
+    "English",
+    "Telugu"
+  ],
+  "barId": "BAR10078",
+  "email": "advocate89@example.com",
+  "whatsapp": "+919800010078",
+  "verified": true,
+  "practiceAreas": [
+    "Civil",
+    "Property",
+    "Contracts",
+    "Family",
+    "Divorce"
+  ],
+  "bio": "Advocate A79 is an experienced lawyer practicing in Guwahati. Specializes in Anti-Corruption law with 19 years of experience. Fluent in English, Telugu.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454e2"
+  },
+  "id": 90,
+  "name": "Advocate B80",
+  "city": "Thiruvananthapuram",
+  "court": "Intellectual Property Court",
+  "rating": 3.8,
+  "experience": 20,
+  "specialization": "Railway",
+  "photo": "",
+  "languages": [
+    "English",
+    "Odia"
+  ],
+  "barId": "BAR10079",
+  "email": "advocate90@example.com",
+  "whatsapp": "+919800010079",
+  "verified": false,
+  "practiceAreas": [
+    "Property",
+    "Contracts",
+    "Family",
+    "Divorce",
+    "Child Custody"
+  ],
+  "bio": "Advocate B80 is an experienced lawyer practicing in Thiruvananthapuram. Specializes in Railway law with 20 years of experience. Fluent in English, Odia.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454e3"
+  },
+  "id": 91,
+  "name": "Advocate C81",
+  "city": "Delhi",
+  "court": "Administrative Tribunal",
+  "rating": 3.9,
+  "experience": 21,
+  "specialization": "Criminal",
+  "photo": "",
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "barId": "BAR10080",
+  "email": "advocate91@example.com",
+  "whatsapp": "+919800010080",
+  "verified": true,
+  "practiceAreas": [
+    "Contracts",
+    "Family",
+    "Divorce",
+    "Child Custody",
+    "White Collar Crime"
+  ],
+  "bio": "Advocate C81 is an experienced lawyer practicing in Delhi. Specializes in Criminal law with 21 years of experience. Fluent in English, Hindi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454e4"
+  },
+  "id": 92,
+  "name": "Advocate D82",
+  "city": "Mumbai",
+  "court": "Special CBI Court",
+  "rating": 4,
+  "experience": 22,
+  "specialization": "Civil",
+  "photo": "",
+  "languages": [
+    "English",
+    "Marathi"
+  ],
+  "barId": "BAR10081",
+  "email": "advocate92@example.com",
+  "whatsapp": "+919800010081",
+  "verified": false,
+  "practiceAreas": [
+    "Family",
+    "Divorce",
+    "Child Custody",
+    "White Collar Crime",
+    "Corporate"
+  ],
+  "bio": "Advocate D82 is an experienced lawyer practicing in Mumbai. Specializes in Civil law with 22 years of experience. Fluent in English, Marathi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454e5"
+  },
+  "id": 93,
+  "name": "Advocate E83",
+  "city": "Bangalore",
+  "court": "Anti-Corruption Court",
+  "rating": 4.1,
+  "experience": 23,
+  "specialization": "Family",
+  "photo": "",
+  "languages": [
+    "English",
+    "Kannada"
+  ],
+  "barId": "BAR10082",
+  "email": "advocate93@example.com",
+  "whatsapp": "+919800010082",
+  "verified": true,
+  "practiceAreas": [
+    "Divorce",
+    "Child Custody",
+    "White Collar Crime",
+    "Corporate",
+    "Mergers"
+  ],
+  "bio": "Advocate E83 is an experienced lawyer practicing in Bangalore. Specializes in Family law with 23 years of experience. Fluent in English, Kannada.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454e6"
+  },
+  "id": 94,
+  "name": "Advocate F84",
+  "city": "Chennai",
+  "court": "Lok Adalat",
+  "rating": 4.2,
+  "experience": 24,
+  "specialization": "Corporate",
+  "photo": "",
+  "languages": [
+    "English",
+    "Tamil"
+  ],
+  "barId": "BAR10083",
+  "email": "advocate94@example.com",
+  "whatsapp": "+919800010083",
+  "verified": false,
+  "practiceAreas": [
+    "Child Custody",
+    "White Collar Crime",
+    "Corporate",
+    "Mergers",
+    "Tax"
+  ],
+  "bio": "Advocate F84 is an experienced lawyer practicing in Chennai. Specializes in Corporate law with 24 years of experience. Fluent in English, Tamil.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454e7"
+  },
+  "id": 95,
+  "name": "Advocate G85",
+  "city": "Kolkata",
+  "court": "Fast Track Court",
+  "rating": 4.3,
+  "experience": 25,
+  "specialization": "Tax",
+  "photo": "",
+  "languages": [
+    "English",
+    "Bengali"
+  ],
+  "barId": "BAR10084",
+  "email": "advocate95@example.com",
+  "whatsapp": "+919800010084",
+  "verified": true,
+  "practiceAreas": [
+    "White Collar Crime",
+    "Corporate",
+    "Mergers",
+    "Tax",
+    "Consumer"
+  ],
+  "bio": "Advocate G85 is an experienced lawyer practicing in Kolkata. Specializes in Tax law with 25 years of experience. Fluent in English, Bengali.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454e8"
+  },
+  "id": 96,
+  "name": "Advocate H86",
+  "city": "Hyderabad",
+  "court": "Cyber Court",
+  "rating": 4.4,
+  "experience": 26,
+  "specialization": "Labour",
+  "photo": "",
+  "languages": [
+    "English",
+    "Gujarati"
+  ],
+  "barId": "BAR10085",
+  "email": "advocate96@example.com",
+  "whatsapp": "+919800010085",
+  "verified": false,
+  "practiceAreas": [
+    "Corporate",
+    "Mergers",
+    "Tax",
+    "Consumer",
+    "Labour"
+  ],
+  "bio": "Advocate H86 is an experienced lawyer practicing in Hyderabad. Specializes in Labour law with 26 years of experience. Fluent in English, Gujarati.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454e9"
+  },
+  "id": 97,
+  "name": "Advocate I87",
+  "city": "Pune",
+  "court": "Human Rights Court",
+  "rating": 4.5,
+  "experience": 27,
+  "specialization": "Intellectual Property",
+  "photo": "",
+  "languages": [
+    "English",
+    "Punjabi"
+  ],
+  "barId": "BAR10086",
+  "email": "advocate97@example.com",
+  "whatsapp": "+919800010086",
+  "verified": true,
+  "practiceAreas": [
+    "Mergers",
+    "Tax",
+    "Consumer",
+    "Labour",
+    "Employment"
+  ],
+  "bio": "Advocate I87 is an experienced lawyer practicing in Pune. Specializes in Intellectual Property law with 27 years of experience. Fluent in English, Punjabi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454ea"
+  },
+  "id": 98,
+  "name": "Advocate J88",
+  "city": "Ahmedabad",
+  "court": "Customs Court",
+  "rating": 4.6,
+  "experience": 28,
+  "specialization": "Environment",
+  "photo": "",
+  "languages": [
+    "English",
+    "Malayalam"
+  ],
+  "barId": "BAR10087",
+  "email": "advocate98@example.com",
+  "whatsapp": "+919800010087",
+  "verified": false,
+  "practiceAreas": [
+    "Tax",
+    "Consumer",
+    "Labour",
+    "Employment",
+    "Intellectual Property"
+  ],
+  "bio": "Advocate J88 is an experienced lawyer practicing in Ahmedabad. Specializes in Environment law with 28 years of experience. Fluent in English, Malayalam.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454eb"
+  },
+  "id": 99,
+  "name": "Advocate K89",
+  "city": "Lucknow",
+  "court": "Railway Claims Tribunal",
+  "rating": 4.7,
+  "experience": 29,
+  "specialization": "Commercial",
+  "photo": "",
+  "languages": [
+    "English",
+    "Telugu"
+  ],
+  "barId": "BAR10088",
+  "email": "advocate99@example.com",
+  "whatsapp": "+919800010088",
+  "verified": true,
+  "practiceAreas": [
+    "Consumer",
+    "Labour",
+    "Employment",
+    "Intellectual Property",
+    "Environment"
+  ],
+  "bio": "Advocate K89 is an experienced lawyer practicing in Lucknow. Specializes in Commercial law with 29 years of experience. Fluent in English, Telugu.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a542e0e119d1a7d454ec"
+  },
+  "id": 100,
+  "name": "Advocate L90",
+  "city": "Jaipur",
+  "court": "Armed Forces Tribunal",
+  "rating": 4.8,
+  "experience": 30,
+  "specialization": "Human Rights",
+  "photo": "",
+  "languages": [
+    "English",
+    "Odia"
+  ],
+  "barId": "BAR10089",
+  "email": "advocate100@example.com",
+  "whatsapp": "+919800010089",
+  "verified": false,
+  "practiceAreas": [
+    "Labour",
+    "Employment",
+    "Intellectual Property",
+    "Environment",
+    "Banking"
+  ],
+  "bio": "Advocate L90 is an experienced lawyer practicing in Jaipur. Specializes in Human Rights law with 30 years of experience. Fluent in English, Odia.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8c1"
+  },
+  "id": 1,
+  "name": "Amit Sharma",
+  "city": "Delhi",
+  "court": "Supreme Court",
+  "rating": 4.8,
+  "experience": 12,
+  "specialization": "Criminal",
+  "photo": "",
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "barId": "DL123456",
+  "email": "amit.sharma@example.com",
+  "whatsapp": "+919876543210",
+  "verified": true,
+  "practiceAreas": [
+    "Bail",
+    "Criminal",
+    "Appeals",
+    "White Collar Crime",
+    "Anti-Corruption",
+    "Cyber Law"
+  ],
+  "bio": "Amit Sharma is a highly experienced criminal lawyer practicing in the Supreme Court of India. With over a decade of experience, Amit has successfully handled numerous high-profile bail and criminal cases. He is known for his analytical skills, dedication to justice, and client-focused approach. Fluent in English and Hindi, Amit is committed to providing the best legal representation for his clients.\n\nAmit's journey in law began with a passion for justice and a desire to make a difference in society. Over the years, he has built a reputation for his meticulous preparation, persuasive arguments, and unwavering commitment to his clients. Amit has represented clients in a wide range of criminal matters, including white collar crimes, anti-corruption cases, and cyber law offenses. His expertise extends to handling complex bail applications, appeals, and criminal trials.\n\nIn addition to his courtroom skills, Amit is known for his empathetic approach and ability to connect with clients from diverse backgrounds. He believes in transparent communication and ensures that his clients are well-informed at every stage of the legal process. Amit regularly participates in legal seminars and workshops, staying updated with the latest developments in criminal law. He is also involved in pro bono work, providing legal aid to underprivileged individuals.\n\nAmit's dedication to his profession is reflected in the positive outcomes he has achieved for his clients. His peers and clients alike commend him for his integrity, professionalism, and results-driven approach. Whether handling a high-stakes criminal trial or advising on preventive legal strategies, Amit Sharma is a trusted advocate who stands by his clients with unwavering support and expertise.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8c2"
+  },
+  "id": 2,
+  "name": "Priya Verma",
+  "city": "Mumbai",
+  "court": "High Court",
+  "rating": 2.5,
+  "experience": 8,
+  "specialization": "Civil",
+  "photo": "",
+  "languages": [
+    "English",
+    "Marathi",
+    "Hindi"
+  ],
+  "barId": "MH654321",
+  "email": "priya.verma@example.com",
+  "whatsapp": "+919812345678",
+  "verified": false,
+  "practiceAreas": [
+    "Civil",
+    "Property",
+    "Contracts",
+    "Consumer",
+    "Commercial",
+    "Banking",
+    "Insurance"
+  ],
+  "bio": "Priya Verma is a dedicated civil lawyer with a strong background in property and contract law. Practicing in the Mumbai High Court, Priya is known for her meticulous preparation and persuasive arguments. She is passionate about helping clients resolve complex civil disputes and is fluent in English, Marathi, and Hindi.\n\nPriya's legal career began with a focus on property disputes, where she quickly established herself as a reliable and knowledgeable advocate. Her expertise has since expanded to include contract law, consumer protection, and commercial litigation. Priya's clients appreciate her attention to detail, strategic thinking, and ability to simplify complex legal issues.\n\nIn addition to her litigation practice, Priya is actively involved in alternative dispute resolution, including arbitration and mediation. She believes in finding practical solutions that save time and resources for her clients. Priya regularly conducts legal awareness workshops and writes articles on civil law topics, contributing to the legal community's knowledge base.\n\nHer commitment to client service is evident in the long-term relationships she builds with her clients. Priya is approachable, responsive, and dedicated to achieving the best possible outcomes. Whether representing individuals or businesses, Priya Verma is a trusted advisor who combines legal expertise with a genuine concern for her clients' interests.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8c3"
+  },
+  "id": 999,
+  "name": "Ravi Kumar",
+  "city": "Agra",
+  "court": "District Court",
+  "rating": 2.8,
+  "experience": 3,
+  "specialization": "Civil",
+  "photo": "",
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "barId": "AG123456",
+  "email": "ravi.kumar@example.com",
+  "whatsapp": "+919812345999",
+  "verified": false,
+  "practiceAreas": [
+    "Civil",
+    "Property",
+    "Contracts"
+  ],
+  "bio": "Ravi Kumar is a civil law advocate in Agra, focusing on property and contract disputes. He is known for his thorough preparation and effective advocacy. Ravi is fluent in English and Hindi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8c4"
+  },
+  "id": 11,
+  "name": "Advocate A1",
+  "city": "Delhi",
+  "court": "Supreme Court",
+  "rating": 3.4,
+  "experience": 1,
+  "specialization": "Criminal",
+  "photo": "",
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "barId": "BAR10000",
+  "email": "advocate11@example.com",
+  "whatsapp": "+919800010000",
+  "verified": true,
+  "practiceAreas": [
+    "Bail",
+    "Criminal",
+    "Appeals",
+    "Civil",
+    "Property"
+  ],
+  "bio": "Advocate A1 is an experienced lawyer practicing in Delhi. Specializes in Criminal law with 1 years of experience. Fluent in English, Hindi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8c5"
+  },
+  "id": 12,
+  "name": "Advocate B2",
+  "city": "Mumbai",
+  "court": "High Court",
+  "rating": 3.5,
+  "experience": 2,
+  "specialization": "Civil",
+  "photo": "",
+  "languages": [
+    "English",
+    "Marathi"
+  ],
+  "barId": "BAR10001",
+  "email": "advocate12@example.com",
+  "whatsapp": "+919800010001",
+  "verified": false,
+  "practiceAreas": [
+    "Criminal",
+    "Appeals",
+    "Civil",
+    "Property",
+    "Contracts"
+  ],
+  "bio": "Advocate B2 is an experienced lawyer practicing in Mumbai. Specializes in Civil law with 2 years of experience. Fluent in English, Marathi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8c6"
+  },
+  "id": 13,
+  "name": "Advocate C3",
+  "city": "Bangalore",
+  "court": "District Court",
+  "rating": 3.6,
+  "experience": 3,
+  "specialization": "Family",
+  "photo": "",
+  "languages": [
+    "English",
+    "Kannada"
+  ],
+  "barId": "BAR10002",
+  "email": "advocate13@example.com",
+  "whatsapp": "+919800010002",
+  "verified": true,
+  "practiceAreas": [
+    "Appeals",
+    "Civil",
+    "Property",
+    "Contracts",
+    "Family"
+  ],
+  "bio": "Advocate C3 is an experienced lawyer practicing in Bangalore. Specializes in Family law with 3 years of experience. Fluent in English, Kannada.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8c7"
+  },
+  "id": 14,
+  "name": "Advocate D4",
+  "city": "Chennai",
+  "court": "Family Court",
+  "rating": 3.7,
+  "experience": 4,
+  "specialization": "Corporate",
+  "photo": "",
+  "languages": [
+    "English",
+    "Tamil"
+  ],
+  "barId": "BAR10003",
+  "email": "advocate14@example.com",
+  "whatsapp": "+919800010003",
+  "verified": false,
+  "practiceAreas": [
+    "Civil",
+    "Property",
+    "Contracts",
+    "Family",
+    "Divorce"
+  ],
+  "bio": "Advocate D4 is an experienced lawyer practicing in Chennai. Specializes in Corporate law with 4 years of experience. Fluent in English, Tamil.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8c8"
+  },
+  "id": 15,
+  "name": "Advocate E5",
+  "city": "Kolkata",
+  "court": "Consumer Court",
+  "rating": 3.8,
+  "experience": 5,
+  "specialization": "Tax",
+  "photo": "",
+  "languages": [
+    "English",
+    "Bengali"
+  ],
+  "barId": "BAR10004",
+  "email": "advocate15@example.com",
+  "whatsapp": "+919800010004",
+  "verified": true,
+  "practiceAreas": [
+    "Property",
+    "Contracts",
+    "Family",
+    "Divorce",
+    "Child Custody"
+  ],
+  "bio": "Advocate E5 is an experienced lawyer practicing in Kolkata. Specializes in Tax law with 5 years of experience. Fluent in English, Bengali.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8c9"
+  },
+  "id": 16,
+  "name": "Advocate F6",
+  "city": "Hyderabad",
+  "court": "Labour Court",
+  "rating": 3.9,
+  "experience": 6,
+  "specialization": "Labour",
+  "photo": "",
+  "languages": [
+    "English",
+    "Gujarati"
+  ],
+  "barId": "BAR10005",
+  "email": "advocate16@example.com",
+  "whatsapp": "+919800010005",
+  "verified": false,
+  "practiceAreas": [
+    "Contracts",
+    "Family",
+    "Divorce",
+    "Child Custody",
+    "White Collar Crime"
+  ],
+  "bio": "Advocate F6 is an experienced lawyer practicing in Hyderabad. Specializes in Labour law with 6 years of experience. Fluent in English, Gujarati.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8ca"
+  },
+  "id": 17,
+  "name": "Advocate G7",
+  "city": "Pune",
+  "court": "Tribunal",
+  "rating": 4,
+  "experience": 7,
+  "specialization": "Intellectual Property",
+  "photo": "",
+  "languages": [
+    "English",
+    "Punjabi"
+  ],
+  "barId": "BAR10006",
+  "email": "advocate17@example.com",
+  "whatsapp": "+919800010006",
+  "verified": true,
+  "practiceAreas": [
+    "Family",
+    "Divorce",
+    "Child Custody",
+    "White Collar Crime",
+    "Corporate"
+  ],
+  "bio": "Advocate G7 is an experienced lawyer practicing in Pune. Specializes in Intellectual Property law with 7 years of experience. Fluent in English, Punjabi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8cb"
+  },
+  "id": 18,
+  "name": "Advocate H8",
+  "city": "Ahmedabad",
+  "court": "Session Court",
+  "rating": 4.1,
+  "experience": 8,
+  "specialization": "Environment",
+  "photo": "",
+  "languages": [
+    "English",
+    "Malayalam"
+  ],
+  "barId": "BAR10007",
+  "email": "advocate18@example.com",
+  "whatsapp": "+919800010007",
+  "verified": false,
+  "practiceAreas": [
+    "Divorce",
+    "Child Custody",
+    "White Collar Crime",
+    "Corporate",
+    "Mergers"
+  ],
+  "bio": "Advocate H8 is an experienced lawyer practicing in Ahmedabad. Specializes in Environment law with 8 years of experience. Fluent in English, Malayalam.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8cc"
+  },
+  "id": 19,
+  "name": "Advocate I9",
+  "city": "Lucknow",
+  "court": "Juvenile Court",
+  "rating": 4.2,
+  "experience": 9,
+  "specialization": "Commercial",
+  "photo": "",
+  "languages": [
+    "English",
+    "Telugu"
+  ],
+  "barId": "BAR10008",
+  "email": "advocate19@example.com",
+  "whatsapp": "+919800010008",
+  "verified": true,
+  "practiceAreas": [
+    "Child Custody",
+    "White Collar Crime",
+    "Corporate",
+    "Mergers",
+    "Tax"
+  ],
+  "bio": "Advocate I9 is an experienced lawyer practicing in Lucknow. Specializes in Commercial law with 9 years of experience. Fluent in English, Telugu.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8cd"
+  },
+  "id": 20,
+  "name": "Advocate J10",
+  "city": "Jaipur",
+  "court": "Civil Court",
+  "rating": 4.3,
+  "experience": 10,
+  "specialization": "Human Rights",
+  "photo": "",
+  "languages": [
+    "English",
+    "Odia"
+  ],
+  "barId": "BAR10009",
+  "email": "advocate20@example.com",
+  "whatsapp": "+919800010009",
+  "verified": false,
+  "practiceAreas": [
+    "White Collar Crime",
+    "Corporate",
+    "Mergers",
+    "Tax",
+    "Consumer"
+  ],
+  "bio": "Advocate J10 is an experienced lawyer practicing in Jaipur. Specializes in Human Rights law with 10 years of experience. Fluent in English, Odia.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8ce"
+  },
+  "id": 21,
+  "name": "Advocate K11",
+  "city": "Chandigarh",
+  "court": "Criminal Court",
+  "rating": 4.4,
+  "experience": 11,
+  "specialization": "Cyber Law",
+  "photo": "",
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "barId": "BAR10010",
+  "email": "advocate21@example.com",
+  "whatsapp": "+919800010010",
+  "verified": true,
+  "practiceAreas": [
+    "Corporate",
+    "Mergers",
+    "Tax",
+    "Consumer",
+    "Labour"
+  ],
+  "bio": "Advocate K11 is an experienced lawyer practicing in Chandigarh. Specializes in Cyber Law law with 11 years of experience. Fluent in English, Hindi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8cf"
+  },
+  "id": 22,
+  "name": "Advocate L12",
+  "city": "Patna",
+  "court": "Tax Court",
+  "rating": 4.5,
+  "experience": 12,
+  "specialization": "Company Law",
+  "photo": "",
+  "languages": [
+    "English",
+    "Marathi"
+  ],
+  "barId": "BAR10011",
+  "email": "advocate22@example.com",
+  "whatsapp": "+919800010011",
+  "verified": false,
+  "practiceAreas": [
+    "Mergers",
+    "Tax",
+    "Consumer",
+    "Labour",
+    "Employment"
+  ],
+  "bio": "Advocate L12 is an experienced lawyer practicing in Patna. Specializes in Company Law law with 12 years of experience. Fluent in English, Marathi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8d0"
+  },
+  "id": 23,
+  "name": "Advocate M13",
+  "city": "Bhopal",
+  "court": "Commercial Court",
+  "rating": 4.6,
+  "experience": 13,
+  "specialization": "Banking",
+  "photo": "",
+  "languages": [
+    "English",
+    "Kannada"
+  ],
+  "barId": "BAR10012",
+  "email": "advocate23@example.com",
+  "whatsapp": "+919800010012",
+  "verified": true,
+  "practiceAreas": [
+    "Tax",
+    "Consumer",
+    "Labour",
+    "Employment",
+    "Intellectual Property"
+  ],
+  "bio": "Advocate M13 is an experienced lawyer practicing in Bhopal. Specializes in Banking law with 13 years of experience. Fluent in English, Kannada.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8d1"
+  },
+  "id": 24,
+  "name": "Advocate N14",
+  "city": "Indore",
+  "court": "Small Causes Court",
+  "rating": 4.7,
+  "experience": 14,
+  "specialization": "Insurance",
+  "photo": "",
+  "languages": [
+    "English",
+    "Tamil"
+  ],
+  "barId": "BAR10013",
+  "email": "advocate24@example.com",
+  "whatsapp": "+919800010013",
+  "verified": false,
+  "practiceAreas": [
+    "Consumer",
+    "Labour",
+    "Employment",
+    "Intellectual Property",
+    "Environment"
+  ],
+  "bio": "Advocate N14 is an experienced lawyer practicing in Indore. Specializes in Insurance law with 14 years of experience. Fluent in English, Tamil.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8d2"
+  },
+  "id": 25,
+  "name": "Advocate O15",
+  "city": "Nagpur",
+  "court": "Motor Accident Claims Tribunal",
+  "rating": 4.8,
+  "experience": 15,
+  "specialization": "Arbitration",
+  "photo": "",
+  "languages": [
+    "English",
+    "Bengali"
+  ],
+  "barId": "BAR10014",
+  "email": "advocate25@example.com",
+  "whatsapp": "+919800010014",
+  "verified": true,
+  "practiceAreas": [
+    "Labour",
+    "Employment",
+    "Intellectual Property",
+    "Environment",
+    "Banking"
+  ],
+  "bio": "Advocate O15 is an experienced lawyer practicing in Nagpur. Specializes in Arbitration law with 15 years of experience. Fluent in English, Bengali.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8d3"
+  },
+  "id": 26,
+  "name": "Advocate P16",
+  "city": "Kanpur",
+  "court": "Debt Recovery Tribunal",
+  "rating": 3.4,
+  "experience": 16,
+  "specialization": "Property",
+  "photo": "",
+  "languages": [
+    "English",
+    "Gujarati"
+  ],
+  "barId": "BAR10015",
+  "email": "advocate26@example.com",
+  "whatsapp": "+919800010015",
+  "verified": false,
+  "practiceAreas": [
+    "Employment",
+    "Intellectual Property",
+    "Environment",
+    "Banking",
+    "Insurance"
+  ],
+  "bio": "Advocate P16 is an experienced lawyer practicing in Kanpur. Specializes in Property law with 16 years of experience. Fluent in English, Gujarati.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8d4"
+  },
+  "id": 27,
+  "name": "Advocate Q17",
+  "city": "Surat",
+  "court": "Arbitration Court",
+  "rating": 3.5,
+  "experience": 17,
+  "specialization": "Consumer",
+  "photo": "",
+  "languages": [
+    "English",
+    "Punjabi"
+  ],
+  "barId": "BAR10016",
+  "email": "advocate27@example.com",
+  "whatsapp": "+919800010016",
+  "verified": true,
+  "practiceAreas": [
+    "Intellectual Property",
+    "Environment",
+    "Banking",
+    "Insurance",
+    "Cyber Law"
+  ],
+  "bio": "Advocate Q17 is an experienced lawyer practicing in Surat. Specializes in Consumer law with 17 years of experience. Fluent in English, Punjabi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8d5"
+  },
+  "id": 28,
+  "name": "Advocate R18",
+  "city": "Ranchi",
+  "court": "Environmental Court",
+  "rating": 3.6,
+  "experience": 18,
+  "specialization": "Administrative",
+  "photo": "",
+  "languages": [
+    "English",
+    "Malayalam"
+  ],
+  "barId": "BAR10017",
+  "email": "advocate28@example.com",
+  "whatsapp": "+919800010017",
+  "verified": false,
+  "practiceAreas": [
+    "Environment",
+    "Banking",
+    "Insurance",
+    "Cyber Law",
+    "Human Rights"
+  ],
+  "bio": "Advocate R18 is an experienced lawyer practicing in Ranchi. Specializes in Administrative law with 18 years of experience. Fluent in English, Malayalam.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8d6"
+  },
+  "id": 29,
+  "name": "Advocate S19",
+  "city": "Guwahati",
+  "court": "Company Law Tribunal",
+  "rating": 3.7,
+  "experience": 19,
+  "specialization": "Anti-Corruption",
+  "photo": "",
+  "languages": [
+    "English",
+    "Telugu"
+  ],
+  "barId": "BAR10018",
+  "email": "advocate29@example.com",
+  "whatsapp": "+919800010018",
+  "verified": true,
+  "practiceAreas": [
+    "Banking",
+    "Insurance",
+    "Cyber Law",
+    "Human Rights",
+    "Arbitration"
+  ],
+  "bio": "Advocate S19 is an experienced lawyer practicing in Guwahati. Specializes in Anti-Corruption law with 19 years of experience. Fluent in English, Telugu.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8d7"
+  },
+  "id": 30,
+  "name": "Advocate T20",
+  "city": "Thiruvananthapuram",
+  "court": "Intellectual Property Court",
+  "rating": 3.8,
+  "experience": 20,
+  "specialization": "Railway",
+  "photo": "",
+  "languages": [
+    "English",
+    "Odia"
+  ],
+  "barId": "BAR10019",
+  "email": "advocate30@example.com",
+  "whatsapp": "+919800010019",
+  "verified": false,
+  "practiceAreas": [
+    "Insurance",
+    "Cyber Law",
+    "Human Rights",
+    "Arbitration",
+    "Company Law"
+  ],
+  "bio": "Advocate T20 is an experienced lawyer practicing in Thiruvananthapuram. Specializes in Railway law with 20 years of experience. Fluent in English, Odia.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8d8"
+  },
+  "id": 31,
+  "name": "Advocate U21",
+  "city": "Delhi",
+  "court": "Administrative Tribunal",
+  "rating": 3.9,
+  "experience": 21,
+  "specialization": "Criminal",
+  "photo": "",
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "barId": "BAR10020",
+  "email": "advocate31@example.com",
+  "whatsapp": "+919800010020",
+  "verified": true,
+  "practiceAreas": [
+    "Cyber Law",
+    "Human Rights",
+    "Arbitration",
+    "Company Law",
+    "Customs"
+  ],
+  "bio": "Advocate U21 is an experienced lawyer practicing in Delhi. Specializes in Criminal law with 21 years of experience. Fluent in English, Hindi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8d9"
+  },
+  "id": 32,
+  "name": "Advocate V22",
+  "city": "Mumbai",
+  "court": "Special CBI Court",
+  "rating": 4,
+  "experience": 22,
+  "specialization": "Civil",
+  "photo": "",
+  "languages": [
+    "English",
+    "Marathi"
+  ],
+  "barId": "BAR10021",
+  "email": "advocate32@example.com",
+  "whatsapp": "+919800010021",
+  "verified": false,
+  "practiceAreas": [
+    "Human Rights",
+    "Arbitration",
+    "Company Law",
+    "Customs",
+    "Railway"
+  ],
+  "bio": "Advocate V22 is an experienced lawyer practicing in Mumbai. Specializes in Civil law with 22 years of experience. Fluent in English, Marathi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8da"
+  },
+  "id": 33,
+  "name": "Advocate W23",
+  "city": "Bangalore",
+  "court": "Anti-Corruption Court",
+  "rating": 4.1,
+  "experience": 23,
+  "specialization": "Family",
+  "photo": "",
+  "languages": [
+    "English",
+    "Kannada"
+  ],
+  "barId": "BAR10022",
+  "email": "advocate33@example.com",
+  "whatsapp": "+919800010022",
+  "verified": true,
+  "practiceAreas": [
+    "Arbitration",
+    "Company Law",
+    "Customs",
+    "Railway",
+    "Motor Accident"
+  ],
+  "bio": "Advocate W23 is an experienced lawyer practicing in Bangalore. Specializes in Family law with 23 years of experience. Fluent in English, Kannada.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8db"
+  },
+  "id": 34,
+  "name": "Advocate X24",
+  "city": "Chennai",
+  "court": "Lok Adalat",
+  "rating": 4.2,
+  "experience": 24,
+  "specialization": "Corporate",
+  "photo": "",
+  "languages": [
+    "English",
+    "Tamil"
+  ],
+  "barId": "BAR10023",
+  "email": "advocate34@example.com",
+  "whatsapp": "+919800010023",
+  "verified": false,
+  "practiceAreas": [
+    "Company Law",
+    "Customs",
+    "Railway",
+    "Motor Accident",
+    "Debt Recovery"
+  ],
+  "bio": "Advocate X24 is an experienced lawyer practicing in Chennai. Specializes in Corporate law with 24 years of experience. Fluent in English, Tamil.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8dc"
+  },
+  "id": 35,
+  "name": "Advocate Y25",
+  "city": "Kolkata",
+  "court": "Fast Track Court",
+  "rating": 4.3,
+  "experience": 25,
+  "specialization": "Tax",
+  "photo": "",
+  "languages": [
+    "English",
+    "Bengali"
+  ],
+  "barId": "BAR10024",
+  "email": "advocate35@example.com",
+  "whatsapp": "+919800010024",
+  "verified": true,
+  "practiceAreas": [
+    "Customs",
+    "Railway",
+    "Motor Accident",
+    "Debt Recovery",
+    "Commercial"
+  ],
+  "bio": "Advocate Y25 is an experienced lawyer practicing in Kolkata. Specializes in Tax law with 25 years of experience. Fluent in English, Bengali.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8dd"
+  },
+  "id": 36,
+  "name": "Advocate Z26",
+  "city": "Hyderabad",
+  "court": "Cyber Court",
+  "rating": 4.4,
+  "experience": 26,
+  "specialization": "Labour",
+  "photo": "",
+  "languages": [
+    "English",
+    "Gujarati"
+  ],
+  "barId": "BAR10025",
+  "email": "advocate36@example.com",
+  "whatsapp": "+919800010025",
+  "verified": false,
+  "practiceAreas": [
+    "Bail",
+    "Criminal",
+    "Appeals",
+    "Civil",
+    "Property"
+  ],
+  "bio": "Advocate Z26 is an experienced lawyer practicing in Hyderabad. Specializes in Labour law with 26 years of experience. Fluent in English, Gujarati.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8de"
+  },
+  "id": 37,
+  "name": "Advocate A27",
+  "city": "Pune",
+  "court": "Human Rights Court",
+  "rating": 4.5,
+  "experience": 27,
+  "specialization": "Intellectual Property",
+  "photo": "",
+  "languages": [
+    "English",
+    "Punjabi"
+  ],
+  "barId": "BAR10026",
+  "email": "advocate37@example.com",
+  "whatsapp": "+919800010026",
+  "verified": true,
+  "practiceAreas": [
+    "Criminal",
+    "Appeals",
+    "Civil",
+    "Property",
+    "Contracts"
+  ],
+  "bio": "Advocate A27 is an experienced lawyer practicing in Pune. Specializes in Intellectual Property law with 27 years of experience. Fluent in English, Punjabi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8df"
+  },
+  "id": 38,
+  "name": "Advocate B28",
+  "city": "Ahmedabad",
+  "court": "Customs Court",
+  "rating": 4.6,
+  "experience": 28,
+  "specialization": "Environment",
+  "photo": "",
+  "languages": [
+    "English",
+    "Malayalam"
+  ],
+  "barId": "BAR10027",
+  "email": "advocate38@example.com",
+  "whatsapp": "+919800010027",
+  "verified": false,
+  "practiceAreas": [
+    "Appeals",
+    "Civil",
+    "Property",
+    "Contracts",
+    "Family"
+  ],
+  "bio": "Advocate B28 is an experienced lawyer practicing in Ahmedabad. Specializes in Environment law with 28 years of experience. Fluent in English, Malayalam.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8e0"
+  },
+  "id": 39,
+  "name": "Advocate C29",
+  "city": "Lucknow",
+  "court": "Railway Claims Tribunal",
+  "rating": 4.7,
+  "experience": 29,
+  "specialization": "Commercial",
+  "photo": "",
+  "languages": [
+    "English",
+    "Telugu"
+  ],
+  "barId": "BAR10028",
+  "email": "advocate39@example.com",
+  "whatsapp": "+919800010028",
+  "verified": true,
+  "practiceAreas": [
+    "Civil",
+    "Property",
+    "Contracts",
+    "Family",
+    "Divorce"
+  ],
+  "bio": "Advocate C29 is an experienced lawyer practicing in Lucknow. Specializes in Commercial law with 29 years of experience. Fluent in English, Telugu.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8e1"
+  },
+  "id": 40,
+  "name": "Advocate D30",
+  "city": "Jaipur",
+  "court": "Armed Forces Tribunal",
+  "rating": 4.8,
+  "experience": 30,
+  "specialization": "Human Rights",
+  "photo": "",
+  "languages": [
+    "English",
+    "Odia"
+  ],
+  "barId": "BAR10029",
+  "email": "advocate40@example.com",
+  "whatsapp": "+919800010029",
+  "verified": false,
+  "practiceAreas": [
+    "Property",
+    "Contracts",
+    "Family",
+    "Divorce",
+    "Child Custody"
+  ],
+  "bio": "Advocate D30 is an experienced lawyer practicing in Jaipur. Specializes in Human Rights law with 30 years of experience. Fluent in English, Odia.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8e2"
+  },
+  "id": 41,
+  "name": "Advocate E31",
+  "city": "Chandigarh",
+  "court": "Supreme Court",
+  "rating": 3.4,
+  "experience": 1,
+  "specialization": "Cyber Law",
+  "photo": "",
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "barId": "BAR10030",
+  "email": "advocate41@example.com",
+  "whatsapp": "+919800010030",
+  "verified": true,
+  "practiceAreas": [
+    "Contracts",
+    "Family",
+    "Divorce",
+    "Child Custody",
+    "White Collar Crime"
+  ],
+  "bio": "Advocate E31 is an experienced lawyer practicing in Chandigarh. Specializes in Cyber Law law with 1 years of experience. Fluent in English, Hindi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8e3"
+  },
+  "id": 42,
+  "name": "Advocate F32",
+  "city": "Patna",
+  "court": "High Court",
+  "rating": 3.5,
+  "experience": 2,
+  "specialization": "Company Law",
+  "photo": "",
+  "languages": [
+    "English",
+    "Marathi"
+  ],
+  "barId": "BAR10031",
+  "email": "advocate42@example.com",
+  "whatsapp": "+919800010031",
+  "verified": false,
+  "practiceAreas": [
+    "Family",
+    "Divorce",
+    "Child Custody",
+    "White Collar Crime",
+    "Corporate"
+  ],
+  "bio": "Advocate F32 is an experienced lawyer practicing in Patna. Specializes in Company Law law with 2 years of experience. Fluent in English, Marathi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8e4"
+  },
+  "id": 43,
+  "name": "Advocate G33",
+  "city": "Bhopal",
+  "court": "District Court",
+  "rating": 3.6,
+  "experience": 3,
+  "specialization": "Banking",
+  "photo": "",
+  "languages": [
+    "English",
+    "Kannada"
+  ],
+  "barId": "BAR10032",
+  "email": "advocate43@example.com",
+  "whatsapp": "+919800010032",
+  "verified": true,
+  "practiceAreas": [
+    "Divorce",
+    "Child Custody",
+    "White Collar Crime",
+    "Corporate",
+    "Mergers"
+  ],
+  "bio": "Advocate G33 is an experienced lawyer practicing in Bhopal. Specializes in Banking law with 3 years of experience. Fluent in English, Kannada.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8e5"
+  },
+  "id": 44,
+  "name": "Advocate H34",
+  "city": "Indore",
+  "court": "Family Court",
+  "rating": 3.7,
+  "experience": 4,
+  "specialization": "Insurance",
+  "photo": "",
+  "languages": [
+    "English",
+    "Tamil"
+  ],
+  "barId": "BAR10033",
+  "email": "advocate44@example.com",
+  "whatsapp": "+919800010033",
+  "verified": false,
+  "practiceAreas": [
+    "Child Custody",
+    "White Collar Crime",
+    "Corporate",
+    "Mergers",
+    "Tax"
+  ],
+  "bio": "Advocate H34 is an experienced lawyer practicing in Indore. Specializes in Insurance law with 4 years of experience. Fluent in English, Tamil.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8e6"
+  },
+  "id": 45,
+  "name": "Advocate I35",
+  "city": "Nagpur",
+  "court": "Consumer Court",
+  "rating": 3.8,
+  "experience": 5,
+  "specialization": "Arbitration",
+  "photo": "",
+  "languages": [
+    "English",
+    "Bengali"
+  ],
+  "barId": "BAR10034",
+  "email": "advocate45@example.com",
+  "whatsapp": "+919800010034",
+  "verified": true,
+  "practiceAreas": [
+    "White Collar Crime",
+    "Corporate",
+    "Mergers",
+    "Tax",
+    "Consumer"
+  ],
+  "bio": "Advocate I35 is an experienced lawyer practicing in Nagpur. Specializes in Arbitration law with 5 years of experience. Fluent in English, Bengali.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8e7"
+  },
+  "id": 46,
+  "name": "Advocate J36",
+  "city": "Kanpur",
+  "court": "Labour Court",
+  "rating": 3.9,
+  "experience": 6,
+  "specialization": "Property",
+  "photo": "",
+  "languages": [
+    "English",
+    "Gujarati"
+  ],
+  "barId": "BAR10035",
+  "email": "advocate46@example.com",
+  "whatsapp": "+919800010035",
+  "verified": false,
+  "practiceAreas": [
+    "Corporate",
+    "Mergers",
+    "Tax",
+    "Consumer",
+    "Labour"
+  ],
+  "bio": "Advocate J36 is an experienced lawyer practicing in Kanpur. Specializes in Property law with 6 years of experience. Fluent in English, Gujarati.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8e8"
+  },
+  "id": 47,
+  "name": "Advocate K37",
+  "city": "Surat",
+  "court": "Tribunal",
+  "rating": 4,
+  "experience": 7,
+  "specialization": "Consumer",
+  "photo": "",
+  "languages": [
+    "English",
+    "Punjabi"
+  ],
+  "barId": "BAR10036",
+  "email": "advocate47@example.com",
+  "whatsapp": "+919800010036",
+  "verified": true,
+  "practiceAreas": [
+    "Mergers",
+    "Tax",
+    "Consumer",
+    "Labour",
+    "Employment"
+  ],
+  "bio": "Advocate K37 is an experienced lawyer practicing in Surat. Specializes in Consumer law with 7 years of experience. Fluent in English, Punjabi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8e9"
+  },
+  "id": 48,
+  "name": "Advocate L38",
+  "city": "Ranchi",
+  "court": "Session Court",
+  "rating": 4.1,
+  "experience": 8,
+  "specialization": "Administrative",
+  "photo": "",
+  "languages": [
+    "English",
+    "Malayalam"
+  ],
+  "barId": "BAR10037",
+  "email": "advocate48@example.com",
+  "whatsapp": "+919800010037",
+  "verified": false,
+  "practiceAreas": [
+    "Tax",
+    "Consumer",
+    "Labour",
+    "Employment",
+    "Intellectual Property"
+  ],
+  "bio": "Advocate L38 is an experienced lawyer practicing in Ranchi. Specializes in Administrative law with 8 years of experience. Fluent in English, Malayalam.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8ea"
+  },
+  "id": 49,
+  "name": "Advocate M39",
+  "city": "Guwahati",
+  "court": "Juvenile Court",
+  "rating": 4.2,
+  "experience": 9,
+  "specialization": "Anti-Corruption",
+  "photo": "",
+  "languages": [
+    "English",
+    "Telugu"
+  ],
+  "barId": "BAR10038",
+  "email": "advocate49@example.com",
+  "whatsapp": "+919800010038",
+  "verified": true,
+  "practiceAreas": [
+    "Consumer",
+    "Labour",
+    "Employment",
+    "Intellectual Property",
+    "Environment"
+  ],
+  "bio": "Advocate M39 is an experienced lawyer practicing in Guwahati. Specializes in Anti-Corruption law with 9 years of experience. Fluent in English, Telugu.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8eb"
+  },
+  "id": 50,
+  "name": "Advocate N40",
+  "city": "Thiruvananthapuram",
+  "court": "Civil Court",
+  "rating": 4.3,
+  "experience": 10,
+  "specialization": "Railway",
+  "photo": "",
+  "languages": [
+    "English",
+    "Odia"
+  ],
+  "barId": "BAR10039",
+  "email": "advocate50@example.com",
+  "whatsapp": "+919800010039",
+  "verified": false,
+  "practiceAreas": [
+    "Labour",
+    "Employment",
+    "Intellectual Property",
+    "Environment",
+    "Banking"
+  ],
+  "bio": "Advocate N40 is an experienced lawyer practicing in Thiruvananthapuram. Specializes in Railway law with 10 years of experience. Fluent in English, Odia.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8ec"
+  },
+  "id": 51,
+  "name": "Advocate O41",
+  "city": "Delhi",
+  "court": "Criminal Court",
+  "rating": 4.4,
+  "experience": 11,
+  "specialization": "Criminal",
+  "photo": "",
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "barId": "BAR10040",
+  "email": "advocate51@example.com",
+  "whatsapp": "+919800010040",
+  "verified": true,
+  "practiceAreas": [
+    "Employment",
+    "Intellectual Property",
+    "Environment",
+    "Banking",
+    "Insurance"
+  ],
+  "bio": "Advocate O41 is an experienced lawyer practicing in Delhi. Specializes in Criminal law with 11 years of experience. Fluent in English, Hindi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8ed"
+  },
+  "id": 52,
+  "name": "Advocate P42",
+  "city": "Mumbai",
+  "court": "Tax Court",
+  "rating": 4.5,
+  "experience": 12,
+  "specialization": "Civil",
+  "photo": "",
+  "languages": [
+    "English",
+    "Marathi"
+  ],
+  "barId": "BAR10041",
+  "email": "advocate52@example.com",
+  "whatsapp": "+919800010041",
+  "verified": false,
+  "practiceAreas": [
+    "Intellectual Property",
+    "Environment",
+    "Banking",
+    "Insurance",
+    "Cyber Law"
+  ],
+  "bio": "Advocate P42 is an experienced lawyer practicing in Mumbai. Specializes in Civil law with 12 years of experience. Fluent in English, Marathi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8ee"
+  },
+  "id": 53,
+  "name": "Advocate Q43",
+  "city": "Bangalore",
+  "court": "Commercial Court",
+  "rating": 4.6,
+  "experience": 13,
+  "specialization": "Family",
+  "photo": "",
+  "languages": [
+    "English",
+    "Kannada"
+  ],
+  "barId": "BAR10042",
+  "email": "advocate53@example.com",
+  "whatsapp": "+919800010042",
+  "verified": true,
+  "practiceAreas": [
+    "Environment",
+    "Banking",
+    "Insurance",
+    "Cyber Law",
+    "Human Rights"
+  ],
+  "bio": "Advocate Q43 is an experienced lawyer practicing in Bangalore. Specializes in Family law with 13 years of experience. Fluent in English, Kannada.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8ef"
+  },
+  "id": 54,
+  "name": "Advocate R44",
+  "city": "Chennai",
+  "court": "Small Causes Court",
+  "rating": 4.7,
+  "experience": 14,
+  "specialization": "Corporate",
+  "photo": "",
+  "languages": [
+    "English",
+    "Tamil"
+  ],
+  "barId": "BAR10043",
+  "email": "advocate54@example.com",
+  "whatsapp": "+919800010043",
+  "verified": false,
+  "practiceAreas": [
+    "Banking",
+    "Insurance",
+    "Cyber Law",
+    "Human Rights",
+    "Arbitration"
+  ],
+  "bio": "Advocate R44 is an experienced lawyer practicing in Chennai. Specializes in Corporate law with 14 years of experience. Fluent in English, Tamil.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8f0"
+  },
+  "id": 55,
+  "name": "Advocate S45",
+  "city": "Kolkata",
+  "court": "Motor Accident Claims Tribunal",
+  "rating": 4.8,
+  "experience": 15,
+  "specialization": "Tax",
+  "photo": "",
+  "languages": [
+    "English",
+    "Bengali"
+  ],
+  "barId": "BAR10044",
+  "email": "advocate55@example.com",
+  "whatsapp": "+919800010044",
+  "verified": true,
+  "practiceAreas": [
+    "Insurance",
+    "Cyber Law",
+    "Human Rights",
+    "Arbitration",
+    "Company Law"
+  ],
+  "bio": "Advocate S45 is an experienced lawyer practicing in Kolkata. Specializes in Tax law with 15 years of experience. Fluent in English, Bengali.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8f1"
+  },
+  "id": 56,
+  "name": "Advocate T46",
+  "city": "Hyderabad",
+  "court": "Debt Recovery Tribunal",
+  "rating": 3.4,
+  "experience": 16,
+  "specialization": "Labour",
+  "photo": "",
+  "languages": [
+    "English",
+    "Gujarati"
+  ],
+  "barId": "BAR10045",
+  "email": "advocate56@example.com",
+  "whatsapp": "+919800010045",
+  "verified": false,
+  "practiceAreas": [
+    "Cyber Law",
+    "Human Rights",
+    "Arbitration",
+    "Company Law",
+    "Customs"
+  ],
+  "bio": "Advocate T46 is an experienced lawyer practicing in Hyderabad. Specializes in Labour law with 16 years of experience. Fluent in English, Gujarati.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8f2"
+  },
+  "id": 57,
+  "name": "Advocate U47",
+  "city": "Pune",
+  "court": "Arbitration Court",
+  "rating": 3.5,
+  "experience": 17,
+  "specialization": "Intellectual Property",
+  "photo": "",
+  "languages": [
+    "English",
+    "Punjabi"
+  ],
+  "barId": "BAR10046",
+  "email": "advocate57@example.com",
+  "whatsapp": "+919800010046",
+  "verified": true,
+  "practiceAreas": [
+    "Human Rights",
+    "Arbitration",
+    "Company Law",
+    "Customs",
+    "Railway"
+  ],
+  "bio": "Advocate U47 is an experienced lawyer practicing in Pune. Specializes in Intellectual Property law with 17 years of experience. Fluent in English, Punjabi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8f3"
+  },
+  "id": 58,
+  "name": "Advocate V48",
+  "city": "Ahmedabad",
+  "court": "Environmental Court",
+  "rating": 3.6,
+  "experience": 18,
+  "specialization": "Environment",
+  "photo": "",
+  "languages": [
+    "English",
+    "Malayalam"
+  ],
+  "barId": "BAR10047",
+  "email": "advocate58@example.com",
+  "whatsapp": "+919800010047",
+  "verified": false,
+  "practiceAreas": [
+    "Arbitration",
+    "Company Law",
+    "Customs",
+    "Railway",
+    "Motor Accident"
+  ],
+  "bio": "Advocate V48 is an experienced lawyer practicing in Ahmedabad. Specializes in Environment law with 18 years of experience. Fluent in English, Malayalam.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8f4"
+  },
+  "id": 59,
+  "name": "Advocate W49",
+  "city": "Lucknow",
+  "court": "Company Law Tribunal",
+  "rating": 3.7,
+  "experience": 19,
+  "specialization": "Commercial",
+  "photo": "",
+  "languages": [
+    "English",
+    "Telugu"
+  ],
+  "barId": "BAR10048",
+  "email": "advocate59@example.com",
+  "whatsapp": "+919800010048",
+  "verified": true,
+  "practiceAreas": [
+    "Company Law",
+    "Customs",
+    "Railway",
+    "Motor Accident",
+    "Debt Recovery"
+  ],
+  "bio": "Advocate W49 is an experienced lawyer practicing in Lucknow. Specializes in Commercial law with 19 years of experience. Fluent in English, Telugu.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8f5"
+  },
+  "id": 60,
+  "name": "Advocate X50",
+  "city": "Jaipur",
+  "court": "Intellectual Property Court",
+  "rating": 3.8,
+  "experience": 20,
+  "specialization": "Human Rights",
+  "photo": "",
+  "languages": [
+    "English",
+    "Odia"
+  ],
+  "barId": "BAR10049",
+  "email": "advocate60@example.com",
+  "whatsapp": "+919800010049",
+  "verified": false,
+  "practiceAreas": [
+    "Customs",
+    "Railway",
+    "Motor Accident",
+    "Debt Recovery",
+    "Commercial"
+  ],
+  "bio": "Advocate X50 is an experienced lawyer practicing in Jaipur. Specializes in Human Rights law with 20 years of experience. Fluent in English, Odia.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8f6"
+  },
+  "id": 61,
+  "name": "Advocate Y51",
+  "city": "Chandigarh",
+  "court": "Administrative Tribunal",
+  "rating": 3.9,
+  "experience": 21,
+  "specialization": "Cyber Law",
+  "photo": "",
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "barId": "BAR10050",
+  "email": "advocate61@example.com",
+  "whatsapp": "+919800010050",
+  "verified": true,
+  "practiceAreas": [
+    "Bail",
+    "Criminal",
+    "Appeals",
+    "Civil",
+    "Property"
+  ],
+  "bio": "Advocate Y51 is an experienced lawyer practicing in Chandigarh. Specializes in Cyber Law law with 21 years of experience. Fluent in English, Hindi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8f7"
+  },
+  "id": 62,
+  "name": "Advocate Z52",
+  "city": "Patna",
+  "court": "Special CBI Court",
+  "rating": 4,
+  "experience": 22,
+  "specialization": "Company Law",
+  "photo": "",
+  "languages": [
+    "English",
+    "Marathi"
+  ],
+  "barId": "BAR10051",
+  "email": "advocate62@example.com",
+  "whatsapp": "+919800010051",
+  "verified": false,
+  "practiceAreas": [
+    "Criminal",
+    "Appeals",
+    "Civil",
+    "Property",
+    "Contracts"
+  ],
+  "bio": "Advocate Z52 is an experienced lawyer practicing in Patna. Specializes in Company Law law with 22 years of experience. Fluent in English, Marathi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8f8"
+  },
+  "id": 63,
+  "name": "Advocate A53",
+  "city": "Bhopal",
+  "court": "Anti-Corruption Court",
+  "rating": 4.1,
+  "experience": 23,
+  "specialization": "Banking",
+  "photo": "",
+  "languages": [
+    "English",
+    "Kannada"
+  ],
+  "barId": "BAR10052",
+  "email": "advocate63@example.com",
+  "whatsapp": "+919800010052",
+  "verified": true,
+  "practiceAreas": [
+    "Appeals",
+    "Civil",
+    "Property",
+    "Contracts",
+    "Family"
+  ],
+  "bio": "Advocate A53 is an experienced lawyer practicing in Bhopal. Specializes in Banking law with 23 years of experience. Fluent in English, Kannada.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8f9"
+  },
+  "id": 64,
+  "name": "Advocate B54",
+  "city": "Indore",
+  "court": "Lok Adalat",
+  "rating": 4.2,
+  "experience": 24,
+  "specialization": "Insurance",
+  "photo": "",
+  "languages": [
+    "English",
+    "Tamil"
+  ],
+  "barId": "BAR10053",
+  "email": "advocate64@example.com",
+  "whatsapp": "+919800010053",
+  "verified": false,
+  "practiceAreas": [
+    "Civil",
+    "Property",
+    "Contracts",
+    "Family",
+    "Divorce"
+  ],
+  "bio": "Advocate B54 is an experienced lawyer practicing in Indore. Specializes in Insurance law with 24 years of experience. Fluent in English, Tamil.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8fa"
+  },
+  "id": 65,
+  "name": "Advocate C55",
+  "city": "Nagpur",
+  "court": "Fast Track Court",
+  "rating": 4.3,
+  "experience": 25,
+  "specialization": "Arbitration",
+  "photo": "",
+  "languages": [
+    "English",
+    "Bengali"
+  ],
+  "barId": "BAR10054",
+  "email": "advocate65@example.com",
+  "whatsapp": "+919800010054",
+  "verified": true,
+  "practiceAreas": [
+    "Property",
+    "Contracts",
+    "Family",
+    "Divorce",
+    "Child Custody"
+  ],
+  "bio": "Advocate C55 is an experienced lawyer practicing in Nagpur. Specializes in Arbitration law with 25 years of experience. Fluent in English, Bengali.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8fb"
+  },
+  "id": 66,
+  "name": "Advocate D56",
+  "city": "Kanpur",
+  "court": "Cyber Court",
+  "rating": 4.4,
+  "experience": 26,
+  "specialization": "Property",
+  "photo": "",
+  "languages": [
+    "English",
+    "Gujarati"
+  ],
+  "barId": "BAR10055",
+  "email": "advocate66@example.com",
+  "whatsapp": "+919800010055",
+  "verified": false,
+  "practiceAreas": [
+    "Contracts",
+    "Family",
+    "Divorce",
+    "Child Custody",
+    "White Collar Crime"
+  ],
+  "bio": "Advocate D56 is an experienced lawyer practicing in Kanpur. Specializes in Property law with 26 years of experience. Fluent in English, Gujarati.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8fc"
+  },
+  "id": 67,
+  "name": "Advocate E57",
+  "city": "Surat",
+  "court": "Human Rights Court",
+  "rating": 4.5,
+  "experience": 27,
+  "specialization": "Consumer",
+  "photo": "",
+  "languages": [
+    "English",
+    "Punjabi"
+  ],
+  "barId": "BAR10056",
+  "email": "advocate67@example.com",
+  "whatsapp": "+919800010056",
+  "verified": true,
+  "practiceAreas": [
+    "Family",
+    "Divorce",
+    "Child Custody",
+    "White Collar Crime",
+    "Corporate"
+  ],
+  "bio": "Advocate E57 is an experienced lawyer practicing in Surat. Specializes in Consumer law with 27 years of experience. Fluent in English, Punjabi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8fd"
+  },
+  "id": 68,
+  "name": "Advocate F58",
+  "city": "Ranchi",
+  "court": "Customs Court",
+  "rating": 4.6,
+  "experience": 28,
+  "specialization": "Administrative",
+  "photo": "",
+  "languages": [
+    "English",
+    "Malayalam"
+  ],
+  "barId": "BAR10057",
+  "email": "advocate68@example.com",
+  "whatsapp": "+919800010057",
+  "verified": false,
+  "practiceAreas": [
+    "Divorce",
+    "Child Custody",
+    "White Collar Crime",
+    "Corporate",
+    "Mergers"
+  ],
+  "bio": "Advocate F58 is an experienced lawyer practicing in Ranchi. Specializes in Administrative law with 28 years of experience. Fluent in English, Malayalam.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8fe"
+  },
+  "id": 69,
+  "name": "Advocate G59",
+  "city": "Guwahati",
+  "court": "Railway Claims Tribunal",
+  "rating": 4.7,
+  "experience": 29,
+  "specialization": "Anti-Corruption",
+  "photo": "",
+  "languages": [
+    "English",
+    "Telugu"
+  ],
+  "barId": "BAR10058",
+  "email": "advocate69@example.com",
+  "whatsapp": "+919800010058",
+  "verified": true,
+  "practiceAreas": [
+    "Child Custody",
+    "White Collar Crime",
+    "Corporate",
+    "Mergers",
+    "Tax"
+  ],
+  "bio": "Advocate G59 is an experienced lawyer practicing in Guwahati. Specializes in Anti-Corruption law with 29 years of experience. Fluent in English, Telugu.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a8ff"
+  },
+  "id": 70,
+  "name": "Advocate H60",
+  "city": "Thiruvananthapuram",
+  "court": "Armed Forces Tribunal",
+  "rating": 4.8,
+  "experience": 30,
+  "specialization": "Railway",
+  "photo": "",
+  "languages": [
+    "English",
+    "Odia"
+  ],
+  "barId": "BAR10059",
+  "email": "advocate70@example.com",
+  "whatsapp": "+919800010059",
+  "verified": false,
+  "practiceAreas": [
+    "White Collar Crime",
+    "Corporate",
+    "Mergers",
+    "Tax",
+    "Consumer"
+  ],
+  "bio": "Advocate H60 is an experienced lawyer practicing in Thiruvananthapuram. Specializes in Railway law with 30 years of experience. Fluent in English, Odia.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a900"
+  },
+  "id": 71,
+  "name": "Advocate I61",
+  "city": "Delhi",
+  "court": "Supreme Court",
+  "rating": 3.4,
+  "experience": 1,
+  "specialization": "Criminal",
+  "photo": "",
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "barId": "BAR10060",
+  "email": "advocate71@example.com",
+  "whatsapp": "+919800010060",
+  "verified": true,
+  "practiceAreas": [
+    "Corporate",
+    "Mergers",
+    "Tax",
+    "Consumer",
+    "Labour"
+  ],
+  "bio": "Advocate I61 is an experienced lawyer practicing in Delhi. Specializes in Criminal law with 1 years of experience. Fluent in English, Hindi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a901"
+  },
+  "id": 72,
+  "name": "Advocate J62",
+  "city": "Mumbai",
+  "court": "High Court",
+  "rating": 3.5,
+  "experience": 2,
+  "specialization": "Civil",
+  "photo": "",
+  "languages": [
+    "English",
+    "Marathi"
+  ],
+  "barId": "BAR10061",
+  "email": "advocate72@example.com",
+  "whatsapp": "+919800010061",
+  "verified": false,
+  "practiceAreas": [
+    "Mergers",
+    "Tax",
+    "Consumer",
+    "Labour",
+    "Employment"
+  ],
+  "bio": "Advocate J62 is an experienced lawyer practicing in Mumbai. Specializes in Civil law with 2 years of experience. Fluent in English, Marathi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a902"
+  },
+  "id": 73,
+  "name": "Advocate K63",
+  "city": "Bangalore",
+  "court": "District Court",
+  "rating": 3.6,
+  "experience": 3,
+  "specialization": "Family",
+  "photo": "",
+  "languages": [
+    "English",
+    "Kannada"
+  ],
+  "barId": "BAR10062",
+  "email": "advocate73@example.com",
+  "whatsapp": "+919800010062",
+  "verified": true,
+  "practiceAreas": [
+    "Tax",
+    "Consumer",
+    "Labour",
+    "Employment",
+    "Intellectual Property"
+  ],
+  "bio": "Advocate K63 is an experienced lawyer practicing in Bangalore. Specializes in Family law with 3 years of experience. Fluent in English, Kannada.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a903"
+  },
+  "id": 74,
+  "name": "Advocate L64",
+  "city": "Chennai",
+  "court": "Family Court",
+  "rating": 3.7,
+  "experience": 4,
+  "specialization": "Corporate",
+  "photo": "",
+  "languages": [
+    "English",
+    "Tamil"
+  ],
+  "barId": "BAR10063",
+  "email": "advocate74@example.com",
+  "whatsapp": "+919800010063",
+  "verified": false,
+  "practiceAreas": [
+    "Consumer",
+    "Labour",
+    "Employment",
+    "Intellectual Property",
+    "Environment"
+  ],
+  "bio": "Advocate L64 is an experienced lawyer practicing in Chennai. Specializes in Corporate law with 4 years of experience. Fluent in English, Tamil.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a904"
+  },
+  "id": 75,
+  "name": "Advocate M65",
+  "city": "Kolkata",
+  "court": "Consumer Court",
+  "rating": 3.8,
+  "experience": 5,
+  "specialization": "Tax",
+  "photo": "",
+  "languages": [
+    "English",
+    "Bengali"
+  ],
+  "barId": "BAR10064",
+  "email": "advocate75@example.com",
+  "whatsapp": "+919800010064",
+  "verified": true,
+  "practiceAreas": [
+    "Labour",
+    "Employment",
+    "Intellectual Property",
+    "Environment",
+    "Banking"
+  ],
+  "bio": "Advocate M65 is an experienced lawyer practicing in Kolkata. Specializes in Tax law with 5 years of experience. Fluent in English, Bengali.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a905"
+  },
+  "id": 76,
+  "name": "Advocate N66",
+  "city": "Hyderabad",
+  "court": "Labour Court",
+  "rating": 3.9,
+  "experience": 6,
+  "specialization": "Labour",
+  "photo": "",
+  "languages": [
+    "English",
+    "Gujarati"
+  ],
+  "barId": "BAR10065",
+  "email": "advocate76@example.com",
+  "whatsapp": "+919800010065",
+  "verified": false,
+  "practiceAreas": [
+    "Employment",
+    "Intellectual Property",
+    "Environment",
+    "Banking",
+    "Insurance"
+  ],
+  "bio": "Advocate N66 is an experienced lawyer practicing in Hyderabad. Specializes in Labour law with 6 years of experience. Fluent in English, Gujarati.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a906"
+  },
+  "id": 77,
+  "name": "Advocate O67",
+  "city": "Pune",
+  "court": "Tribunal",
+  "rating": 4,
+  "experience": 7,
+  "specialization": "Intellectual Property",
+  "photo": "",
+  "languages": [
+    "English",
+    "Punjabi"
+  ],
+  "barId": "BAR10066",
+  "email": "advocate77@example.com",
+  "whatsapp": "+919800010066",
+  "verified": true,
+  "practiceAreas": [
+    "Intellectual Property",
+    "Environment",
+    "Banking",
+    "Insurance",
+    "Cyber Law"
+  ],
+  "bio": "Advocate O67 is an experienced lawyer practicing in Pune. Specializes in Intellectual Property law with 7 years of experience. Fluent in English, Punjabi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a907"
+  },
+  "id": 78,
+  "name": "Advocate P68",
+  "city": "Ahmedabad",
+  "court": "Session Court",
+  "rating": 4.1,
+  "experience": 8,
+  "specialization": "Environment",
+  "photo": "",
+  "languages": [
+    "English",
+    "Malayalam"
+  ],
+  "barId": "BAR10067",
+  "email": "advocate78@example.com",
+  "whatsapp": "+919800010067",
+  "verified": false,
+  "practiceAreas": [
+    "Environment",
+    "Banking",
+    "Insurance",
+    "Cyber Law",
+    "Human Rights"
+  ],
+  "bio": "Advocate P68 is an experienced lawyer practicing in Ahmedabad. Specializes in Environment law with 8 years of experience. Fluent in English, Malayalam.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a908"
+  },
+  "id": 79,
+  "name": "Advocate Q69",
+  "city": "Lucknow",
+  "court": "Juvenile Court",
+  "rating": 4.2,
+  "experience": 9,
+  "specialization": "Commercial",
+  "photo": "",
+  "languages": [
+    "English",
+    "Telugu"
+  ],
+  "barId": "BAR10068",
+  "email": "advocate79@example.com",
+  "whatsapp": "+919800010068",
+  "verified": true,
+  "practiceAreas": [
+    "Banking",
+    "Insurance",
+    "Cyber Law",
+    "Human Rights",
+    "Arbitration"
+  ],
+  "bio": "Advocate Q69 is an experienced lawyer practicing in Lucknow. Specializes in Commercial law with 9 years of experience. Fluent in English, Telugu.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a909"
+  },
+  "id": 80,
+  "name": "Advocate R70",
+  "city": "Jaipur",
+  "court": "Civil Court",
+  "rating": 4.3,
+  "experience": 10,
+  "specialization": "Human Rights",
+  "photo": "",
+  "languages": [
+    "English",
+    "Odia"
+  ],
+  "barId": "BAR10069",
+  "email": "advocate80@example.com",
+  "whatsapp": "+919800010069",
+  "verified": false,
+  "practiceAreas": [
+    "Insurance",
+    "Cyber Law",
+    "Human Rights",
+    "Arbitration",
+    "Company Law"
+  ],
+  "bio": "Advocate R70 is an experienced lawyer practicing in Jaipur. Specializes in Human Rights law with 10 years of experience. Fluent in English, Odia.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a90a"
+  },
+  "id": 81,
+  "name": "Advocate S71",
+  "city": "Chandigarh",
+  "court": "Criminal Court",
+  "rating": 4.4,
+  "experience": 11,
+  "specialization": "Cyber Law",
+  "photo": "",
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "barId": "BAR10070",
+  "email": "advocate81@example.com",
+  "whatsapp": "+919800010070",
+  "verified": true,
+  "practiceAreas": [
+    "Cyber Law",
+    "Human Rights",
+    "Arbitration",
+    "Company Law",
+    "Customs"
+  ],
+  "bio": "Advocate S71 is an experienced lawyer practicing in Chandigarh. Specializes in Cyber Law law with 11 years of experience. Fluent in English, Hindi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a90b"
+  },
+  "id": 82,
+  "name": "Advocate T72",
+  "city": "Patna",
+  "court": "Tax Court",
+  "rating": 4.5,
+  "experience": 12,
+  "specialization": "Company Law",
+  "photo": "",
+  "languages": [
+    "English",
+    "Marathi"
+  ],
+  "barId": "BAR10071",
+  "email": "advocate82@example.com",
+  "whatsapp": "+919800010071",
+  "verified": false,
+  "practiceAreas": [
+    "Human Rights",
+    "Arbitration",
+    "Company Law",
+    "Customs",
+    "Railway"
+  ],
+  "bio": "Advocate T72 is an experienced lawyer practicing in Patna. Specializes in Company Law law with 12 years of experience. Fluent in English, Marathi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a90c"
+  },
+  "id": 83,
+  "name": "Advocate U73",
+  "city": "Bhopal",
+  "court": "Commercial Court",
+  "rating": 4.6,
+  "experience": 13,
+  "specialization": "Banking",
+  "photo": "",
+  "languages": [
+    "English",
+    "Kannada"
+  ],
+  "barId": "BAR10072",
+  "email": "advocate83@example.com",
+  "whatsapp": "+919800010072",
+  "verified": true,
+  "practiceAreas": [
+    "Arbitration",
+    "Company Law",
+    "Customs",
+    "Railway",
+    "Motor Accident"
+  ],
+  "bio": "Advocate U73 is an experienced lawyer practicing in Bhopal. Specializes in Banking law with 13 years of experience. Fluent in English, Kannada.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a90d"
+  },
+  "id": 84,
+  "name": "Advocate V74",
+  "city": "Indore",
+  "court": "Small Causes Court",
+  "rating": 4.7,
+  "experience": 14,
+  "specialization": "Insurance",
+  "photo": "",
+  "languages": [
+    "English",
+    "Tamil"
+  ],
+  "barId": "BAR10073",
+  "email": "advocate84@example.com",
+  "whatsapp": "+919800010073",
+  "verified": false,
+  "practiceAreas": [
+    "Company Law",
+    "Customs",
+    "Railway",
+    "Motor Accident",
+    "Debt Recovery"
+  ],
+  "bio": "Advocate V74 is an experienced lawyer practicing in Indore. Specializes in Insurance law with 14 years of experience. Fluent in English, Tamil.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a90e"
+  },
+  "id": 85,
+  "name": "Advocate W75",
+  "city": "Nagpur",
+  "court": "Motor Accident Claims Tribunal",
+  "rating": 4.8,
+  "experience": 15,
+  "specialization": "Arbitration",
+  "photo": "",
+  "languages": [
+    "English",
+    "Bengali"
+  ],
+  "barId": "BAR10074",
+  "email": "advocate85@example.com",
+  "whatsapp": "+919800010074",
+  "verified": true,
+  "practiceAreas": [
+    "Customs",
+    "Railway",
+    "Motor Accident",
+    "Debt Recovery",
+    "Commercial"
+  ],
+  "bio": "Advocate W75 is an experienced lawyer practicing in Nagpur. Specializes in Arbitration law with 15 years of experience. Fluent in English, Bengali.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a90f"
+  },
+  "id": 86,
+  "name": "Advocate X76",
+  "city": "Kanpur",
+  "court": "Debt Recovery Tribunal",
+  "rating": 3.4,
+  "experience": 16,
+  "specialization": "Property",
+  "photo": "",
+  "languages": [
+    "English",
+    "Gujarati"
+  ],
+  "barId": "BAR10075",
+  "email": "advocate86@example.com",
+  "whatsapp": "+919800010075",
+  "verified": false,
+  "practiceAreas": [
+    "Bail",
+    "Criminal",
+    "Appeals",
+    "Civil",
+    "Property"
+  ],
+  "bio": "Advocate X76 is an experienced lawyer practicing in Kanpur. Specializes in Property law with 16 years of experience. Fluent in English, Gujarati.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a910"
+  },
+  "id": 87,
+  "name": "Advocate Y77",
+  "city": "Surat",
+  "court": "Arbitration Court",
+  "rating": 3.5,
+  "experience": 17,
+  "specialization": "Consumer",
+  "photo": "",
+  "languages": [
+    "English",
+    "Punjabi"
+  ],
+  "barId": "BAR10076",
+  "email": "advocate87@example.com",
+  "whatsapp": "+919800010076",
+  "verified": true,
+  "practiceAreas": [
+    "Criminal",
+    "Appeals",
+    "Civil",
+    "Property",
+    "Contracts"
+  ],
+  "bio": "Advocate Y77 is an experienced lawyer practicing in Surat. Specializes in Consumer law with 17 years of experience. Fluent in English, Punjabi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a911"
+  },
+  "id": 88,
+  "name": "Advocate Z78",
+  "city": "Ranchi",
+  "court": "Environmental Court",
+  "rating": 3.6,
+  "experience": 18,
+  "specialization": "Administrative",
+  "photo": "",
+  "languages": [
+    "English",
+    "Malayalam"
+  ],
+  "barId": "BAR10077",
+  "email": "advocate88@example.com",
+  "whatsapp": "+919800010077",
+  "verified": false,
+  "practiceAreas": [
+    "Appeals",
+    "Civil",
+    "Property",
+    "Contracts",
+    "Family"
+  ],
+  "bio": "Advocate Z78 is an experienced lawyer practicing in Ranchi. Specializes in Administrative law with 18 years of experience. Fluent in English, Malayalam.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a912"
+  },
+  "id": 89,
+  "name": "Advocate A79",
+  "city": "Guwahati",
+  "court": "Company Law Tribunal",
+  "rating": 3.7,
+  "experience": 19,
+  "specialization": "Anti-Corruption",
+  "photo": "",
+  "languages": [
+    "English",
+    "Telugu"
+  ],
+  "barId": "BAR10078",
+  "email": "advocate89@example.com",
+  "whatsapp": "+919800010078",
+  "verified": true,
+  "practiceAreas": [
+    "Civil",
+    "Property",
+    "Contracts",
+    "Family",
+    "Divorce"
+  ],
+  "bio": "Advocate A79 is an experienced lawyer practicing in Guwahati. Specializes in Anti-Corruption law with 19 years of experience. Fluent in English, Telugu.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a913"
+  },
+  "id": 90,
+  "name": "Advocate B80",
+  "city": "Thiruvananthapuram",
+  "court": "Intellectual Property Court",
+  "rating": 3.8,
+  "experience": 20,
+  "specialization": "Railway",
+  "photo": "",
+  "languages": [
+    "English",
+    "Odia"
+  ],
+  "barId": "BAR10079",
+  "email": "advocate90@example.com",
+  "whatsapp": "+919800010079",
+  "verified": false,
+  "practiceAreas": [
+    "Property",
+    "Contracts",
+    "Family",
+    "Divorce",
+    "Child Custody"
+  ],
+  "bio": "Advocate B80 is an experienced lawyer practicing in Thiruvananthapuram. Specializes in Railway law with 20 years of experience. Fluent in English, Odia.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a914"
+  },
+  "id": 91,
+  "name": "Advocate C81",
+  "city": "Delhi",
+  "court": "Administrative Tribunal",
+  "rating": 3.9,
+  "experience": 21,
+  "specialization": "Criminal",
+  "photo": "",
+  "languages": [
+    "English",
+    "Hindi"
+  ],
+  "barId": "BAR10080",
+  "email": "advocate91@example.com",
+  "whatsapp": "+919800010080",
+  "verified": true,
+  "practiceAreas": [
+    "Contracts",
+    "Family",
+    "Divorce",
+    "Child Custody",
+    "White Collar Crime"
+  ],
+  "bio": "Advocate C81 is an experienced lawyer practicing in Delhi. Specializes in Criminal law with 21 years of experience. Fluent in English, Hindi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a915"
+  },
+  "id": 92,
+  "name": "Advocate D82",
+  "city": "Mumbai",
+  "court": "Special CBI Court",
+  "rating": 4,
+  "experience": 22,
+  "specialization": "Civil",
+  "photo": "",
+  "languages": [
+    "English",
+    "Marathi"
+  ],
+  "barId": "BAR10081",
+  "email": "advocate92@example.com",
+  "whatsapp": "+919800010081",
+  "verified": false,
+  "practiceAreas": [
+    "Family",
+    "Divorce",
+    "Child Custody",
+    "White Collar Crime",
+    "Corporate"
+  ],
+  "bio": "Advocate D82 is an experienced lawyer practicing in Mumbai. Specializes in Civil law with 22 years of experience. Fluent in English, Marathi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a916"
+  },
+  "id": 93,
+  "name": "Advocate E83",
+  "city": "Bangalore",
+  "court": "Anti-Corruption Court",
+  "rating": 4.1,
+  "experience": 23,
+  "specialization": "Family",
+  "photo": "",
+  "languages": [
+    "English",
+    "Kannada"
+  ],
+  "barId": "BAR10082",
+  "email": "advocate93@example.com",
+  "whatsapp": "+919800010082",
+  "verified": true,
+  "practiceAreas": [
+    "Divorce",
+    "Child Custody",
+    "White Collar Crime",
+    "Corporate",
+    "Mergers"
+  ],
+  "bio": "Advocate E83 is an experienced lawyer practicing in Bangalore. Specializes in Family law with 23 years of experience. Fluent in English, Kannada.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a917"
+  },
+  "id": 94,
+  "name": "Advocate F84",
+  "city": "Chennai",
+  "court": "Lok Adalat",
+  "rating": 4.2,
+  "experience": 24,
+  "specialization": "Corporate",
+  "photo": "",
+  "languages": [
+    "English",
+    "Tamil"
+  ],
+  "barId": "BAR10083",
+  "email": "advocate94@example.com",
+  "whatsapp": "+919800010083",
+  "verified": false,
+  "practiceAreas": [
+    "Child Custody",
+    "White Collar Crime",
+    "Corporate",
+    "Mergers",
+    "Tax"
+  ],
+  "bio": "Advocate F84 is an experienced lawyer practicing in Chennai. Specializes in Corporate law with 24 years of experience. Fluent in English, Tamil.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a918"
+  },
+  "id": 95,
+  "name": "Advocate G85",
+  "city": "Kolkata",
+  "court": "Fast Track Court",
+  "rating": 4.3,
+  "experience": 25,
+  "specialization": "Tax",
+  "photo": "",
+  "languages": [
+    "English",
+    "Bengali"
+  ],
+  "barId": "BAR10084",
+  "email": "advocate95@example.com",
+  "whatsapp": "+919800010084",
+  "verified": true,
+  "practiceAreas": [
+    "White Collar Crime",
+    "Corporate",
+    "Mergers",
+    "Tax",
+    "Consumer"
+  ],
+  "bio": "Advocate G85 is an experienced lawyer practicing in Kolkata. Specializes in Tax law with 25 years of experience. Fluent in English, Bengali.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a919"
+  },
+  "id": 96,
+  "name": "Advocate H86",
+  "city": "Hyderabad",
+  "court": "Cyber Court",
+  "rating": 4.4,
+  "experience": 26,
+  "specialization": "Labour",
+  "photo": "",
+  "languages": [
+    "English",
+    "Gujarati"
+  ],
+  "barId": "BAR10085",
+  "email": "advocate96@example.com",
+  "whatsapp": "+919800010085",
+  "verified": false,
+  "practiceAreas": [
+    "Corporate",
+    "Mergers",
+    "Tax",
+    "Consumer",
+    "Labour"
+  ],
+  "bio": "Advocate H86 is an experienced lawyer practicing in Hyderabad. Specializes in Labour law with 26 years of experience. Fluent in English, Gujarati.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a91a"
+  },
+  "id": 97,
+  "name": "Advocate I87",
+  "city": "Pune",
+  "court": "Human Rights Court",
+  "rating": 4.5,
+  "experience": 27,
+  "specialization": "Intellectual Property",
+  "photo": "",
+  "languages": [
+    "English",
+    "Punjabi"
+  ],
+  "barId": "BAR10086",
+  "email": "advocate97@example.com",
+  "whatsapp": "+919800010086",
+  "verified": true,
+  "practiceAreas": [
+    "Mergers",
+    "Tax",
+    "Consumer",
+    "Labour",
+    "Employment"
+  ],
+  "bio": "Advocate I87 is an experienced lawyer practicing in Pune. Specializes in Intellectual Property law with 27 years of experience. Fluent in English, Punjabi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a91b"
+  },
+  "id": 98,
+  "name": "Advocate J88",
+  "city": "Ahmedabad",
+  "court": "Customs Court",
+  "rating": 4.6,
+  "experience": 28,
+  "specialization": "Environment",
+  "photo": "",
+  "languages": [
+    "English",
+    "Malayalam"
+  ],
+  "barId": "BAR10087",
+  "email": "advocate98@example.com",
+  "whatsapp": "+919800010087",
+  "verified": false,
+  "practiceAreas": [
+    "Tax",
+    "Consumer",
+    "Labour",
+    "Employment",
+    "Intellectual Property"
+  ],
+  "bio": "Advocate J88 is an experienced lawyer practicing in Ahmedabad. Specializes in Environment law with 28 years of experience. Fluent in English, Malayalam.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a91c"
+  },
+  "id": 99,
+  "name": "Advocate K89",
+  "city": "Lucknow",
+  "court": "Railway Claims Tribunal",
+  "rating": 4.7,
+  "experience": 29,
+  "specialization": "Commercial",
+  "photo": "",
+  "languages": [
+    "English",
+    "Telugu"
+  ],
+  "barId": "BAR10088",
+  "email": "advocate99@example.com",
+  "whatsapp": "+919800010088",
+  "verified": true,
+  "practiceAreas": [
+    "Consumer",
+    "Labour",
+    "Employment",
+    "Intellectual Property",
+    "Environment"
+  ],
+  "bio": "Advocate K89 is an experienced lawyer practicing in Lucknow. Specializes in Commercial law with 29 years of experience. Fluent in English, Telugu.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6870a5698d945de9a980a91d"
+  },
+  "id": 100,
+  "name": "Advocate L90",
+  "city": "Jaipur",
+  "court": "Armed Forces Tribunal",
+  "rating": 4.8,
+  "experience": 30,
+  "specialization": "Human Rights",
+  "photo": "",
+  "languages": [
+    "English",
+    "Odia"
+  ],
+  "barId": "BAR10089",
+  "email": "advocate100@example.com",
+  "whatsapp": "+919800010089",
+  "verified": false,
+  "practiceAreas": [
+    "Labour",
+    "Employment",
+    "Intellectual Property",
+    "Environment",
+    "Banking"
+  ],
+  "bio": "Advocate L90 is an experienced lawyer practicing in Jaipur. Specializes in Human Rights law with 30 years of experience. Fluent in English, Odia.",
+  "__v": 0
+}]

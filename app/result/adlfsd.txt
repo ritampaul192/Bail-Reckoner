@@ -1,0 +1,471 @@
+'use client';
+
+import React, { useState, useEffect } from 'react';
+import { IoMdArrowDropdown, IoMdArrowDropup } from 'react-icons/io';
+import { v4 as uuidv4 } from 'uuid';
+import Link from 'next/link';
+import { FaBalanceScale } from 'react-icons/fa';
+import { ImCross } from 'react-icons/im';
+import { useSearchParams, useRouter } from 'next/navigation';
+import { motion, AnimatePresence } from 'framer-motion';
+
+export default function Result() {
+  const [loading, setLoading] = useState(false);
+  const [cards, setCards] = useState([]);
+  const [trivia, setTrivia] = useState('');
+  const searchParams = useSearchParams();
+  const router = useRouter();
+  const message = searchParams.get('message');
+
+  const triviaList = [
+    "In India, bail is a constitutional right under Article 21.",
+    "Anticipatory bail is covered under Section 438 CrPC.",
+    "Bail can be denied if tampering with evidence is likely.",
+    "The concept of bail traces back to medieval England.",
+    "The Supreme Court says 'bail is the rule, jail the exception.'",
+    "Personal bond means bail without monetary surety.",
+    "Juveniles are generally granted bail as a right.",
+  ];
+
+  useEffect(() => {
+    let triviaInterval;
+    if (loading) {
+      setTrivia(triviaList[Math.floor(Math.random() * triviaList.length)]);
+      triviaInterval = setInterval(() => {
+        setTrivia(triviaList[Math.floor(Math.random() * triviaList.length)]);
+      }, 4000);
+    }
+
+    return () => clearInterval(triviaInterval);
+  }, [loading]);
+
+  useEffect(() => {
+    async function fetchData() {
+      if (!message) return;
+      setLoading(true);
+
+      try {
+        const response = await fetch('/api', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ message }),
+        });
+
+        const res = await response.json();
+        const updatedData = res.map((item) => ({
+          ...item,
+          id: uuidv4(),
+          isCollapsed: true,
+        }));
+        setCards(updatedData);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+
+      setLoading(false);
+    }
+
+    fetchData();
+  }, [message]);
+
+  function toggleView(id) {
+    setCards((prevCards) =>
+      prevCards.map((card) =>
+        card.id === id ? { ...card, isCollapsed: !card.isCollapsed } : card
+      )
+    );
+  }
+
+  return (
+    <div className="min-h-screen w-full bg-[#f9f9f9]">
+      <div className="container mx-auto px-4 py-8">
+        <div className="bg-white text-[#2c3e50] p-6 rounded-2xl shadow-md">
+          <button
+            className="w-full flex justify-end text-[#c0392b]"
+            onClick={() => router.push('/Home')}
+          >
+            <ImCross />
+          </button>
+
+          <div className="flex flex-col gap-3 items-center mb-4">
+            <h1 className="font-extrabold text-3xl flex items-center gap-2 text-[#2c3e50]">
+              <FaBalanceScale />
+              BAIL <span className="text-[#c0392b]">सेतु</span>
+            </h1>
+            <p className="italic text-sm text-gray-600">
+              Your bridge to legal freedom
+            </p>
+          </div>
+
+          <div className="bg-[#ecf0f1] p-4 mb-4 rounded-2xl text-black">
+            <h3 className="text-xl">
+              <strong>You searched:</strong>
+            </h3>
+            <p className="px-4 text-xl">{message}</p>
+          </div>
+
+          {/* ⏳ Loading Animation */}
+          {loading && (
+            <div className="flex flex-col items-center justify-center my-10 gap-4">
+              {/* Revolving Scale Icon */}
+              <div className="relative w-24 h-24">
+                <div className="absolute inset-0 bg-[#e74c3c] opacity-20 rounded-full blur-2xl animate-ping-slow"></div>
+                <div className="absolute inset-0 animate-spin-slow text-[#e74c3c] text-6xl flex items-center justify-center">
+                  <FaBalanceScale />
+                </div>
+              </div>
+
+              {/* Trivia */}
+              <div className="bg-[#ecf0f1] mt-4 p-4 rounded-lg min-h-[60px] w-full max-w-lg text-center shadow-sm">
+                <p className="text-sm text-[#2c3e50]">{trivia}</p>
+              </div>
+            </div>
+          )}
+
+          {/* ✅ Loaded Results */}
+          {!loading && cards.length > 0 && (
+            <div className="flex flex-col gap-4 mt-8">
+              <h2 className="text-xl font-bold">The IPC Sections are:</h2>
+
+              {cards.map((card) => (
+                <motion.div
+                  key={card.id}
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.3 }}
+                  className="bg-[#ecf0f1] p-4 rounded-2xl text-[#2c3e50] shadow-sm"
+                >
+                  <div className="flex justify-between items-start flex-wrap gap-3">
+                    <div className="flex-1">
+                      <AnimatePresence mode="wait">
+                        {card.isCollapsed ? (
+                          <motion.div
+                            key="collapsed"
+                            initial={{ opacity: 0, height: 0 }}
+                            animate={{ opacity: 1, height: 'auto' }}
+                            exit={{ opacity: 0, height: 0 }}
+                            transition={{ duration: 0.3 }}
+                            className="overflow-hidden"
+                          >
+                            <div className="flex flex-wrap gap-3">
+                              <p>
+                                <strong>Section</strong>: {card.section_number}
+                              </p>
+                              <p>
+                                <strong>Sub_Section</strong>: {card.sub_section}
+                              </p>
+                              <p>
+                                <strong>{card.title}</strong>
+                              </p>
+                              <div className="flex flex-wrap gap-2 mt-2">
+                                {card.tags.map((tag) => (
+                                  <div
+                                    key={tag}
+                                    className="bg-white px-3 py-1 rounded-2xl text-sm opacity-80"
+                                  >
+                                    {tag}
+                                  </div>
+                                ))}
+                              </div>
+                            </div>
+                          </motion.div>
+                        ) : (
+                          <motion.div
+                            key="expanded"
+                            initial={{ opacity: 0, height: 0 }}
+                            animate={{ opacity: 1, height: 'auto' }}
+                            exit={{ opacity: 0, height: 0 }}
+                            transition={{ duration: 0.3 }}
+                            className="overflow-hidden"
+                          >
+                            <p>
+                              <strong>Section</strong>: {card.section_number}
+                            </p>
+                            <p>
+                              <strong>Sub_Section</strong>: {card.sub_section}
+                            </p>
+                            <p>
+                              <strong>Description</strong>: {card.description}
+                            </p>
+                            <p>
+                              <strong>Punishment</strong>: {card.punishment}
+                            </p>
+                            <p>
+                              <strong>Bailable</strong>:{' '}
+                              {card.bail_applicable
+                                ? 'Yes, under some conditions.'
+                                : 'No, not bailable.'}
+                            </p>
+                            {card.bail_applicable && (
+                              <>
+                                <p>
+                                  <strong>Type of Bail</strong>: {card.bail_type}
+                                </p>
+                                <p>
+                                  <strong>Bail Time Limit</strong>: {card.bail_time_limit}
+                                </p>
+                              </>
+                            )}
+                            <p>
+                              <strong>Link</strong>:{' '}
+                              <Link
+                                href={card.source_link}
+                                target="_blank"
+                                className="text-blue-500 underline"
+                              >
+                                Click for more information
+                              </Link>
+                            </p>
+                          </motion.div>
+                        )}
+                      </AnimatePresence>
+                    </div>
+
+                    <div className="mt-2 sm:mt-0">
+                      <button
+                        className="p-2 rounded-full bg-white opacity-60 hover:scale-110 transition-all duration-200"
+                        onClick={() => toggleView(card.id)}
+                      >
+                        {card.isCollapsed ? <IoMdArrowDropdown /> : <IoMdArrowDropup />}
+                      </button>
+                    </div>
+                  </div>
+                </motion.div>
+              ))}
+            </div>
+          )}
+
+          <div className="flex justify-end mt-6">
+            <button
+              className="px-4 py-2 bg-[#2c3e50] hover:bg-[#34495e] rounded-md text-white transition duration-200"
+              onClick={() => router.push('/Home')}
+            >
+              Back To Home
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+
+
+
+
+
+'use client';
+
+import React, { useEffect, useState } from 'react';
+import { IoMdArrowDropdown, IoMdArrowDropup } from 'react-icons/io';
+import { FaBalanceScale } from 'react-icons/fa';
+import { ImCross } from 'react-icons/im';
+import Link from 'next/link';
+import { useSearchParams, useRouter } from 'next/navigation';
+import { v4 as uuidv4 } from 'uuid';
+import { motion, AnimatePresence } from 'framer-motion';
+
+const triviaList = [
+  "In India, bail is a constitutional right under Article 21 (Right to Life and Liberty).",
+  "The amount of bail depends on the severity of the crime and flight risk of the accused.",
+  "Anticipatory bail (Section 438 CrPC) can be sought if arrest is feared.",
+  "Bail can be denied if the accused is likely to tamper with evidence or influence witnesses.",
+  "The concept of bail dates back to medieval England.",
+  "Supreme Court has ruled that bail should be the rule, jail the exception."
+];
+
+export default function Result() {
+  const [loading, setLoading] = useState(false);
+  const [progress, setProgress] = useState(0);
+  const [trivia, setTrivia] = useState('');
+  const [cards, setCards] = useState([]);
+  const searchParams = useSearchParams();
+  const router = useRouter();
+  const message = searchParams.get('message');
+
+  useEffect(() => {
+    let interval;
+
+    const updateProgress = () => {
+      setProgress((prev) => {
+        const next = Math.min(prev + Math.random() * 5 + 2, 98);
+        if (Math.floor(next) % 20 < 3) {
+          setTrivia(triviaList[Math.floor(Math.random() * triviaList.length)]);
+        }
+        return next;
+      });
+    };
+
+    if (loading) {
+      interval = setInterval(updateProgress, 400);
+    }
+
+    return () => clearInterval(interval);
+  }, [loading]);
+
+  useEffect(() => {
+    async function fetchData() {
+      if (!message) return;
+      setLoading(true);
+      try {
+        const response = await fetch('/api', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ message })
+        });
+
+        const res = await response.json();
+        const updated = res.map((item) => ({
+          ...item,
+          id: uuidv4(),
+          isCollapsed: true
+        }));
+        setCards(updated);
+        setProgress(100);
+        setTimeout(() => setLoading(false), 500);
+      } catch (err) {
+        console.error('Fetch error:', err);
+        setLoading(false);
+      }
+    }
+
+    fetchData();
+  }, [message]);
+
+  function toggleView(id) {
+    setCards((prev) =>
+      prev.map((card) =>
+        card.id === id ? { ...card, isCollapsed: !card.isCollapsed } : card
+      )
+    );
+  }
+
+  return (
+    <div className="min-h-[100vh] w-[100vw] bg-[#f9f9f9] px-4 py-8">
+      <div className="max-w-4xl mx-auto bg-white p-6 rounded-xl shadow-lg relative">
+        <button
+          className="absolute top-4 right-4 text-[#c0392b]"
+          onClick={() => router.push('/Home')}
+        >
+          <ImCross />
+        </button>
+
+        <div className="text-center mb-6">
+          <h1 className="font-extrabold text-3xl flex justify-center items-center gap-2 text-[#2c3e50]">
+            <FaBalanceScale />
+            BAIL <span className="text-[#c0392b]">सेतु</span>
+          </h1>
+          <p className="text-[#34495e] italic">Your bridge to legal freedom</p>
+        </div>
+
+        <div className="bg-[#ecf0f1] p-4 mb-6 rounded-lg">
+          <h3 className="text-lg font-semibold">You searched:</h3>
+          <p className="text-lg">{message}</p>
+        </div>
+
+        {/* Loading Animation */}
+        {loading && (
+          <div className="text-center">
+            <div className="relative bg-gray-200 h-4 rounded-md overflow-hidden">
+              <div
+                className="bg-[#e74c3c] h-full transition-all duration-300 ease-out"
+                style={{ width: `${progress}%` }}
+              ></div>
+            </div>
+            <p className="text-sm mt-2 font-bold text-[#34495e]">{Math.floor(progress)}%</p>
+            <div className="bg-[#ecf0f1] mt-4 p-3 rounded-lg min-h-[60px]">
+              <p className="text-sm text-[#2c3e50]">{trivia || 'Loading legal insights...'}</p>
+            </div>
+          </div>
+        )}
+
+        {/* Cards Section */}
+        {!loading && cards.length > 0 && (
+          <div className="mt-6 space-y-4">
+            <h2 className="text-xl font-bold mb-2">The IPC Sections are:</h2>
+            {cards.map((card) => (
+              <motion.div
+                key={card.id}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.3 }}
+                className="bg-[#ecf0f1] p-4 rounded-xl"
+              >
+                <div className="flex justify-between items-start gap-4">
+                  <div className="flex-1">
+                    <AnimatePresence mode="wait">
+                      {card.isCollapsed ? (
+                        <motion.div
+                          key="collapsed"
+                          initial={{ opacity: 0, height: 0 }}
+                          animate={{ opacity: 1, height: 'auto' }}
+                          exit={{ opacity: 0, height: 0 }}
+                          transition={{ duration: 0.3 }}
+                        >
+                          <p><strong>Section:</strong> {card.section_number}</p>
+                          <p><strong>Sub_Section:</strong> {card.sub_section}</p>
+                          <p className="font-semibold">{card.title}</p>
+                          <div className="flex flex-wrap gap-2 mt-2">
+                            {card.tags.map((tag) => (
+                              <div
+                                key={tag}
+                                className="bg-white px-3 py-1 rounded-full text-sm opacity-80"
+                              >
+                                {tag}
+                              </div>
+                            ))}
+                          </div>
+                        </motion.div>
+                      ) : (
+                        <motion.div
+                          key="expanded"
+                          initial={{ opacity: 0, height: 0 }}
+                          animate={{ opacity: 1, height: 'auto' }}
+                          exit={{ opacity: 0, height: 0 }}
+                          transition={{ duration: 0.3 }}
+                        >
+                          <p><strong>Section:</strong> {card.section_number}</p>
+                          <p><strong>Sub_Section:</strong> {card.sub_section}</p>
+                          <p><strong>Description:</strong> {card.description}</p>
+                          <p><strong>Punishment:</strong> {card.punishment}</p>
+                          <p><strong>Bailable:</strong> {card.bail_applicable ? "Yes" : "No"}</p>
+                          {card.bail_applicable && (
+                            <>
+                              <p><strong>Type of Bail:</strong> {card.bail_type}</p>
+                              <p><strong>Time Limit:</strong> {card.bail_time_limit}</p>
+                            </>
+                          )}
+                          <p><strong>Link:</strong> <Link href={card.source_link} target="_blank" className="text-blue-600 underline">More Info</Link></p>
+                        </motion.div>
+                      )}
+                    </AnimatePresence>
+                  </div>
+
+                  <div className="mt-1">
+                    <button
+                      onClick={() => toggleView(card.id)}
+                      className="p-2 bg-white rounded-full hover:scale-110 transition"
+                    >
+                      {card.isCollapsed ? <IoMdArrowDropdown /> : <IoMdArrowDropup />}
+                    </button>
+                  </div>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        )}
+
+        <div className="flex justify-end mt-8">
+          <button
+            className="px-5 py-2 bg-[#2c3e50] text-white rounded-md hover:bg-[#34495e] transition"
+            onClick={() => router.push('/Home')}
+          >
+            Back to Home
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}

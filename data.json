@@ -1,0 +1,32 @@
+[
+  {
+    "username": "john_doe",
+    "password": "password123",
+    "address": "123 Main Street",
+    "pinNumber": 123456,
+    "phoneNumber": 9876543210,
+    "emailAddress": "john@example.com",
+    "resetToken": "",
+    "resetTokenExpiry": null
+  },
+  {
+    "username": "jane_smith",
+    "password": "secure456",
+    "address": "456 Park Ave",
+    "pinNumber": 654321,
+    "phoneNumber": 9123456780,
+    "emailAddress": "jane@example.com",
+    "resetToken": "",
+    "resetTokenExpiry": null
+  },
+  {
+    "username": "ram_kumar",
+    "password": "bailapp789",
+    "address": "22 MG Road",
+    "pinNumber": 700001,
+    "phoneNumber": 9988776655,
+    "emailAddress": "ram.k@example.com",
+    "resetToken": "",
+    "resetTokenExpiry": null
+  }
+]

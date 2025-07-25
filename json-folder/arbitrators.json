@@ -1,0 +1,1605 @@
+[{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba34f"
+  },
+  "name": "Priya Sharma",
+  "location": "Mumbai",
+  "rating": 4.7,
+  "experience": 15,
+  "languages": [
+    "Hindi",
+    "English",
+    "Marathi"
+  ],
+  "casesResolved": 342,
+  "title": "Chief Arbitrator",
+  "bio": "Specialized in commercial disputes with extensive experience in banking and finance sector arbitrations. Known for efficient case management and fair resolutions.",
+  "email": "priya.sharma@arbitration.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": [],
+  "__v": 1,
+  "createdAt": {
+    "$date": "2025-07-12T17:31:54.078Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba350"
+  },
+  "name": "Rajesh Kumar",
+  "location": "Delhi",
+  "rating": 4.5,
+  "experience": 22,
+  "languages": [
+    "Hindi",
+    "English",
+    "Punjabi"
+  ],
+  "casesResolved": 458,
+  "title": "Senior Arbitrator",
+  "bio": "Expert in construction and infrastructure disputes. Former judge with comprehensive knowledge of arbitration laws and international commercial practices.",
+  "email": "rajesh.kumar@legalservices.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": [
+    "af3c1ee5-804a-4979-805a-e364c9648eb3"
+  ]
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba351"
+  },
+  "name": "Meera Iyer",
+  "location": "Bangalore",
+  "rating": 4.8,
+  "experience": 18,
+  "languages": [
+    "English",
+    "Kannada",
+    "Tamil",
+    "Telugu"
+  ],
+  "casesResolved": 289,
+  "title": "Technology Arbitrator",
+  "bio": "Leading expert in technology and intellectual property disputes. Specializes in software licensing, patent infringement, and IT contract disputes.",
+  "email": "meera.iyer@techlaw.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba352"
+  },
+  "name": "Arjun Singh",
+  "location": "Hyderabad",
+  "rating": 4.3,
+  "experience": 12,
+  "languages": [
+    "Telugu",
+    "Hindi",
+    "English"
+  ],
+  "casesResolved": 195,
+  "title": "Commercial Arbitrator",
+  "bio": "Focused on commercial and trade disputes with particular expertise in pharmaceutical and biotechnology sectors. Quick resolution specialist.",
+  "email": "arjun.singh@pharmalaw.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba353"
+  },
+  "name": "Kavita Patel",
+  "location": "Ahmedabad",
+  "rating": 4.6,
+  "experience": 20,
+  "languages": [
+    "Gujarati",
+    "Hindi",
+    "English"
+  ],
+  "casesResolved": 367,
+  "title": "International Arbitrator",
+  "bio": "Certified international arbitrator with experience in cross-border disputes. Specializes in textile, chemicals, and manufacturing sector arbitrations.",
+  "email": "kavita.patel@intlarb.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba354"
+  },
+  "name": "Suresh Menon",
+  "location": "Chennai",
+  "rating": 4.4,
+  "experience": 25,
+  "languages": [
+    "Tamil",
+    "English",
+    "Malayalam"
+  ],
+  "casesResolved": 421,
+  "title": "Maritime Arbitrator",
+  "bio": "Expert in maritime and shipping disputes with extensive knowledge of admiralty law. Handles port operations, cargo claims, and ship charter disputes.",
+  "email": "suresh.menon@maritime.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba355"
+  },
+  "name": "Anita Gupta",
+  "location": "Kolkata",
+  "rating": 4.2,
+  "experience": 16,
+  "languages": [
+    "Bengali",
+    "Hindi",
+    "English"
+  ],
+  "casesResolved": 273,
+  "title": "Family Arbitrator",
+  "bio": "Specializes in family disputes, matrimonial property settlements, and inheritance matters. Known for sensitive handling of personal disputes.",
+  "email": "anita.gupta@familylaw.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba356"
+  },
+  "name": "Vikram Reddy",
+  "location": "Pune",
+  "rating": 4.5,
+  "experience": 14,
+  "languages": [
+    "Marathi",
+    "Hindi",
+    "English"
+  ],
+  "casesResolved": 234,
+  "title": "Construction Arbitrator",
+  "bio": "Expert in construction and real estate disputes. Handles contractor claims, project delays, and property development conflicts with technical expertise.",
+  "email": "vikram.reddy@construction.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba357"
+  },
+  "name": "Deepika Nair",
+  "location": "Kochi",
+  "rating": 4.3,
+  "experience": 11,
+  "languages": [
+    "Malayalam",
+    "English",
+    "Tamil"
+  ],
+  "casesResolved": 187,
+  "title": "Employment Arbitrator",
+  "bio": "Focused on employment and labor disputes, workplace conflicts, and service contract disagreements. Promotes fair workplace practices.",
+  "email": "deepika.nair@employment.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba358"
+  },
+  "name": "Rahul Joshi",
+  "location": "Jaipur",
+  "rating": 4.1,
+  "experience": 19,
+  "languages": [
+    "Hindi",
+    "English",
+    "Rajasthani"
+  ],
+  "casesResolved": 298,
+  "title": "Mining Arbitrator",
+  "bio": "Specializes in mining and mineral disputes, land acquisition conflicts, and environmental compliance issues. Deep understanding of mining laws.",
+  "email": "rahul.joshi@mining.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba359"
+  },
+  "name": "Shilpa Desai",
+  "location": "Surat",
+  "rating": 4.4,
+  "experience": 13,
+  "languages": [
+    "Gujarati",
+    "Hindi",
+    "English"
+  ],
+  "casesResolved": 156,
+  "title": "Textile Arbitrator",
+  "bio": "Expert in textile and garment industry disputes. Handles supply chain conflicts, quality issues, and international trade disputes in textile sector.",
+  "email": "shilpa.desai@textile.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba35a"
+  },
+  "name": "Anil Bhargava",
+  "location": "Indore",
+  "rating": 4,
+  "experience": 21,
+  "languages": [
+    "Hindi",
+    "English"
+  ],
+  "casesResolved": 334,
+  "title": "Insurance Arbitrator",
+  "bio": "Specializes in insurance claim disputes, policy interpretation, and coverage conflicts. Extensive experience in both life and general insurance sectors.",
+  "email": "anil.bhargava@insurance.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba35b"
+  },
+  "name": "Ritu Malhotra",
+  "location": "Chandigarh",
+  "rating": 4.6,
+  "experience": 17,
+  "languages": [
+    "Hindi",
+    "Punjabi",
+    "English"
+  ],
+  "casesResolved": 267,
+  "title": "Banking Arbitrator",
+  "bio": "Expert in banking and financial services disputes. Handles loan recovery, banking fraud, and financial product disputes with regulatory expertise.",
+  "email": "ritu.malhotra@banking.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba35c"
+  },
+  "name": "Karthik Krishnan",
+  "location": "Coimbatore",
+  "rating": 4.2,
+  "experience": 15,
+  "languages": [
+    "Tamil",
+    "English",
+    "Malayalam"
+  ],
+  "casesResolved": 203,
+  "title": "Engineering Arbitrator",
+  "bio": "Specializes in engineering and technical disputes. Handles manufacturing defects, technical specifications, and industrial equipment conflicts.",
+  "email": "karthik.krishnan@engineering.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba35d"
+  },
+  "name": "Neha Agarwal",
+  "location": "Lucknow",
+  "rating": 4.3,
+  "experience": 12,
+  "languages": [
+    "Hindi",
+    "English",
+    "Urdu"
+  ],
+  "casesResolved": 178,
+  "title": "Real Estate Arbitrator",
+  "bio": "Expert in real estate and property disputes. Handles property transactions, title disputes, and real estate development conflicts.",
+  "email": "neha.agarwal@realestate.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba35e"
+  },
+  "name": "Sandeep Kaur",
+  "location": "Ludhiana",
+  "rating": 4.1,
+  "experience": 14,
+  "languages": [
+    "Punjabi",
+    "Hindi",
+    "English"
+  ],
+  "casesResolved": 221,
+  "title": "Agricultural Arbitrator",
+  "bio": "Specializes in agricultural disputes, land conflicts, and agro-business disagreements. Deep understanding of farming and rural issues.",
+  "email": "sandeep.kaur@agri.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba35f"
+  },
+  "name": "Ajay Verma",
+  "location": "Nagpur",
+  "rating": 4.4,
+  "experience": 18,
+  "languages": [
+    "Hindi",
+    "Marathi",
+    "English"
+  ],
+  "casesResolved": 312,
+  "title": "Transport Arbitrator",
+  "bio": "Expert in transportation and logistics disputes. Handles freight claims, carrier liability, and transport contract disagreements.",
+  "email": "ajay.verma@transport.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba360"
+  },
+  "name": "Pooja Rao",
+  "location": "Mangalore",
+  "rating": 4.5,
+  "experience": 13,
+  "languages": [
+    "Kannada",
+    "Tulu",
+    "English"
+  ],
+  "casesResolved": 189,
+  "title": "Healthcare Arbitrator",
+  "bio": "Specializes in healthcare and medical disputes. Handles medical malpractice, healthcare service conflicts, and pharmaceutical disputes.",
+  "email": "pooja.rao@healthcare.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba361"
+  },
+  "name": "Manish Sinha",
+  "location": "Patna",
+  "rating": 3.9,
+  "experience": 16,
+  "languages": [
+    "Hindi",
+    "English",
+    "Bhojpuri"
+  ],
+  "casesResolved": 245,
+  "title": "Energy Arbitrator",
+  "bio": "Expert in energy sector disputes including power generation, renewable energy projects, and utility contract disagreements.",
+  "email": "manish.sinha@energy.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba362"
+  },
+  "name": "Sunita Pillai",
+  "location": "Thiruvananthapuram",
+  "rating": 4.2,
+  "experience": 20,
+  "languages": [
+    "Malayalam",
+    "English",
+    "Tamil"
+  ],
+  "casesResolved": 298,
+  "title": "Media Arbitrator",
+  "bio": "Specializes in media and entertainment disputes. Handles copyright issues, content licensing, and broadcasting conflicts.",
+  "email": "sunita.pillai@media.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba363"
+  },
+  "name": "Rohit Saxena",
+  "location": "Bhopal",
+  "rating": 4,
+  "experience": 22,
+  "languages": [
+    "Hindi",
+    "English"
+  ],
+  "casesResolved": 376,
+  "title": "Government Arbitrator",
+  "bio": "Expert in government contract disputes and public sector arbitrations. Handles procurement conflicts and administrative disputes.",
+  "email": "rohit.saxena@govt.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba364"
+  },
+  "name": "Asha Reddy",
+  "location": "Visakhapatnam",
+  "rating": 4.3,
+  "experience": 14,
+  "languages": [
+    "Telugu",
+    "English",
+    "Hindi"
+  ],
+  "casesResolved": 267,
+  "title": "Petroleum Arbitrator",
+  "bio": "Specializes in petroleum and oil industry disputes. Handles refinery conflicts, distribution agreements, and exploration disputes.",
+  "email": "asha.reddy@petroleum.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba365"
+  },
+  "name": "Girish Pandey",
+  "location": "Varanasi",
+  "rating": 4.1,
+  "experience": 25,
+  "languages": [
+    "Hindi",
+    "English",
+    "Sanskrit"
+  ],
+  "casesResolved": 423,
+  "title": "Religious Arbitrator",
+  "bio": "Expert in religious and cultural disputes. Handles temple matters, religious property conflicts, and traditional practice disagreements.",
+  "email": "girish.pandey@religious.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba366"
+  },
+  "name": "Rekha Jain",
+  "location": "Jodhpur",
+  "rating": 4.4,
+  "experience": 19,
+  "languages": [
+    "Hindi",
+    "Rajasthani",
+    "English"
+  ],
+  "casesResolved": 334,
+  "title": "Handicraft Arbitrator",
+  "bio": "Specializes in handicraft and artisan disputes. Handles traditional craft conflicts, intellectual property of traditional arts, and artisan rights.",
+  "email": "rekha.jain@handicraft.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba367"
+  },
+  "name": "Sanjay Mehta",
+  "location": "Rajkot",
+  "rating": 4.2,
+  "experience": 17,
+  "languages": [
+    "Gujarati",
+    "Hindi",
+    "English"
+  ],
+  "casesResolved": 289,
+  "title": "Automotive Arbitrator",
+  "bio": "Expert in automotive industry disputes. Handles manufacturing defects, dealership conflicts, and automotive component supply chain issues.",
+  "email": "sanjay.mehta@automotive.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba368"
+  },
+  "name": "Lakshmi Venkatesh",
+  "location": "Mysore",
+  "rating": 4.6,
+  "experience": 21,
+  "languages": [
+    "Kannada",
+    "English",
+    "Tamil"
+  ],
+  "casesResolved": 387,
+  "title": "Education Arbitrator",
+  "bio": "Specializes in educational disputes and academic conflicts. Handles school management issues, student grievances, and educational service disputes.",
+  "email": "lakshmi.venkatesh@education.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba369"
+  },
+  "name": "Amit Khanna",
+  "location": "Gurgaon",
+  "rating": 4.5,
+  "experience": 16,
+  "languages": [
+    "Hindi",
+    "English",
+    "Punjabi"
+  ],
+  "casesResolved": 312,
+  "title": "Corporate Arbitrator",
+  "bio": "Expert in corporate governance disputes and merger & acquisition conflicts. Handles shareholder disputes and corporate restructuring issues.",
+  "email": "amit.khanna@corporate.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba36a"
+  },
+  "name": "Priyanka Das",
+  "location": "Guwahati",
+  "rating": 4,
+  "experience": 12,
+  "languages": [
+    "Assamese",
+    "Bengali",
+    "English"
+  ],
+  "casesResolved": 178,
+  "title": "Environmental Arbitrator",
+  "bio": "Specializes in environmental disputes and sustainability conflicts. Handles pollution cases, environmental compliance, and green technology disputes.",
+  "email": "priyanka.das@environment.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba36b"
+  },
+  "name": "Harish Chandra",
+  "location": "Dehradun",
+  "rating": 4.3,
+  "experience": 24,
+  "languages": [
+    "Hindi",
+    "English",
+    "Garhwali"
+  ],
+  "casesResolved": 401,
+  "title": "Tourism Arbitrator",
+  "bio": "Expert in tourism and hospitality disputes. Handles hotel conflicts, travel service disagreements, and tourism development disputes.",
+  "email": "harish.chandra@tourism.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba36c"
+  },
+  "name": "Madhuri Shastri",
+  "location": "Nashik",
+  "rating": 4.1,
+  "experience": 15,
+  "languages": [
+    "Marathi",
+    "Hindi",
+    "English"
+  ],
+  "casesResolved": 234,
+  "title": "Wine & Agriculture Arbitrator",
+  "bio": "Specializes in wine industry and agricultural product disputes. Handles grape cultivation conflicts, wine production issues, and agricultural trade disputes.",
+  "email": "madhuri.shastri@wine.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba36d"
+  },
+  "name": "Rajiv Kapoor",
+  "location": "Jammu",
+  "rating": 3.8,
+  "experience": 18,
+  "languages": [
+    "Hindi",
+    "Urdu",
+    "English"
+  ],
+  "casesResolved": 267,
+  "title": "Border Trade Arbitrator",
+  "bio": "Expert in cross-border trade disputes and international commerce. Handles customs conflicts, border trade agreements, and international supply chain issues.",
+  "email": "rajiv.kapoor@border.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba36e"
+  },
+  "name": "Kavya Nambiar",
+  "location": "Kannur",
+  "rating": 4.4,
+  "experience": 13,
+  "languages": [
+    "Malayalam",
+    "English",
+    "Kannada"
+  ],
+  "casesResolved": 198,
+  "title": "Spice Trade Arbitrator",
+  "bio": "Specializes in spice trade and agricultural export disputes. Handles quality standards, international trade agreements, and spice industry conflicts.",
+  "email": "kavya.nambiar@spice.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba36f"
+  },
+  "name": "Dinesh Agarwal",
+  "location": "Agra",
+  "rating": 4.2,
+  "experience": 20,
+  "languages": [
+    "Hindi",
+    "English",
+    "Urdu"
+  ],
+  "casesResolved": 345,
+  "title": "Heritage Arbitrator",
+  "bio": "Expert in heritage and cultural property disputes. Handles archaeological conflicts, monument restoration disputes, and cultural heritage preservation issues.",
+  "email": "dinesh.agarwal@heritage.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba370"
+  },
+  "name": "Smita Kulkarni",
+  "location": "Aurangabad",
+  "rating": 4,
+  "experience": 14,
+  "languages": [
+    "Marathi",
+    "Hindi",
+    "English"
+  ],
+  "casesResolved": 223,
+  "title": "Pharmaceutical Arbitrator",
+  "bio": "Specializes in pharmaceutical and biotechnology disputes. Handles drug development conflicts, patent disputes, and pharmaceutical manufacturing issues.",
+  "email": "smita.kulkarni@pharma.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba371"
+  },
+  "name": "Vinod Kumar",
+  "location": "Shimla",
+  "rating": 4.3,
+  "experience": 19,
+  "languages": [
+    "Hindi",
+    "English",
+    "Pahari"
+  ],
+  "casesResolved": 298,
+  "title": "Hill Station Arbitrator",
+  "bio": "Expert in hill station and mountain region disputes. Handles tourism conflicts, land use issues, and environmental protection disputes in hilly areas.",
+  "email": "vinod.kumar@hillstation.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba372"
+  },
+  "name": "Geeta Prasad",
+  "location": "Ranchi",
+  "rating": 3.9,
+  "experience": 16,
+  "languages": [
+    "Hindi",
+    "English",
+    "Santhali"
+  ],
+  "casesResolved": 234,
+  "title": "Tribal Affairs Arbitrator",
+  "bio": "Specializes in tribal affairs and indigenous rights disputes. Handles land rights conflicts, tribal welfare issues, and traditional resource management disputes.",
+  "email": "geeta.prasad@tribal.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba373"
+  },
+  "name": "Sunil Bhatt",
+  "location": "Vadodara",
+  "rating": 4.1,
+  "experience": 23,
+  "languages": [
+    "Gujarati",
+    "Hindi",
+    "English"
+  ],
+  "casesResolved": 389,
+  "title": "Chemical Industry Arbitrator",
+  "bio": "Expert in chemical industry disputes and petrochemical conflicts. Handles manufacturing process disputes, environmental compliance, and chemical safety issues.",
+  "email": "sunil.bhatt@chemical.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba374"
+  },
+  "name": "Nisha Gupta",
+  "location": "Kanpur",
+  "rating": 4.2,
+  "experience": 17,
+  "languages": [
+    "Hindi",
+    "English",
+    "Urdu"
+  ],
+  "casesResolved": 276,
+  "title": "Leather Industry Arbitrator",
+  "bio": "Specializes in leather industry disputes and tanning conflicts. Handles quality standards, export issues, and leather manufacturing disputes.",
+  "email": "nisha.gupta@leather.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba375"
+  },
+  "name": "Kishore Yadav",
+  "location": "Allahabad",
+  "rating": 4,
+  "experience": 21,
+  "languages": [
+    "Hindi",
+    "English",
+    "Urdu"
+  ],
+  "casesResolved": 356,
+  "title": "Legal Education Arbitrator",
+  "bio": "Expert in legal education and judicial training disputes. Handles law school conflicts, judicial examination issues, and legal profession disputes.",
+  "email": "kishore.yadav@legaledu.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba376"
+  },
+  "name": "Rashmi Joshi",
+  "location": "Nainital",
+  "rating": 4.4,
+  "experience": 15,
+  "languages": [
+    "Hindi",
+    "English",
+    "Kumaoni"
+  ],
+  "casesResolved": 189,
+  "title": "Eco-Tourism Arbitrator",
+  "bio": "Specializes in eco-tourism and sustainable development disputes. Handles environmental tourism conflicts, wildlife protection issues, and sustainable tourism practices.",
+  "email": "rashmi.joshi@ecotourism.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba377"
+  },
+  "name": "Abhishek Tiwari",
+  "location": "Varanasi",
+  "rating": 4.3,
+  "experience": 19,
+  "languages": [
+    "Hindi",
+    "English",
+    "Sanskrit"
+  ],
+  "casesResolved": 312,
+  "title": "Spiritual & Cultural Arbitrator",
+  "bio": "Expert in religious institution disputes and cultural property conflicts. Handles temple administration, spiritual organization disagreements, and cultural heritage preservation.",
+  "email": "abhishek.tiwari@spiritual.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba378"
+  },
+  "name": "Preethi Menon",
+  "location": "Trivandrum",
+  "rating": 4.6,
+  "experience": 14,
+  "languages": [
+    "Malayalam",
+    "English",
+    "Tamil"
+  ],
+  "casesResolved": 245,
+  "title": "IT Services Arbitrator",
+  "bio": "Specializes in information technology service disputes and software development conflicts. Handles outsourcing agreements, SLA disputes, and tech contract disagreements.",
+  "email": "preethi.menon@itservices.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba379"
+  },
+  "name": "Ramesh Chandra",
+  "location": "Haridwar",
+  "rating": 4.1,
+  "experience": 26,
+  "languages": [
+    "Hindi",
+    "English",
+    "Sanskrit"
+  ],
+  "casesResolved": 456,
+  "title": "Ayurvedic Medicine Arbitrator",
+  "bio": "Expert in traditional medicine disputes and ayurvedic practice conflicts. Handles herbal medicine quality issues, traditional healing practice disputes, and ayurvedic product conflicts.",
+  "email": "ramesh.chandra@ayurveda.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba37a"
+  },
+  "name": "Shalini Bose",
+  "location": "Kolkata",
+  "rating": 4.4,
+  "experience": 16,
+  "languages": [
+    "Bengali",
+    "Hindi",
+    "English"
+  ],
+  "casesResolved": 298,
+  "title": "Arts & Literature Arbitrator",
+  "bio": "Specializes in intellectual property disputes related to arts and literature. Handles copyright conflicts, publication disputes, and creative content disagreements.",
+  "email": "shalini.bose@artsliterature.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba37b"
+  },
+  "name": "Manoj Patil",
+  "location": "Solapur",
+  "rating": 4.2,
+  "experience": 18,
+  "languages": [
+    "Marathi",
+    "Hindi",
+    "English"
+  ],
+  "casesResolved": 334,
+  "title": "Cooperative Society Arbitrator",
+  "bio": "Expert in cooperative society disputes and rural banking conflicts. Handles credit society issues, farmer cooperative disagreements, and rural financial service disputes.",
+  "email": "manoj.patil@cooperative.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba37c"
+  },
+  "name": "Divya Krishnan",
+  "location": "Ernakulam",
+  "rating": 4.5,
+  "experience": 13,
+  "languages": [
+    "Malayalam",
+    "English",
+    "Tamil"
+  ],
+  "casesResolved": 223,
+  "title": "Marine Products Arbitrator",
+  "bio": "Specializes in marine products and fisheries disputes. Handles seafood export conflicts, fishing industry disagreements, and marine resource management disputes.",
+  "email": "divya.krishnan@marine.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba37d"
+  },
+  "name": "Ashok Pandey",
+  "location": "Gorakhpur",
+  "rating": 4,
+  "experience": 22,
+  "languages": [
+    "Hindi",
+    "English",
+    "Bhojpuri"
+  ],
+  "casesResolved": 387,
+  "title": "Sugar Industry Arbitrator",
+  "bio": "Expert in sugar industry and sugarcane farming disputes. Handles mill operations conflicts, farmer payment issues, and sugar processing disagreements.",
+  "email": "ashok.pandey@sugar.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba37e"
+  },
+  "name": "Raveena Kaur",
+  "location": "Amritsar",
+  "rating": 4.3,
+  "experience": 15,
+  "languages": [
+    "Punjabi",
+    "Hindi",
+    "English"
+  ],
+  "casesResolved": 267,
+  "title": "Food Processing Arbitrator",
+  "bio": "Specializes in food processing and agricultural product disputes. Handles food safety issues, processing quality conflicts, and agricultural supply chain disagreements.",
+  "email": "raveena.kaur@foodprocessing.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba37f"
+  },
+  "name": "Prakash Sharma",
+  "location": "Udaipur",
+  "rating": 4.4,
+  "experience": 20,
+  "languages": [
+    "Hindi",
+    "Rajasthani",
+    "English"
+  ],
+  "casesResolved": 356,
+  "title": "Marble & Stone Arbitrator",
+  "bio": "Expert in marble and stone industry disputes. Handles quarrying conflicts, stone processing disagreements, and marble trade disputes.",
+  "email": "prakash.sharma@marble.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba380"
+  },
+  "name": "Swati Deshmukh",
+  "location": "Nagpur",
+  "rating": 4.1,
+  "experience": 17,
+  "languages": [
+    "Marathi",
+    "Hindi",
+    "English"
+  ],
+  "casesResolved": 289,
+  "title": "Cotton & Textile Arbitrator",
+  "bio": "Specializes in cotton farming and textile manufacturing disputes. Handles cotton quality issues, textile production conflicts, and garment industry disagreements.",
+  "email": "swati.deshmukh@cotton.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba381"
+  },
+  "name": "Rajesh Bhardwaj",
+  "location": "Meerut",
+  "rating": 4.2,
+  "experience": 19,
+  "languages": [
+    "Hindi",
+    "English",
+    "Urdu"
+  ],
+  "casesResolved": 345,
+  "title": "Sports Goods Arbitrator",
+  "bio": "Expert in sports goods manufacturing and export disputes. Handles quality standards, international trade agreements, and sports equipment manufacturing conflicts.",
+  "email": "rajesh.bhardwaj@sports.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba382"
+  },
+  "name": "Lata Srinivasan",
+  "location": "Madurai",
+  "rating": 4.5,
+  "experience": 16,
+  "languages": [
+    "Tamil",
+    "English",
+    "Malayalam"
+  ],
+  "casesResolved": 278,
+  "title": "Temple Administration Arbitrator",
+  "bio": "Specializes in temple administration and religious property disputes. Handles temple trust conflicts, religious endowment issues, and pilgrimage service disagreements.",
+  "email": "lata.srinivasan@temple.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba383"
+  },
+  "name": "Yogesh Agrawal",
+  "location": "Indore",
+  "rating": 4,
+  "experience": 21,
+  "languages": [
+    "Hindi",
+    "English",
+    "Marathi"
+  ],
+  "casesResolved": 398,
+  "title": "Soybean & Oilseed Arbitrator",
+  "bio": "Expert in soybean and oilseed industry disputes. Handles oil processing conflicts, agricultural commodity trading disagreements, and seed quality issues.",
+  "email": "yogesh.agrawal@soybean.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba384"
+  },
+  "name": "Archana Pillai",
+  "location": "Kozhikode",
+  "rating": 4.3,
+  "experience": 14,
+  "languages": [
+    "Malayalam",
+    "English",
+    "Tamil"
+  ],
+  "casesResolved": 234,
+  "title": "Coconut Industry Arbitrator",
+  "bio": "Specializes in coconut industry and coconut product disputes. Handles coconut processing conflicts, coir industry disagreements, and coconut oil quality issues.",
+  "email": "archana.pillai@coconut.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba385"
+  },
+  "name": "Deepak Malhotra",
+  "location": "Chandigarh",
+  "rating": 4.4,
+  "experience": 18,
+  "languages": [
+    "Hindi",
+    "Punjabi",
+    "English"
+  ],
+  "casesResolved": 312,
+  "title": "Wheat & Grain Arbitrator",
+  "bio": "Expert in wheat and grain industry disputes. Handles grain quality conflicts, wheat procurement disagreements, and grain storage facility disputes.",
+  "email": "deepak.malhotra@wheat.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba386"
+  },
+  "name": "Kavitha Reddy",
+  "location": "Warangal",
+  "rating": 4.1,
+  "experience": 15,
+  "languages": [
+    "Telugu",
+    "Hindi",
+    "English"
+  ],
+  "casesResolved": 256,
+  "title": "Rice & Paddy Arbitrator",
+  "bio": "Specializes in rice and paddy cultivation disputes. Handles rice mill conflicts, paddy quality issues, and rice export disagreements.",
+  "email": "kavitha.reddy@rice.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba387"
+  },
+  "name": "Sudhir Thakur",
+  "location": "Shimla",
+  "rating": 4.2,
+  "experience": 23,
+  "languages": [
+    "Hindi",
+    "English",
+    "Pahari"
+  ],
+  "casesResolved": 401,
+  "title": "Apple & Fruit Arbitrator",
+  "bio": "Expert in apple and fruit industry disputes. Handles apple cultivation conflicts, fruit processing disagreements, and horticultural trade disputes.",
+  "email": "sudhir.thakur@apple.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba388"
+  },
+  "name": "Meena Rajput",
+  "location": "Ajmer",
+  "rating": 4,
+  "experience": 20,
+  "languages": [
+    "Hindi",
+    "Rajasthani",
+    "English"
+  ],
+  "casesResolved": 345,
+  "title": "Handicraft & Artisan Arbitrator",
+  "bio": "Specializes in handicraft and artisan disputes. Handles traditional craft conflicts, artisan rights issues, and handicraft export disagreements.",
+  "email": "meena.rajput@handicraft.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba389"
+  },
+  "name": "Vikash Singh",
+  "location": "Patna",
+  "rating": 3.9,
+  "experience": 17,
+  "languages": [
+    "Hindi",
+    "English",
+    "Bhojpuri"
+  ],
+  "casesResolved": 298,
+  "title": "Jute & Fiber Arbitrator",
+  "bio": "Expert in jute and fiber industry disputes. Handles jute processing conflicts, fiber quality issues, and jute product export disagreements.",
+  "email": "vikash.singh@jute.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba38a"
+  },
+  "name": "Shobha Nair",
+  "location": "Kollam",
+  "rating": 4.3,
+  "experience": 16,
+  "languages": [
+    "Malayalam",
+    "English",
+    "Tamil"
+  ],
+  "casesResolved": 289,
+  "title": "Cashew Industry Arbitrator",
+  "bio": "Specializes in cashew industry and nut processing disputes. Handles cashew quality conflicts, processing facility disagreements, and cashew export issues.",
+  "email": "shobha.nair@cashew.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba38b"
+  },
+  "name": "Raman Gupta",
+  "location": "Ludhiana",
+  "rating": 4.2,
+  "experience": 19,
+  "languages": [
+    "Punjabi",
+    "Hindi",
+    "English"
+  ],
+  "casesResolved": 356,
+  "title": "Bicycle & Parts Arbitrator",
+  "bio": "Expert in bicycle manufacturing and parts industry disputes. Handles bicycle quality conflicts, parts supply disagreements, and bicycle export issues.",
+  "email": "raman.gupta@bicycle.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba38c"
+  },
+  "name": "Sunita Chawla",
+  "location": "Gurgaon",
+  "rating": 4.5,
+  "experience": 14,
+  "languages": [
+    "Hindi",
+    "English",
+    "Punjabi"
+  ],
+  "casesResolved": 267,
+  "title": "Call Center & BPO Arbitrator",
+  "bio": "Specializes in call center and BPO industry disputes. Handles service level agreements, employee conflicts, and client service disagreements.",
+  "email": "sunita.chawla@callcenter.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba38d"
+  },
+  "name": "Kiran Joshi",
+  "location": "Pune",
+  "rating": 4.4,
+  "experience": 18,
+  "languages": [
+    "Marathi",
+    "Hindi",
+    "English"
+  ],
+  "casesResolved": 334,
+  "title": "Automobile Parts Arbitrator",
+  "bio": "Expert in automobile parts manufacturing and supply disputes. Handles parts quality conflicts, supplier disagreements, and automotive component export issues.",
+  "email": "kiran.joshi@autoparts.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba38e"
+  },
+  "name": "Anjali Sharma",
+  "location": "Jaipur",
+  "rating": 4.1,
+  "experience": 16,
+  "languages": [
+    "Hindi",
+    "English",
+    "Rajasthani"
+  ],
+  "casesResolved": 289,
+  "title": "Gem & Jewelry Arbitrator",
+  "bio": "Specializes in gem and jewelry industry disputes. Handles precious stone conflicts, jewelry quality issues, and gem trade disagreements.",
+  "email": "anjali.sharma@jewelry.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba38f"
+  },
+  "name": "Mohan Das",
+  "location": "Bhubaneswar",
+  "rating": 4,
+  "experience": 22,
+  "languages": [
+    "Odia",
+    "Hindi",
+    "English"
+  ],
+  "casesResolved": 378,
+  "title": "Mining & Metals Arbitrator",
+  "bio": "Expert in mining and metals industry disputes. Handles mining lease conflicts, metal processing disagreements, and mineral extraction issues.",
+  "email": "mohan.das@mining.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba390"
+  },
+  "name": "Priya Chakraborty",
+  "location": "Kolkata",
+  "rating": 4.3,
+  "experience": 15,
+  "languages": [
+    "Bengali",
+    "Hindi",
+    "English"
+  ],
+  "casesResolved": 256,
+  "title": "Jute Mills Arbitrator",
+  "bio": "Specializes in jute mill operations and jute product disputes. Handles jute mill labor conflicts, production quality issues, and jute export disagreements.",
+  "email": "priya.chakraborty@jutemills.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba391"
+  },
+  "name": "Arun Patel",
+  "location": "Ahmedabad",
+  "rating": 4.4,
+  "experience": 21,
+  "languages": [
+    "Gujarati",
+    "Hindi",
+    "English"
+  ],
+  "casesResolved": 389,
+  "title": "Chemical & Dyes Arbitrator",
+  "bio": "Expert in chemical and dyes industry disputes. Handles chemical manufacturing conflicts, dye quality issues, and chemical export disagreements.",
+  "email": "arun.patel@chemicals.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba392"
+  },
+  "name": "Radha Krishnan",
+  "location": "Chennai",
+  "rating": 4.2,
+  "experience": 17,
+  "languages": [
+    "Tamil",
+    "English",
+    "Telugu"
+  ],
+  "casesResolved": 312,
+  "title": "Leather Goods Arbitrator",
+  "bio": "Specializes in leather goods manufacturing and export disputes. Handles leather quality conflicts, tanning process disagreements, and leather export issues.",
+  "email": "radha.krishnan@leathergoods.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba393"
+  },
+  "name": "Sanjiv Kumar",
+  "location": "Faridabad",
+  "rating": 4.1,
+  "experience": 19,
+  "languages": [
+    "Hindi",
+    "English",
+    "Punjabi"
+  ],
+  "casesResolved": 345,
+  "title": "Tractor & Farm Equipment Arbitrator",
+  "bio": "Expert in tractor and farm equipment disputes. Handles agricultural machinery conflicts, equipment quality issues, and farm equipment dealer disagreements.",
+  "email": "sanjiv.kumar@tractor.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba394"
+  },
+  "name": "Lakshmi Devi",
+  "location": "Vijayawada",
+  "rating": 4.3,
+  "experience": 16,
+  "languages": [
+    "Telugu",
+    "Hindi",
+    "English"
+  ],
+  "casesResolved": 278,
+  "title": "Aquaculture Arbitrator",
+  "bio": "Specializes in aquaculture and fish farming disputes. Handles fish farming conflicts, aquaculture technology disagreements, and fish export issues.",
+  "email": "lakshmi.devi@aquaculture.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba395"
+  },
+  "name": "Bharat Mehta",
+  "location": "Surat",
+  "rating": 4.5,
+  "experience": 20,
+  "languages": [
+    "Gujarati",
+    "Hindi",
+    "English"
+  ],
+  "casesResolved": 367,
+  "title": "Diamond & Cutting Arbitrator",
+  "bio": "Expert in diamond cutting and polishing industry disputes. Handles diamond quality conflicts, cutting process disagreements, and diamond trade issues.",
+  "email": "bharat.mehta@diamond.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba396"
+  },
+  "name": "Usha Rani",
+  "location": "Mysore",
+  "rating": 4,
+  "experience": 18,
+  "languages": [
+    "Kannada",
+    "English",
+    "Tamil"
+  ],
+  "casesResolved": 298,
+  "title": "Silk & Handloom Arbitrator",
+  "bio": "Specializes in silk and handloom industry disputes. Handles silk production conflicts, handloom quality issues, and silk export disagreements.",
+  "email": "usha.rani@silk.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba397"
+  },
+  "name": "Rajendra Singh",
+  "location": "Jodhpur",
+  "rating": 4.2,
+  "experience": 24,
+  "languages": [
+    "Hindi",
+    "Rajasthani",
+    "English"
+  ],
+  "casesResolved": 423,
+  "title": "Camel & Livestock Arbitrator",
+  "bio": "Expert in livestock and animal husbandry disputes. Handles cattle breeding conflicts, livestock trade disagreements, and animal welfare issues.",
+  "email": "rajendra.singh@livestock.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba398"
+  },
+  "name": "Malini Iyer",
+  "location": "Bangalore",
+  "rating": 4.6,
+  "experience": 13,
+  "languages": [
+    "English",
+    "Kannada",
+    "Tamil"
+  ],
+  "casesResolved": 234,
+  "title": "Biotech & Pharma Arbitrator",
+  "bio": "Specializes in biotechnology and pharmaceutical disputes. Handles drug development conflicts, biotech patent issues, and pharmaceutical manufacturing disagreements.",
+  "email": "malini.iyer@biotech.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba399"
+  },
+  "name": "Harjeet Kaur",
+  "location": "Jalandhar",
+  "rating": 4.3,
+  "experience": 17,
+  "languages": [
+    "Punjabi",
+    "Hindi",
+    "English"
+  ],
+  "casesResolved": 289,
+  "title": "Sports Equipment Arbitrator",
+  "bio": "Expert in sports equipment manufacturing and export disputes. Handles sports goods quality conflicts, equipment testing disagreements, and sports export issues.",
+  "email": "harjeet.kaur@sportsequip.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba39a"
+  },
+  "name": "Krishnan Pillai",
+  "location": "Alappuzha",
+  "rating": 4.1,
+  "experience": 21,
+  "languages": [
+    "Malayalam",
+    "English",
+    "Tamil"
+  ],
+  "casesResolved": 356,
+  "title": "Boat Building Arbitrator",
+  "bio": "Specializes in boat building and marine craft disputes. Handles boat construction conflicts, marine equipment disagreements, and boat export issues.",
+  "email": "krishnan.pillai@boatbuilding.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba39b"
+  },
+  "name": "Seema Kapoor",
+  "location": "Amritsar",
+  "rating": 4.4,
+  "experience": 15,
+  "languages": [
+    "Punjabi",
+    "Hindi",
+    "English"
+  ],
+  "casesResolved": 267,
+  "title": "Carpet & Rug Arbitrator",
+  "bio": "Expert in carpet and rug manufacturing disputes. Handles carpet quality conflicts, weaving process disagreements, and carpet export issues.",
+  "email": "seema.kapoor@carpet.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba39c"
+  },
+  "name": "Ravi Shankar",
+  "location": "Rishikesh",
+  "rating": 4.2,
+  "experience": 19,
+  "languages": [
+    "Hindi",
+    "English",
+    "Sanskrit"
+  ],
+  "casesResolved": 334,
+  "title": "Yoga & Wellness Arbitrator",
+  "bio": "Specializes in yoga and wellness industry disputes. Handles yoga center conflicts, wellness service disagreements, and spiritual tourism issues.",
+  "email": "ravi.shankar@yoga.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba39d"
+  },
+  "name": "Nandini Rao",
+  "location": "Hubli",
+  "rating": 4,
+  "experience": 16,
+  "languages": [
+    "Kannada",
+    "English",
+    "Marathi"
+  ],
+  "casesResolved": 289,
+  "title": "Handloom & Crafts Arbitrator",
+  "bio": "Expert in handloom and handicraft disputes. Handles traditional weaving conflicts, craft quality issues, and artisan trade disagreements.",
+  "email": "nandini.rao@handloom.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "68729537cdeb7a277e4ba39e"
+  },
+  "name": "Vivek Agarwal",
+  "location": "Kanpur",
+  "rating": 4.3,
+  "experience": 20,
+  "languages": [
+    "Hindi",
+    "English",
+    "Urdu"
+  ],
+  "casesResolved": 378,
+  "title": "Tanning & Leather Processing Arbitrator",
+  "bio": "Specializes in tanning and leather processing disputes. Handles tanning process conflicts, leather quality issues, and leather processing technology disagreements.",
+  "email": "vivek.agarwal@tanning.in",
+  "avatar": "https://dummyimage.com/400x400",
+  "wishlist": []
+}]
