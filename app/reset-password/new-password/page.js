@@ -1,9 +1,5 @@
 import React, { Suspense } from 'react';
-import dynamic from 'next/dynamic';
-
-const NewPasswordForm = dynamic(() => import('./NewPasswordForm'), {
-  ssr: false, // optional but helps ensure full client-side behavior
-});
+import NewPasswordForm from './NewPasswordForm';
 
 export default function Page() {
   return (
