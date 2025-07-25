@@ -23,7 +23,7 @@ export default function ApplicationsLog({ applicant }) {
         if (data.success) setApplications(data.data);
         setLoading(false);
       });
-  }, []);
+  }, [applicant]);
 
   return (
     <div className="max-w-3xl mx-auto py-10 px-4">
@@ -33,7 +33,7 @@ export default function ApplicationsLog({ applicant }) {
         <div className="text-center text-gray-400">Loading...</div>
       ) : applications.length === 0 ? (
         <div className="text-gray-500 text-center">
-          You haven't submitted any applications yet.
+          You haven&#39;t submitted any applications yet.
         </div>
       ) : (
         <div className="flex flex-col gap-6">

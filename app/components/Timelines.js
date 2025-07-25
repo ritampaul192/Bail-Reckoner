@@ -2,7 +2,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Image from 'next/image';
 import { FaArrowRight, FaArrowLeft } from 'react-icons/fa';
-import { motion, AnimatePresence, useInView } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 
 const timelineData = {
   en: [
@@ -62,6 +62,8 @@ const timelineData = {
 const Timelines = () => {
   const [expanded, setExpanded] = useState([]);
   const [language, setLanguage] = useState('en');
+  const [inViewStates, setInViewStates] = useState([]);
+  const refs = useRef([]);
 
   useEffect(() => {
     const lang = localStorage.getItem('bailLang');
@@ -69,12 +71,40 @@ const Timelines = () => {
       setLanguage(lang);
     }
     setExpanded(Array(timelineData[lang || 'en'].length).fill(false));
+    setInViewStates(Array(timelineData[lang || 'en'].length).fill(false));
+  }, []);
+
+  useEffect(() => {
+    const observers = [];
+
+    refs.current.forEach((ref, index) => {
+      if (!ref) return;
+
+      const observer = new IntersectionObserver(
+        ([entry]) => {
+          if (entry.isIntersecting) {
+            setInViewStates((prev) => {
+              const newState = [...prev];
+              newState[index] = true;
+              return newState;
+            });
+            observer.unobserve(entry.target); // trigger once
+          }
+        },
+        { threshold: 0.2 }
+      );
+
+      observer.observe(ref);
+      observers.push(observer);
+    });
+
+    return () => {
+      observers.forEach((observer) => observer.disconnect());
+    };
   }, []);
 
   const toggleCard = (index) => {
-    setExpanded((prev) =>
-      prev.map((val, i) => (i === index ? !val : val))
-    );
+    setExpanded((prev) => prev.map((val, i) => (i === index ? !val : val)));
   };
 
   const data = timelineData[language];
@@ -86,90 +116,83 @@ const Timelines = () => {
       </h2>
 
       <div className="timeline block w-full md:w-auto md:flex md:flex-col gap-8 justify-center items-start max-w-6xl mx-auto">
-        {data.map((item, index) => {
-          // eslint-disable-next-line react-hooks/rules-of-hooks
-          const ref = useRef(null);
-          // eslint-disable-next-line react-hooks/rules-of-hooks
-          const isInView = useInView(ref, { once: true, margin: '-100px' });
+        {data.map((item, index) => (
+          <motion.div
+            ref={(el) => (refs.current[index] = el)}
+            key={index}
+            className="timeline-item flex flex-col items-center shadow-md shadow-gray-300 bg-white rounded-lg overflow-hidden"
+            initial={{ opacity: 0, y: 50 }}
+            animate={inViewStates[index] ? { opacity: 1, y: 0 } : {}}
+            transition={{ duration: 0.5, delay: index * 0.2 }}
+          >
+            <div className="w-full h-[250px] relative">
+              <Image
+                src={item.image}
+                alt={item.title}
+                layout="fill"
+                objectFit="cover"
+                className="rounded-t-lg"
+              />
+            </div>
 
-          return (
-            <motion.div
-              ref={ref}
-              key={index}
-              className="timeline-item flex flex-col items-center shadow-md shadow-gray-300 bg-white rounded-lg overflow-hidden"
-              initial={{ opacity: 0, y: 50 }}
-              animate={isInView ? { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 0.5, delay: index * 0.2 }}
-            >
-              <div className="w-full h-[250px] relative">
-                <Image
-                  src={item.image}
-                  alt={item.title}
-                  layout="fill"
-                  objectFit="cover"
-                  className="rounded-t-lg"
-                />
-              </div>
+            <div className="p-5 w-full">
+              <h3 className="text-xl font-semibold">{item.title}</h3>
+              <p className="text-gray-700 mt-1">{item.shortText}</p>
 
-              <div className="p-5 w-full">
-                <h3 className="text-xl font-semibold">{item.title}</h3>
-                <p className="text-gray-700 mt-1">{item.shortText}</p>
+              <AnimatePresence mode="wait">
+                {expanded[index] && (
+                  <motion.div
+                    key="expanded"
+                    initial={{ height: 0, opacity: 0 }}
+                    animate={{ height: 'auto', opacity: 1 }}
+                    exit={{ height: 0, opacity: 0 }}
+                    transition={{ duration: 0.4 }}
+                    className="overflow-hidden text-gray-600"
+                  >
+                    <p className="mt-2">{item.fullText}</p>
+                    <p className="font-bold mt-2">
+                      {language === 'hi' ? 'स्रोत' : 'Source'}:{' '}
+                      <a
+                        href={item.source}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-500 underline"
+                      >
+                        Link
+                      </a>
+                    </p>
+                  </motion.div>
+                )}
+              </AnimatePresence>
 
-                <AnimatePresence mode="wait">
-                  {expanded[index] && (
-                    <motion.div
-                      key="expanded"
-                      initial={{ height: 0, opacity: 0 }}
-                      animate={{ height: 'auto', opacity: 1 }}
-                      exit={{ height: 0, opacity: 0 }}
-                      transition={{ duration: 0.4 }}
-                      className="overflow-hidden text-gray-600"
-                    >
-                      <p className="mt-2">{item.fullText}</p>
-                      <p className="font-bold mt-2">
-                        {language === 'hi' ? 'स्रोत' : 'Source'}:{' '}
-                        <a
-                          href={item.source}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-blue-500 underline"
-                        >
-                          Link
-                        </a>
-                      </p>
-                    </motion.div>
-                  )}
-                </AnimatePresence>
-
-                <div className="my-4">
-                  <div
-                    className={`flex items-center w-full border-2 rounded-full border-gray-300 justify-end p-1 transition-all duration-500 ${
-                      expanded[index] ? 'bg-gray-200' : 'bg-white'
+              <div className="my-4">
+                <div
+                  className={`flex items-center w-full border-2 rounded-full border-gray-300 justify-end p-1 transition-all duration-500 ${
+                    expanded[index] ? 'bg-gray-200' : 'bg-white'
+                  }`}
+                >
+                  <p className="mr-3 font-medium">
+                    {language === 'hi'
+                      ? expanded[index]
+                        ? 'कम पढ़ें'
+                        : 'और पढ़ें'
+                      : expanded[index]
+                      ? 'Read less'
+                      : 'Read more'}
+                  </p>
+                  <button
+                    onClick={() => toggleCard(index)}
+                    className={`p-2 rounded-full transition-all duration-500 ${
+                      expanded[index] ? 'bg-white' : 'bg-gray-200'
                     }`}
                   >
-                    <p className="mr-3 font-medium">
-                      {language === 'hi'
-                        ? expanded[index]
-                          ? 'कम पढ़ें'
-                          : 'और पढ़ें'
-                        : expanded[index]
-                        ? 'Read less'
-                        : 'Read more'}
-                    </p>
-                    <button
-                      onClick={() => toggleCard(index)}
-                      className={`p-2 rounded-full transition-all duration-500 ${
-                        expanded[index] ? 'bg-white' : 'bg-gray-200'
-                      }`}
-                    >
-                      {expanded[index] ? <FaArrowLeft /> : <FaArrowRight />}
-                    </button>
-                  </div>
+                    {expanded[index] ? <FaArrowLeft /> : <FaArrowRight />}
+                  </button>
                 </div>
               </div>
-            </motion.div>
-          );
-        })}
+            </div>
+          </motion.div>
+        ))}
       </div>
     </section>
   );

@@ -1,5 +1,6 @@
 'use client';
 import React, { useEffect, useState } from 'react';
+import Image from 'next/image';
 
 export default function ArbitratorProfileModal({
   arbitrator,
@@ -86,12 +87,15 @@ export default function ArbitratorProfileModal({
         </button>
 
         <div className="flex flex-col items-center gap-2">
-          <div className="w-24 h-24 rounded-full bg-gray-200 flex items-center justify-center text-5xl mb-2 overflow-hidden">
             {arbitrator.avatar ? (
-              <img
+              <Image
                 src={arbitrator.avatar}
                 alt={arbitrator.name || 'Arbitrator Avatar'}
+                width={96}
+                height={96}
                 className="w-24 h-24 object-cover rounded-full"
+                style={{ objectFit: 'cover', borderRadius: '9999px' }}
+                priority
               />
             ) : (
               <span role="img" aria-label="Profile">👤</span>
@@ -139,7 +143,6 @@ export default function ArbitratorProfileModal({
           >
             {isWishlisted ? 'Added to Wishlist' : 'Add to Wishlist'}
           </button>
-        </div>
       </div>
     </div>
   );

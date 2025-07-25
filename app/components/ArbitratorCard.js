@@ -1,11 +1,19 @@
 import React from 'react';
+import Image from 'next/image';
 
 export default function ArbitratorCard({ arbitrator, onClick, StarRating }) {
   return (
     <div onClick={onClick} className="bg-white rounded-2xl shadow hover:shadow-lg transition cursor-pointer flex flex-col items-center p-5 gap-2 min-h-[260px] group">
       <div className="w-16 h-16 rounded-full bg-gray-200 flex items-center justify-center text-3xl mb-2">
         {arbitrator.avatar ? (
-          <img src={arbitrator.avatar} alt={arbitrator.name} className="w-16 h-16 rounded-full object-cover" />
+          <Image
+            src={arbitrator.avatar}
+            alt={arbitrator.name}
+            width={64}
+            height={64}
+            className="w-16 h-16 rounded-full object-cover"
+            style={{ borderRadius: '50%' }}
+          />
         ) : (
           <span role="img" aria-label="profile">👤</span>
         )}

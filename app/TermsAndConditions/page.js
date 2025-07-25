@@ -17,7 +17,7 @@ const Terms = () => {
                 <div className="terms-container bg-white p-6 md:p-10 rounded-md shadow-md w-full">
                     <h2 className="text-2xl font-semibold border-b-2 border-gray-200 pb-2 mb-4">1. Acceptance of Terms</h2>
                     <p className="mb-6">
-                        By accessing or using Bail Reckoner ("Platform"), you agree to comply with and be legally bound by these Terms and Conditions.
+                        By accessing or using Bail Reckoner (&quot;Platform&quot;), you agree to comply with and be legally bound by these Terms and Conditions.
                         If you do not agree to these Terms, please do not use the platform. Your continued use of the service will be deemed your acceptance.
                     </p>
 
@@ -72,7 +72,7 @@ const Terms = () => {
 
                     <h2 className="section-title">9. Limitation of Liability</h2>
                     <p className="mb-6">
-                        Bail Reckoner is provided 'as is' without warranties of any kind. We are not liable for any loss or damage, including but not limited to,
+                        Bail Reckoner is provided &#39;as is&#39; without warranties of any kind. We are not liable for any loss or damage, including but not limited to,
                         indirect or consequential losses, resulting from your use of the service.
                     </p>
 
