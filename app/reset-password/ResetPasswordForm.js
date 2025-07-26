@@ -30,7 +30,7 @@ const ResetPasswordForm = () => {
 
     async function fetchUserExpiry() {
       try {
-        const res = await fetch('/user', {
+        const res = await fetch('/api/user', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ emailAddress: email }),
@@ -81,7 +81,7 @@ const ResetPasswordForm = () => {
     try {
       setResendLoading(true);
 
-      const res = await fetch('/login/forgot-password', {
+      const res = await fetch('/api/login/forgot-password', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ emailAddress: email }),
@@ -92,7 +92,7 @@ const ResetPasswordForm = () => {
         throw new Error(data.error || 'Error generating OTP');
       }
 
-      const userRes = await fetch('/user', {
+      const userRes = await fetch('/api/user', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ emailAddress: email }),
@@ -100,7 +100,7 @@ const ResetPasswordForm = () => {
 
       const { user } = await userRes.json();
 
-      await fetch('/login/forgot-password/reset-password/reset-email', {
+      await fetch('/api/login/forgot-password/reset-password/reset-email', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -129,7 +129,7 @@ const ResetPasswordForm = () => {
         return;
       }
 
-      const res = await fetch('/user', {
+      const res = await fetch('/api/user', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ emailAddress: email }),
