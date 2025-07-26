@@ -52,7 +52,7 @@ export default function Result() {
     const [cards, setCards] = useState([]);
     const [progress, setProgress] = useState(0);
     const [trivia, setTrivia] = useState('');
-    const [icon, setIcon] = useState('⚖️');
+    const [icon, setIcon] = useState('⚖');
     const [lang, setLang] = useState('en');
 
     const searchParams = useSearchParams();
@@ -69,7 +69,7 @@ export default function Result() {
         "Police can grant bail for bailable offences directly."
     ];
 
-    const iconList = ['⚖️', '📜', '🏛️', '⏳', '🧑‍⚖️', '🪪', '🔍', '📂'];
+    const iconList = ['⚖', '📜', '🏛', '⏳', '🧑‍⚖', '🪪', '🔍', '📂'];
 
     useEffect(() => {
         const savedLang = localStorage.getItem('bailLang') || 'en';

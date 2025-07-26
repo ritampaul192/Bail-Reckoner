@@ -1,6 +1,6 @@
 // app/api/get-user/route.js
 import connectDB from '../login/mongoose';
-import Login from '../../model/schema'
+import Login from '../../model/schema';
 import { NextResponse } from 'next/server';
 
 export async function POST(req) {

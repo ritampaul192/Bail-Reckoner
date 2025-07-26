@@ -20,63 +20,85 @@ const Page = () => {
     };
 
     const getOTPViaEmail = async (e) => {
-        e.preventDefault();
-        setLoading(true);
-        setSuccessMsg('');
-        setErrorMsg('');
+  e.preventDefault();
+  setLoading(true);
+  setSuccessMsg('');
+  setErrorMsg('');
 
-        try {
-            const res = await fetch('api/login/forgot-password', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ emailAddress: email }),
-            });
+  try {
+    const res = await fetch('/api/login/forgot-password', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ emailAddress: email }),
+    });
 
-            const data = await res.json();
-            if (!res.ok) {
-                setErrorMsg('❌ ' + (data.error || 'Error generating OTP'));
-                setLoading(false);
-                return;
-            }
+    let data;
+    try {
+      data = await res.json();
+      console.log("OTP response:", data);
+    } catch (err) {
+      console.error("❌ Failed to parse OTP JSON:", err);
+      setErrorMsg("⚠️ Server error: OTP response was invalid.");
+      setLoading(false);
+      return;
+    }
 
-            const { otp, expiry } = data;
-            setSuccessMsg('✅ OTP sent to your email.');
+    if (!res.ok) {
+      setErrorMsg('❌ ' + (data.error || 'Error generating OTP'));
+      setLoading(false);
+      return;
+    }
 
-            const userRes = await fetch('api/user', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ emailAddress: email }),
-            });
+    const { otp } = data;
+    setSuccessMsg('✅ OTP sent to your email.');
 
-            if (!userRes.ok) {
-                setErrorMsg('❌ User not found. Please sign up first.');
-                setLoading(false);
-                return;
-            }
+    // Fetch user
+    const userRes = await fetch('/api/user', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ emailAddress: email }),
+    });
 
-            const { user } = await userRes.json();
-            const username = user.username.replace(/_/g, ' ');
+    let userData;
+    try {
+      userData = await userRes.json();
+      console.log("User response:", userData);
+    } catch (err) {
+      console.error("❌ Failed to parse user JSON:", err);
+      setErrorMsg("⚠️ Server error: User response was invalid.");
+      setLoading(false);
+      return;
+    }
 
-            const sendingOtp = await fetch('api/login/forgot-password/reset-password/reset-email', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ to: email, otp, username }),
-            });
+    if (!userRes.ok) {
+      setErrorMsg('❌ User not found. Please sign up first.');
+      setLoading(false);
+      return;
+    }
 
-            if (sendingOtp.ok) {
-                router.replace(`/reset-password?email=${encodeURIComponent(email)}`);
-            } else {
-                setErrorMsg('❌ Failed to send OTP email.');
-                setLoading(false);
-                return;
-            }
+    const username = userData.user.username.replace(/_/g, ' ');
 
-        } catch (error) {
-            console.error('Main error:', error);
-            setErrorMsg('⚠️ Something went wrong.');
-            setLoading(false);
-        }
-    };
+    const sendingOtp = await fetch('/api/login/forgot-password/reset-password/reset-email', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ to: email, otp, username }),
+    });
+
+    if (sendingOtp.ok) {
+      router.replace(`/reset-password?email=${encodeURIComponent(email)}`);
+    } else {
+      console.error("❌ Email send failed:", await sendingOtp.text());
+      setErrorMsg('❌ Failed to send OTP email.');
+      setLoading(false);
+    }
+
+  } catch (error) {
+    console.error('Main error:', error);
+    setErrorMsg('⚠️ Something went wrong.');
+    setLoading(false);
+  }
+};
+
 
     return (
         <>
