@@ -29,38 +29,6 @@ export default function ChatPage() {
   const [messageToDelete, setMessageToDelete] = useState(null);
   const [showDeleteConfirm, setShowDeleteConfirm] = useState(false);
 
-  // ... (previous useEffect and other functions remain the same)
-
-  const deleteMessage = async (id) => {
-    setMessageToDelete(id);
-    setShowDeleteConfirm(true);
-  };
-
-  const confirmDelete = async () => {
-    if (!messageToDelete) return;
-
-    try {
-      const res = await fetch('/api/messages', {
-        method: 'PUT',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ id: messageToDelete }),
-      });
-
-      if (!res.ok) throw new Error('Failed to delete message');
-
-      fetchMessages();
-    } catch (error) {
-      console.error('Error deleting message:', error);
-    } finally {
-      setShowDeleteConfirm(false);
-      setMessageToDelete(null);
-    }
-  };
-
-  const cancelDelete = () => {
-    setShowDeleteConfirm(false);
-    setMessageToDelete(null);
-  };
   const router = useRouter();
   const messageRefs = useRef({});
   const bottomRef = useRef(null);
@@ -87,7 +55,6 @@ export default function ChatPage() {
       setUserName(formattedName);
       setAnonymous(parsedUser.anonymousUser || "Anonymous");
     }
-   
   }, []);
 
   const fetchMessages = async () => {
@@ -114,7 +81,7 @@ export default function ChatPage() {
 
   const sendMessage = async () => {
     if (!newMsg.trim()) return;
-
+    
     try {
       const res = await fetch('/api/messages', {
         method: 'POST',
@@ -125,9 +92,9 @@ export default function ChatPage() {
           username: identityOption === 'anonymous' ? anonymous : userName,
         }),
       });
-
+      
       if (!res.ok) throw new Error('Failed to send message');
-
+      
       const data = await res.json();
       setMessages(prev => [...prev, data]);
       setNewMsg('');
@@ -183,7 +150,6 @@ export default function ChatPage() {
         return;
       }
 
-      // Success handling
       setReportSuccess(true);
       setTimeout(() => {
         setReportingId(null);
@@ -191,7 +157,7 @@ export default function ChatPage() {
         setReportSuccess(false);
         fetchMessages();
       }, 1500);
-
+      
     } catch (error) {
       console.error('Error reporting message:', error);
       setReportError('An unexpected error occurred');
@@ -228,7 +194,36 @@ export default function ChatPage() {
     setReplyInputs(prev => ({ ...prev, [id]: prev[id] ?? '' }));
   };
 
-  // Duplicate deleteMessage function removed to fix redeclaration error.
+  const deleteMessage = async (id) => {
+    setMessageToDelete(id);
+    setShowDeleteConfirm(true);
+  };
+
+  const confirmDelete = async () => {
+    if (!messageToDelete) return;
+    
+    try {
+      const res = await fetch('/api/messages', {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ id: messageToDelete }),
+      });
+      
+      if (!res.ok) throw new Error('Failed to delete message');
+      
+      fetchMessages();
+    } catch (error) {
+      console.error('Error deleting message:', error);
+    } finally {
+      setShowDeleteConfirm(false);
+      setMessageToDelete(null);
+    }
+  };
+
+  const cancelDelete = () => {
+    setShowDeleteConfirm(false);
+    setMessageToDelete(null);
+  };
 
   const handleReplySubmit = (id) => {
     if (!replyInputs[id]?.trim()) return;
@@ -290,6 +285,7 @@ export default function ChatPage() {
             const userReaction = msg.reactions?.find(r => r.userId === userId) || {};
             const liked = userReaction.liked;
             const disliked = userReaction.disliked;
+            const commentCount = msg.comments?.length || 0;
 
             return (
               <motion.div
@@ -322,56 +318,39 @@ export default function ChatPage() {
                       <FaThumbsDown /> {msg.reactions?.filter(r => r.disliked).length || 0}
                     </button>
 
-                    <button
-                      onClick={() => toggleComments(msg._id)}
+                    <button 
+                      onClick={() => toggleComments(msg._id)} 
                       className={`flex items-center gap-1 ${commentsVisible[msg._id] ? "text-pink-400" : ""}`}
                     >
-                      <FaComments /> Comments
+                      <FaComments />
+                      <span>Comments</span>
+                      {commentCount > 0 && (
+                        <span className="ml-1 text-xs bg-gray-200 px-1.5 py-0.5 rounded-full">
+                          {commentCount}
+                        </span>
+                      )}
                     </button>
 
-                    <button
-                      onClick={() => setReportingId(msg._id)}
+                    <button 
+                      onClick={() => setReportingId(msg._id)} 
                       className="flex items-center gap-1 hover:text-red-600"
                     >
                       <MdReport /> Report
                     </button>
 
                     {isUser && (
-                      <button
-                        onClick={() => deleteMessage(msg._id)}
+                      <button 
+                        onClick={() => deleteMessage(msg._id)} 
                         className="flex items-center gap-1 hover:text-orange-500"
                       >
                         <IoTrashBinSharp /> Delete
                       </button>
                     )}
-                    {showDeleteConfirm && (
-                      <div className="fixed inset-0 bg-black bg-opacity-40 flex items-center justify-center z-50">
-                        <div className="bg-white p-6 rounded shadow-lg w-80 space-y-4">
-                          <h3 className="text-lg font-semibold text-red-500">Confirm Deletion</h3>
-                          <p>Are you sure you want to delete this message? This action cannot be undone.</p>
-                          <div className="flex justify-end gap-3">
-                            <button
-                              onClick={cancelDelete}
-                              className="px-4 py-2 border border-gray-300 rounded hover:bg-gray-100"
-                            >
-                              Cancel
-                            </button>
-                            <button
-                              onClick={confirmDelete}
-                              className="px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700"
-                            >
-                              Delete
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    )}
-
                   </div>
 
                   {commentsVisible[msg._id] && (
                     <div className="mt-2 space-y-2">
-                      {msg.comments?.length > 0 ? (
+                      {commentCount > 0 ? (
                         <div className="text-sm text-gray-700 space-y-1">
                           {msg.comments.map((c, idx) => (
                             <div key={idx} className="flex items-start">
@@ -410,6 +389,29 @@ export default function ChatPage() {
         </AnimatePresence>
         <div ref={bottomRef} />
 
+        {showDeleteConfirm && (
+          <div className="fixed inset-0 bg-black bg-opacity-40 flex items-center justify-center z-50">
+            <div className="bg-white p-6 rounded shadow-lg w-80 space-y-4">
+              <h3 className="text-lg font-semibold text-red-500">Confirm Deletion</h3>
+              <p>Are you sure you want to delete this message? This action cannot be undone.</p>
+              <div className="flex justify-end gap-3">
+                <button
+                  onClick={cancelDelete}
+                  className="px-4 py-2 border border-gray-300 rounded hover:bg-gray-100"
+                >
+                  Cancel
+                </button>
+                <button
+                  onClick={confirmDelete}
+                  className="px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700"
+                >
+                  Delete
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
+
         {reportingId && (
           <div className="fixed inset-0 bg-black bg-opacity-40 flex items-center justify-center z-50">
             <div className="bg-white p-6 rounded shadow-lg w-80 space-y-4">
@@ -430,15 +432,15 @@ export default function ChatPage() {
                   </option>
                 ))}
               </select>
-
+              
               {reportError && (
                 <p className="text-red-500 text-sm">{reportError}</p>
               )}
-
+              
               {reportSuccess && (
                 <p className="text-green-500 text-sm">Report submitted successfully!</p>
               )}
-
+              
               <div className="flex justify-end gap-3">
                 <button
                   onClick={() => {
@@ -481,6 +483,6 @@ export default function ChatPage() {
           </button>
         </div>
       </div>
-    </div>
-  );
+    </div>
+  );
 }
