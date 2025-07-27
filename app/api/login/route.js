@@ -20,12 +20,13 @@ export async function POST(request) {
       );
     }
 
-    const { userId, username, address, pinNumber, phoneNumber, emailAddress } = user;
+    const { userId, username, address, pinNumber, phoneNumber, emailAddress, anonymousUser } = user;
 
     return new Response(
       JSON.stringify({
         userId,
         username,
+        anonymousUser,
         address,
         pinNumber,
         phoneNumber,
