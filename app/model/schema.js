@@ -6,7 +6,7 @@ const LoginSchema = new mongoose.Schema({
   anonymousUser: String,
   password: String,
   address: String,
-  pinNumber: Number,
+  pinNumber: String,
   phoneNumber: Number,
   emailAddress: String,
   // New fields

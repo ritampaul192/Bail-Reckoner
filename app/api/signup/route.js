@@ -1,21 +1,15 @@
-import connectDB from '../../api/login/mongoose';
-import Login from '../../model/schema.js';
+// /app/api/signup/route.js
+import connectDB from '../../../utils/mongoose';
+import Login from '../../../model/schema';
 import { NextResponse } from 'next/server';
-import { v4 as uuidv4 } from 'uuid';
-import {
-  uniqueNamesGenerator,
-  adjectives,
-  colors,
-  animals,
-} from 'unique-names-generator'; // 👈 Add this
 
 export async function POST(req) {
   try {
-    await connectDB();
-
     const body = await req.json();
     const {
-      username, // Optional: still collected
+      userId,
+      username,
+      anonymousUser,
       emailAddress,
       pinNumber,
       phoneNumber,
@@ -23,41 +17,34 @@ export async function POST(req) {
       password,
     } = body;
 
+    await connectDB();
+
     const existingUser = await Login.findOne({ emailAddress });
+
     if (existingUser) {
       return NextResponse.json(
-        { message: 'The email address is already registered.' },
-        { status: 500 }
+        { error: 'Email already exists' },
+        { status: 400 }
       );
     }
 
-    // Generate anonymous name
-    const anonymousName = uniqueNamesGenerator({
-      dictionaries: [adjectives, colors, animals],
-      separator: '-',
-      style: 'lowerCase',
-    });
-
-    const userId = uuidv4();
-
     const newUser = new Login({
       userId,
-      username, // 👈 Use given or fallback to anonymous
-      anonymousUser: anonymousName,
+      username,
+      anonymousUser,
       emailAddress,
       pinNumber,
       phoneNumber,
       address,
-      password, // ⚠ Consider hashing this before saving
+      password,
     });
 
     await newUser.save();
 
-    return NextResponse.json({
-      message: 'User created successfully.',
-      userId,
-      username: newUser.username,
-    });
+    return NextResponse.json(
+      { message: 'User created successfully', newUser },
+      { status: 201 }
+    );
   } catch (error) {
     console.error('Signup error:', error);
     return NextResponse.json(
