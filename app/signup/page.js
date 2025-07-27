@@ -130,7 +130,7 @@ const Page = () => {
       router.replace('/Home');
     } catch (err) {
       console.error('Signup error:', err);
-      alert(`Signup error: ${err.message}`);
+      alert(`❌ ${err.message}`);
       setCondSatisfied(false);
     }
   };
@@ -274,7 +274,7 @@ const Page = () => {
                   {...register('password', {
                     required: 'Password is required',
                     pattern: {
-                      value: /^(?=.[a-z])(?=.[A-Z])(?=.*\W).{8,}$/,
+                      value: /^(?=.*[a-z])(?=.*[A-Z])(?=.*\W).{8,}$/,
                       message: 'Must be 8+ chars, with upper, lower, special char',
                     },
                   })}
