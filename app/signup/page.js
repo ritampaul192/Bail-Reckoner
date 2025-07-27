@@ -130,7 +130,7 @@ const Page = () => {
       router.replace('/Home');
     } catch (err) {
       console.error('Signup error:', err);
-      alert(`❌ ${err.message}`);
+      alert(`Signup error: ${err.message}`);
       setCondSatisfied(false);
     }
   };
