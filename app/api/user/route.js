@@ -1,5 +1,5 @@
 // app/api/get-user/route.js
-import connectDB from './mongoose.js';
+import connectDB from '../login/mongoose.js';
 import Login from '../../model/schema.js';
 
 export async function POST(request) {
