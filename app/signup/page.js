@@ -106,14 +106,7 @@ const Page = () => {
         body: JSON.stringify(payload),
       });
 
-      const resultText = await signup.text();
-      let result;
-
-      try {
-        result = JSON.parse(resultText);
-      } catch (err) {
-        throw new Error('Server returned invalid JSON');
-      }
+      const result = await signup.json();
 
       if (!signup.ok) {
         throw new Error(result.error || 'Signup failed');
