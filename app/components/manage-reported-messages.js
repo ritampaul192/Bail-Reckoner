@@ -7,6 +7,8 @@ import { FaFlag } from 'react-icons/fa';
 export default function ManageReportedMessagesPage() {
   const [messages, setMessages] = useState([]);
   const [loading, setLoading] = useState(false);
+  const [messageToDelete, setMessageToDelete] = useState(null);
+  const [showDeleteModal, setShowDeleteModal] = useState(false);
 
   useEffect(() => {
     fetchReportedMessages();
@@ -14,35 +16,51 @@ export default function ManageReportedMessagesPage() {
 
   const fetchReportedMessages = async () => {
     try {
+      setLoading(true);
       const res = await fetch('/api/messages/reported');
       const data = await res.json();
       setMessages(data);
     } catch (err) {
       console.error('Error fetching reported messages:', err);
+    } finally {
+      setLoading(false);
     }
   };
 
-  const deleteMessage = async (id) => {
+  const confirmDelete = (id) => {
+    setMessageToDelete(id);
+    setShowDeleteModal(true);
+  };
+
+  const cancelDelete = () => {
+    setShowDeleteModal(false);
+    setMessageToDelete(null);
+  };
+
+  const deleteMessage = async () => {
+    if (!messageToDelete) return;
+    
     try {
       setLoading(true);
       const res = await fetch('/api/messages', {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ id }), // ✅ Send as { id: "..." }
+        body: JSON.stringify({ id: messageToDelete }),
       });
 
       const data = await res.json();
       if (data.success) {
-        alert('Message deleted successfully');
         fetchReportedMessages();
       } else {
-        alert(data.error || 'Failed to delete');
+        alert(data.error || 'Failed to delete message');
       }
     } catch (err) {
       console.error('Error deleting message:', err);
       alert('Error deleting message');
     } finally {
       setLoading(false);
+      setShowDeleteModal(false);
+      setMessageToDelete(null);
     }
   };
 
@@ -52,7 +70,9 @@ export default function ManageReportedMessagesPage() {
         Manage Reported Messages
       </h2>
 
-      {messages.length === 0 ? (
+      {loading && messages.length === 0 ? (
+        <p className="text-gray-500">Loading reported messages...</p>
+      ) : messages.length === 0 ? (
         <p className="text-gray-500">No reported messages found.</p>
       ) : (
         <div className="space-y-4">
@@ -66,9 +86,9 @@ export default function ManageReportedMessagesPage() {
                   <p className="text-sm text-gray-600">{msg.text}</p>
                 </div>
                 <button
-                  onClick={() => deleteMessage(msg._id)}
+                  onClick={() => confirmDelete(msg._id)}
                   disabled={loading}
-                  className="flex items-center gap-1 px-3 py-1 bg-red-600 hover:bg-red-700 text-white rounded"
+                  className="flex items-center gap-1 px-3 py-1 bg-red-600 hover:bg-red-700 text-white rounded disabled:opacity-50"
                 >
                   <IoTrashBinSharp /> Delete
                 </button>
@@ -94,6 +114,33 @@ export default function ManageReportedMessagesPage() {
           ))}
         </div>
       )}
-    </div>
-  );
+
+      {/* Delete Confirmation Modal */}
+      {showDeleteModal && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+          <div className="bg-white p-6 rounded-lg shadow-lg max-w-md w-full">
+            <h3 className="text-xl font-semibold mb-4 text-gray-700">Confirm Deletion</h3>
+            <p className="mb-6 text-gray-700">Are you sure you want to delete this message? This action cannot be undone.</p>
+            
+            <div className="flex justify-end gap-3">
+              <button
+                onClick={cancelDelete}
+                className="px-4 py-2 border border-gray-300 text-gray-700 rounded hover:bg-gray-100"
+                disabled={loading}
+              >
+                Cancel
+              </button>
+              <button
+                onClick={deleteMessage}
+                className="px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700 disabled:opacity-50"
+                disabled={loading}
+              >
+                {loading ? 'Deleting...' : 'Delete'}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+    </div>
+  );
 }

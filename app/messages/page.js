@@ -26,7 +26,41 @@ export default function ChatPage() {
   const [reportError, setReportError] = useState('');
   const [isReporting, setIsReporting] = useState(false);
   const [reportSuccess, setReportSuccess] = useState(false);
+  const [messageToDelete, setMessageToDelete] = useState(null);
+  const [showDeleteConfirm, setShowDeleteConfirm] = useState(false);
 
+  // ... (previous useEffect and other functions remain the same)
+
+  const deleteMessage = async (id) => {
+    setMessageToDelete(id);
+    setShowDeleteConfirm(true);
+  };
+
+  const confirmDelete = async () => {
+    if (!messageToDelete) return;
+
+    try {
+      const res = await fetch('/api/messages', {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ id: messageToDelete }),
+      });
+
+      if (!res.ok) throw new Error('Failed to delete message');
+
+      fetchMessages();
+    } catch (error) {
+      console.error('Error deleting message:', error);
+    } finally {
+      setShowDeleteConfirm(false);
+      setMessageToDelete(null);
+    }
+  };
+
+  const cancelDelete = () => {
+    setShowDeleteConfirm(false);
+    setMessageToDelete(null);
+  };
   const router = useRouter();
   const messageRefs = useRef({});
   const bottomRef = useRef(null);
@@ -53,6 +87,7 @@ export default function ChatPage() {
       setUserName(formattedName);
       setAnonymous(parsedUser.anonymousUser || "Anonymous");
     }
+   
   }, []);
 
   const fetchMessages = async () => {
@@ -79,7 +114,7 @@ export default function ChatPage() {
 
   const sendMessage = async () => {
     if (!newMsg.trim()) return;
-    
+
     try {
       const res = await fetch('/api/messages', {
         method: 'POST',
@@ -90,9 +125,9 @@ export default function ChatPage() {
           username: identityOption === 'anonymous' ? anonymous : userName,
         }),
       });
-      
+
       if (!res.ok) throw new Error('Failed to send message');
-      
+
       const data = await res.json();
       setMessages(prev => [...prev, data]);
       setNewMsg('');
@@ -156,7 +191,7 @@ export default function ChatPage() {
         setReportSuccess(false);
         fetchMessages();
       }, 1500);
-      
+
     } catch (error) {
       console.error('Error reporting message:', error);
       setReportError('An unexpected error occurred');
@@ -193,18 +228,7 @@ export default function ChatPage() {
     setReplyInputs(prev => ({ ...prev, [id]: prev[id] ?? '' }));
   };
 
-  const deleteMessage = async (id) => {
-    try {
-      await fetch('/api/messages', {
-        method: 'PUT',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ id }),
-      });
-      fetchMessages();
-    } catch (error) {
-      console.error('Error deleting message:', error);
-    }
-  };
+  // Duplicate deleteMessage function removed to fix redeclaration error.
 
   const handleReplySubmit = (id) => {
     if (!replyInputs[id]?.trim()) return;
@@ -277,89 +301,109 @@ export default function ChatPage() {
                 transition={{ duration: 0.3 }}
                 className={`w-full flex ${align}`}
               >
-                {/* Parent fragment to wrap all JSX */}
-                <>
-                  <div className={`${bgColor} p-3 rounded-lg shadow max-w-md w-fit`}>
-                    <p className="mb-1 font-semibold text-sm text-gray-700">
-                      {isUser ? 'You' : msg.messageSender || 'Anonymous'}
-                    </p>
-                    <p className="mb-2 text-gray-800">{msg.text}</p>
+                <div className={`${bgColor} p-3 rounded-lg shadow max-w-md w-fit`}>
+                  <p className="mb-1 font-semibold text-sm text-gray-700">
+                    {isUser ? 'You' : msg.messageSender || 'Anonymous'}
+                  </p>
+                  <p className="mb-2 text-gray-800">{msg.text}</p>
 
-                    <div className="flex items-center gap-4 text-sm text-gray-600 mt-2">
+                  <div className="flex items-center gap-4 text-sm text-gray-600 mt-2">
+                    <button
+                      onClick={() => updateReaction(msg._id, 'like')}
+                      className={`flex items-center gap-1 ${liked ? 'text-blue-800' : ''}`}
+                    >
+                      <FaThumbsUp /> {msg.reactions?.filter(r => r.liked).length || 0}
+                    </button>
+
+                    <button
+                      onClick={() => updateReaction(msg._id, 'dislike')}
+                      className={`flex items-center gap-1 ${disliked ? 'text-red-700' : ''}`}
+                    >
+                      <FaThumbsDown /> {msg.reactions?.filter(r => r.disliked).length || 0}
+                    </button>
+
+                    <button
+                      onClick={() => toggleComments(msg._id)}
+                      className={`flex items-center gap-1 ${commentsVisible[msg._id] ? "text-pink-400" : ""}`}
+                    >
+                      <FaComments /> Comments
+                    </button>
+
+                    <button
+                      onClick={() => setReportingId(msg._id)}
+                      className="flex items-center gap-1 hover:text-red-600"
+                    >
+                      <MdReport /> Report
+                    </button>
+
+                    {isUser && (
                       <button
-                        onClick={() => updateReaction(msg._id, 'like')}
-                        className={`flex items-center gap-1 ${liked ? 'text-blue-800' : ''}`}
+                        onClick={() => deleteMessage(msg._id)}
+                        className="flex items-center gap-1 hover:text-orange-500"
                       >
-                        <FaThumbsUp /> {msg.reactions?.filter(r => r.liked).length || 0}
+                        <IoTrashBinSharp /> Delete
                       </button>
-
-                      <button
-                        onClick={() => updateReaction(msg._id, 'dislike')}
-                        className={`flex items-center gap-1 ${disliked ? 'text-red-700' : ''}`}
-                      >
-                        <FaThumbsDown /> {msg.reactions?.filter(r => r.disliked).length || 0}
-                      </button>
-
-                      <button 
-                        onClick={() => toggleComments(msg._id)} 
-                        className={`flex items-center gap-1 ${commentsVisible[msg._id] ? "text-pink-400" : ""}`}
-                      >
-                        <FaComments /> Comments
-                      </button>
-
-                      <button 
-                        onClick={() => setReportingId(msg._id)} 
-                        className="flex items-center gap-1 hover:text-red-600"
-                      >
-                        <MdReport /> Report
-                      </button>
-
-                      {isUser && (
-                        <button 
-                          onClick={() => deleteMessage(msg._id)} 
-                          className="flex items-center gap-1 hover:text-orange-500"
-                        >
-                          <IoTrashBinSharp /> Delete
-                        </button>
-                      )}
-                    </div>
-
-                    {commentsVisible[msg._id] && (
-                      <div className="mt-2 space-y-2">
-                        {msg.comments?.length > 0 ? (
-                          <div className="text-sm text-gray-700 space-y-1">
-                            {msg.comments.map((c, idx) => (
-                              <div key={idx} className="flex items-start">
-                                <span className="font-semibold text-gray-900 mr-2">{c.username || 'User'}:</span>
-                                <span className="text-gray-800">{c.text}</span>
-                              </div>
-                            ))}
+                    )}
+                    {showDeleteConfirm && (
+                      <div className="fixed inset-0 bg-black bg-opacity-40 flex items-center justify-center z-50">
+                        <div className="bg-white p-6 rounded shadow-lg w-80 space-y-4">
+                          <h3 className="text-lg font-semibold text-red-500">Confirm Deletion</h3>
+                          <p>Are you sure you want to delete this message? This action cannot be undone.</p>
+                          <div className="flex justify-end gap-3">
+                            <button
+                              onClick={cancelDelete}
+                              className="px-4 py-2 border border-gray-300 rounded hover:bg-gray-100"
+                            >
+                              Cancel
+                            </button>
+                            <button
+                              onClick={confirmDelete}
+                              className="px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700"
+                            >
+                              Delete
+                            </button>
                           </div>
-                        ) : (
-                          <p className="text-sm text-gray-700">No comments yet.</p>
-                        )}
-                        <div className="flex items-center gap-2">
-                          <input
-                            type="text"
-                            value={replyInputs[msg._id] || ''}
-                            onChange={(e) =>
-                              setReplyInputs((prev) => ({ ...prev, [msg._id]: e.target.value }))
-                            }
-                            placeholder="Write a comment..."
-                            className="px-3 py-2 border border-gray-300 rounded w-full focus:outline-none focus:ring-2 focus:ring-[#c0392b] text-gray-900"
-                            onKeyDown={(e) => e.key === 'Enter' && handleReplySubmit(msg._id)}
-                          />
-                          <button
-                            onClick={() => handleReplySubmit(msg._id)}
-                            className="px-3 py-2 bg-[#2c3e50] text-white rounded"
-                          >
-                            Comment
-                          </button>
                         </div>
                       </div>
                     )}
+
                   </div>
-                </>
+
+                  {commentsVisible[msg._id] && (
+                    <div className="mt-2 space-y-2">
+                      {msg.comments?.length > 0 ? (
+                        <div className="text-sm text-gray-700 space-y-1">
+                          {msg.comments.map((c, idx) => (
+                            <div key={idx} className="flex items-start">
+                              <span className="font-semibold text-gray-900 mr-2">{c.username || 'User'}:</span>
+                              <span className="text-gray-800">{c.text}</span>
+                            </div>
+                          ))}
+                        </div>
+                      ) : (
+                        <p className="text-sm text-gray-700">No comments yet.</p>
+                      )}
+                      <div className="flex items-center gap-2">
+                        <input
+                          type="text"
+                          value={replyInputs[msg._id] || ''}
+                          onChange={(e) =>
+                            setReplyInputs((prev) => ({ ...prev, [msg._id]: e.target.value }))
+                          }
+                          placeholder="Write a comment..."
+                          className="px-3 py-2 border border-gray-300 rounded w-full focus:outline-none focus:ring-2 focus:ring-[#c0392b] text-gray-900"
+                          onKeyDown={(e) => e.key === 'Enter' && handleReplySubmit(msg._id)}
+                        />
+                        <button
+                          onClick={() => handleReplySubmit(msg._id)}
+                          className="px-3 py-2 bg-[#2c3e50] text-white rounded"
+                        >
+                          Comment
+                        </button>
+                      </div>
+                    </div>
+                  )}
+                </div>
               </motion.div>
             );
           })}
@@ -386,15 +430,15 @@ export default function ChatPage() {
                   </option>
                 ))}
               </select>
-              
+
               {reportError && (
                 <p className="text-red-500 text-sm">{reportError}</p>
               )}
-              
+
               {reportSuccess && (
                 <p className="text-green-500 text-sm">Report submitted successfully!</p>
               )}
-              
+
               <div className="flex justify-end gap-3">
                 <button
                   onClick={() => {
@@ -437,6 +481,6 @@ export default function ChatPage() {
           </button>
         </div>
       </div>
-    </div>
-  );
+    </div>
+  );
 }
