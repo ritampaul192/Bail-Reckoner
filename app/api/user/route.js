@@ -1,18 +1,43 @@
 // app/api/get-user/route.js
-import connectDB from '../login/mongoose';
-import Login from '../../model/schema';
-import { NextResponse } from 'next/server';
+import connectDB from './mongoose.js';
+import Login from '../../model/schema.js';
 
-export async function POST(req) {
-  await connectDB();
+export async function POST(request) {
+  try {
+    await connectDB();
 
-  const { emailAddress } = await req.json();
+    const { email, password } = await request.json();
+    const user = await Login.findOne({ emailAddress: email });
+    if(!user){
+      return new Response(
+        JSON.stringify({ message: 'User not found. Cheak your Email or Sign up first' }),
+        { status: 401 }
+      );
+    }
+    else if (user.password !== password) {
+      return new Response(
+        JSON.stringify({ message: 'Password is not matched. Try again or try forgot-password' }),
+        { status: 401 }
+      );
+    }
 
-  const user = await Login.findOne({ emailAddress });
+    const { userId, username, address, pinNumber, phoneNumber, emailAddress, anonymousUser } = user;
 
-  if (!user) {
-    return NextResponse.json({ error: 'User not found...Are you not signed up yet? Sign up first..' }, { status: 404 });
-  }
-
-  return NextResponse.json({ user });
+    return new Response(
+      JSON.stringify({
+        userId,
+        username,
+        anonymousUser,
+        address,
+        pinNumber,
+        phoneNumber,
+        emailAddress,
+        message: 'Login successful',
+      }),
+      { status: 200 }
+    );
+  } catch (err) {
+    console.error('POST /login error:', err);
+    return new Response(JSON.stringify({ message: 'Internal server error' }), { status: 500 });
+  }
 }

@@ -18,9 +18,12 @@ import {
 } from 'react-icons/fa';
 import { useRouter } from 'next/navigation';
 import Spinner from '../components/Spinner';
+import { motion, AnimatePresence } from 'framer-motion';
+
 
 const Page = () => {
   const router = useRouter();
+  const [showOtpModal, setShowOtpModal] = useState(false);
   const [condSatisfied, setCondSatisfied] = useState(false);
   const [showPassword, setShowPassword] = useState(false);
   const [showPassword2, setShowPassword2] = useState(false);
@@ -64,6 +67,8 @@ const Page = () => {
       });
       alert(`OTP sent to ${emailAddress}`);
       setOtpSent(true);
+      setShowOtpModal(true); // Open modal
+
       setVerifyEmail(false);
     } catch (error) {
       console.error('Failed to send OTP:', error);
@@ -74,6 +79,7 @@ const Page = () => {
   const verifyOtp = () => {
     if (enteredOtp === otp) {
       setOtpVerified(true);
+      setShowOtpModal(false);
       alert('Email verified successfully!');
     } else {
       alert('Incorrect OTP. Please try again.');
@@ -112,21 +118,11 @@ const Page = () => {
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ emailAddress: payload.emailAddress }),
         });
-
-        
-        if (!userRes.ok) {
-          throw new Error(result.error || 'Failed to get user data');
-        }
-        else{
-          const result = await userRes.json();
-          const { username, emailAddress, address, phoneNumber } = result.user;
-          localStorage.setItem('user', JSON.stringify({ username, emailAddress, address, phoneNumber, userId }));
-        }
+        const userInfo = await userRes.json();
+        localStorage.setItem('user', JSON.stringify(userInfo));
       } catch (err) {
         console.error('Failed to fetch user data', err);
       }
-
-
 
       alert(`${result.message}`);
       setOtpSent(false);
@@ -163,7 +159,7 @@ const Page = () => {
                   {...register('fullname', { required: 'Full name is required' })}
                 />
               </div>
-              {errors.fullname && <p className='error'>{errors.fullname.message}</p>}
+              {errors.fullname && <p className='error text-red-500'>{errors.fullname.message}</p>}
             </div>
 
             <div className='form-group flex flex-col gap-2'>
@@ -184,25 +180,57 @@ const Page = () => {
               )}
             </div>
 
-            {otpSent && !otpVerified && (
-              <div className='form-group'>
-                <label htmlFor='otp'>Enter OTP</label>
-                <div className='input-with-icon relative flex flex-col gap-2'>
-                  <input
-                    type='text'
-                    id='otp'
-                    value={enteredOtp}
-                    onChange={(e) => setEnteredOtp(e.target.value)}
-                    maxLength={6}
-                    placeholder='6-digit OTP'
-                    required
+            <AnimatePresence>
+              {showOtpModal && (
+                <>
+                  {/* Backdrop */}
+                  <motion.div
+                    key="backdrop"
+                    className="fixed inset-0 bg-black/30 backdrop-blur-sm z-40"
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    exit={{ opacity: 0 }}
                   />
-                  <button type='button' onClick={verifyOtp} className='cursor-pointer bg-[#2c3e50] hover:bg-[#1a252f] p-[12px] w-1/4 text-white border-none rounded-[5px] font-[1rem]'>
-                    Verify
-                  </button>
-                </div>
-              </div>
-            )}
+
+                  {/* Modal */}
+                  <motion.div
+                    key="modal"
+                    className="fixed z-50 inset-0 flex items-center justify-center"
+                    initial={{ opacity: 0, scale: 0.9, y: 20 }}
+                    animate={{ opacity: 1, scale: 1, y: 0 }}
+                    exit={{ opacity: 0, scale: 0.9, y: 20 }}
+                    transition={{ duration: 0.25 }}
+                  >
+                    <div className="bg-white rounded-lg shadow-lg p-6 w-[90%] max-w-sm">
+                      <h2 className="text-xl font-semibold mb-4 text-center">Enter OTP</h2>
+                      <input
+                        type="text"
+                        value={enteredOtp}
+                        onChange={(e) => setEnteredOtp(e.target.value)}
+                        maxLength={6}
+                        placeholder="6-digit OTP"
+                        className="w-full border border-gray-300 p-2 rounded mb-4 text-center"
+                      />
+                      <div className="flex justify-between">
+                        <button
+                          onClick={() => setShowOtpModal(false)}
+                          className="bg-gray-300 text-gray-800 px-4 py-2 rounded hover:bg-gray-400"
+                        >
+                          Cancel
+                        </button>
+                        <button
+                          onClick={verifyOtp}
+                          className="bg-[#2c3e50] hover:bg-[#1a252f] text-white px-4 py-2 rounded"
+                        >
+                          Verify
+                        </button>
+                      </div>
+                    </div>
+                  </motion.div>
+                </>
+              )}
+            </AnimatePresence>
+
 
             <div className='form-group'>
               <label>Username</label>
@@ -234,7 +262,7 @@ const Page = () => {
                 <FaPhone className='absolute left-4 invert-75' />
                 <input type='tel' inputMode='numeric' maxLength={10} placeholder='Enter your number' {...register('phoneNumber', { required: 'Phone is required' })} />
               </div>
-              {errors.phone && <p className='error'>{errors.phone.message}</p>}
+              {errors.phone && <p className='error text-red-500'>{errors.phone.message}</p>}
             </div>
 
             <div className='form-group'>
@@ -246,7 +274,7 @@ const Page = () => {
                   {...register('password', {
                     required: 'Password is required',
                     pattern: {
-                      value: /^(?=.*[a-z])(?=.*[A-Z])(?=.*\W).{8,}$/,
+                      value: /^(?=.[a-z])(?=.[A-Z])(?=.*\W).{8,}$/,
                       message: 'Must be 8+ chars, with upper, lower, special char',
                     },
                   })}
@@ -256,7 +284,7 @@ const Page = () => {
                   {showPassword ? <FaEyeSlash /> : <FaEye />}
                 </button>
               </div>
-              {errors.password && <p className='error'>{errors.password.message}</p>}
+              {errors.password && <p className='error text-red-500'>{errors.password.message}</p>}
             </div>
 
             <div className='form-group'>
@@ -288,7 +316,7 @@ const Page = () => {
                 <input type='checkbox' {...register('agree', { required: true })} />
                 I agree to the <a href='/TermsAndConditions' className='text-blue-600 underline'>Terms of Service</a>
               </label>
-              {errors.agree && <p className='error'>You must agree to continue</p>}
+              {errors.agree && <p className='error text-red-500'>You must agree to continue</p>}
             </div>
 
             <button type='submit' className='cursor-pointer bg-[#2c3e50] hover:bg-[#1a252f] p-[12px] w-full text-white border-none rounded-[5px] font-[1rem] transition-colors duration-100'>Sign Up</button>

@@ -3,12 +3,12 @@ import mongoose from 'mongoose';
 const LoginSchema = new mongoose.Schema({
   userId: { type: String, unique: true },
   username: String,
+  anonymousUser: String,
   password: String,
   address: String,
   pinNumber: Number,
   phoneNumber: Number,
   emailAddress: String,
-
   // New fields
   resetToken: String,
   resetTokenExpiry: Date,
@@ -21,4 +21,4 @@ LoginSchema.pre('save', function (next) {
   next();
 });
 
-export default mongoose.models.Login || mongoose.model('Login', LoginSchema);
+export default mongoose.models.Login || mongoose.model('Login', LoginSchema);
