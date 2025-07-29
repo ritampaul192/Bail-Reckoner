@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pymongo
+transformers
+langdetect
+googletrans==4.0.0-rc1
+httpx
+torch
