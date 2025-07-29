@@ -31,9 +31,13 @@ An intelligent web application designed to assess bail eligibility under India's
 
 *Here you can add the screenshots of your application. I've added placeholders for you.*
 
-| Landing Page | Questionnaire | Result Page |
-| :---: | :---: | :---: |
-| **[INSERT SCREENSHOT OF LANDING PAGE HERE]** | **[INSERT SCREENSHOT OF QUESTIONNAIRE HERE]** | **[INSERT SCREENSHOT OF RESULT PAGE HERE]** |
+<img width="1859" height="922" alt="image" src="https://github.com/user-attachments/assets/959decb6-5929-4363-a134-c6047b73650f" />
+<img width="1853" height="914" alt="image" src="https://github.com/user-attachments/assets/4f313813-c0f6-4953-949e-6ab765d17030" />
+<img width="1861" height="904" alt="Screenshot 2025-07-27 153527" src="https://github.com/user-attachments/assets/5d04b604-953b-4336-a134-462d24b9f5e5" />
+<img width="1847" height="909" alt="Screenshot 2025-07-27 153341" src="https://github.com/user-attachments/assets/3be14720-3f74-4f38-923e-70b3af49bc13" />
+<img width="1850" height="919" alt="Screenshot 2025-07-27 153301" src="https://github.com/user-attachments/assets/c09f4c59-8680-4651-9a3d-7202b476bf5f" />
+<img width="1863" height="975" alt="Screenshot 2025-07-27 153220" src="https://github.com/user-attachments/assets/7862a058-566e-44a6-b192-bfe3589e1cbd" />
+<img width="1850" height="914" alt="Screenshot 2025-07-27 153726" src="https://github.com/user-attachments/assets/5c49d97d-ff94-4616-906c-cdd8cba8eb43" />
 
 ## 💻 Tech Stack
 
@@ -75,7 +79,13 @@ Make sure you have Node.js and npm (or yarn) installed on your machine.
 
 ## 👥 Our Team
 
-*This is where you can credit your team members. Please replace the placeholder information.*
+| Member        | Role & Responsibilities                                |
+|---------------|---------------------------------------------------------|
+| **Rupayan**   | Full Backend Development & ML Integration               |
+| **Ritam Paul**| Database Schema Design & Advocate & Arbitrator Page Design      |
+| **Rishika**   | Frontend Development (Home, Login/Signup UI)            |
+| **Somiddhya** | Frontend Development (Admin Panel & IPC Finder UI)      |
+
 
 | Name | GitHub Profile |
 | :--- | :--- |
