@@ -5,11 +5,11 @@
 [![Next.js](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
-An intelligent web application designed to assess bail eligibility under India's new criminal laws (Bharatiya Nyaya Sanhita), providing a preliminary analysis for legal professionals and individuals.
+An intelligent web application designed to assess bail eligibility under India's new criminal laws (Indian Penal Code), providing a preliminary analysis for legal professionals and individuals.
 
 ---
 
-### 🔴 **Live Demo:** [https://bail-reckoner.vercel.app/](https://bail-reckoner.vercel.app/)
+### 🔴 **Live Demo:** [https://bail-reckoner.vercel.app/](https://bail-reckoner.vercel.app/](https://bail-reckoner-mttlo3tcd-ritampaul192s-projects.vercel.app/))
 
 ---
 
@@ -79,7 +79,7 @@ Make sure you have Node.js and npm (or yarn) installed on your machine.
 
 | Name | GitHub Profile |
 | :--- | :--- |
-| **[INSERT TEAM MEMBER 1 NAME]** | [**[INSERT GITHUB USERNAME]**](https://github.com/USERNAME) |
+| **RITAM PAUL** | [**[INSERT GITHUB USERNAME]**](https://github.com/USERNAME) |
 | **[INSERT TEAM MEMBER 2 NAME]** | [**[INSERT GITHUB USERNAME]**](https://github.com/USERNAME) |
 | **[INSERT TEAM MEMBER 3 NAME]** | [**[INSERT GITHUB USERNAME]**](https://github.com/USERNAME) |
 | Ritam Paul | [ritampaul192](https://github.com/ritampaul192) |
