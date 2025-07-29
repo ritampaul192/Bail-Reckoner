@@ -79,9 +79,9 @@ Make sure you have Node.js and npm (or yarn) installed on your machine.
 
 | Name | GitHub Profile |
 | :--- | :--- |
-| **RITAM PAUL** | [**[INSERT GITHUB USERNAME]**](https://github.com/USERNAME) |
-| **[INSERT TEAM MEMBER 2 NAME]** | [**[INSERT GITHUB USERNAME]**](https://github.com/USERNAME) |
-| **[INSERT TEAM MEMBER 3 NAME]** | [**[INSERT GITHUB USERNAME]**](https://github.com/USERNAME) |
+| **RUPAYAN DEY** | [**[valiantProgrammer]**](https://github.com/valiantProgrammer) |
+| **RISHIKA MUKHERJEE** | [**[bitsByRishika]**](https://github.com/bitsByRishika) |
+| **SOMIDDHYA BISWAS** | [**[Somiddhya09]**](https://github.com/Somiddhya09) |
 | Ritam Paul | [ritampaul192](https://github.com/ritampaul192) |
 
 
